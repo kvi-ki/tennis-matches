@@ -13,6 +13,7 @@
 		"dev": "next dev",
 		"build": "next build",
 		"test:e2e": "playwright test",
+		"test:unit": "jest",
 		"test": "pnpm test:unit && pnpm test:e2e",
 		"test:watch": "jest --watchAll"
 	},
