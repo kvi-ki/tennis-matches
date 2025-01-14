@@ -7,6 +7,14 @@ describe('divisionCard', () => {
 
     const heading = screen.getByRole('heading', { level: 1 });
 
-    expect(heading).toBeInTheDocument();
+    expect(heading).toBeVisible();
+  });
+
+  it('should render a table', () => {
+    render(<DivisionCard />);
+
+    const table = screen.getByRole('table');
+
+    expect(table).toBeVisible();
   });
 });
