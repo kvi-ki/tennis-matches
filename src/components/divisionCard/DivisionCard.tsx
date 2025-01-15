@@ -3,7 +3,7 @@ import Table from '../table/Table';
 
 export default function DivisionCard() {
   return (
-    <div>
+    <div className="m-4">
       <Header />
       <Table />
     </div>

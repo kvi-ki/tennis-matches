@@ -12,7 +12,8 @@ export default {
       }
     },
     colors: {
-      navy: '#0461a6'
+      navy: '#0461a6',
+      green: '#0089c1',
     },
     fontSize: {
       header: '2rem'

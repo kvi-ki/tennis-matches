@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  th {
+    @apply text-green font-semibold text-center p-2;
+  }
+}
