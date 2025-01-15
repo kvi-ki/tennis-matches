@@ -21,4 +21,15 @@ describe('Table', () => {
 
     expect(columnHeaders).toEqual(expectedColumnHeaders);
   });
+
+  it('should render a player data from', () => {
+    render(<Table />);
+
+    const firstRow = screen.getAllByRole('row')[1];
+
+    const cells = firstRow.querySelectorAll('td');
+
+    expect(cells.length).toBeGreaterThan(0);
+    expect(cells[0]).toHaveTextContent('Marc');
+  });
 });
