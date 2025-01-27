@@ -12,6 +12,11 @@ export default function Table() {
           <th>Dif</th>
         </tr>
       </thead>
+      <tbody>
+        <tr>
+          <td>Hey</td>
+        </tr>
+      </tbody>
     </table>
   );
 }
