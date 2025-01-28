@@ -3,8 +3,23 @@
 @tailwind utilities;
 
 @layer base {
-  th {
-    @apply text-green font-semibold text-center p-2;
+  table,
+  th,
+  td {
+    @apply border border-navy text-textSm p-0.5;
+    @apply md:text-textMd;
     @apply lg:text-textLg;
+  }
+}
+
+@layer base {
+  th {
+    @apply text-white font-semibold text-center bg-green;
+  }
+}
+
+@layer base {
+  td {
+    @apply text-gray text-center;
   }
 }

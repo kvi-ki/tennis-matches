@@ -18,11 +18,15 @@ export default {
     colors: {
       navy: '#0461a6',
       green: '#0089c1',
+      gray: '#3f4756',
+      white: '#FFFFFF'
     },
     fontSize: {
       header: '2rem',
       headerLg: '3rem',
-      textLg: '1.25rem'
+      textSm: '0.6rem',
+      textMd: '1rem',
+      textLg: '1.25rem',
     }
   },
   plugins: []
