@@ -1,9 +1,12 @@
 import DivisionCard from '@/components/divisionCard/DivisionCard';
 import { render, screen } from '@testing-library/react';
+import data from '../../mock.json';
+import { LeagueDataProps } from '@/components/leagueData/LeagueData';
 
 describe('divisionCard', () => {
   it('should render a heading', () => {
-    render(<DivisionCard />);
+    const leagueData: LeagueDataProps[] = data.map((league) => league);
+    render(<DivisionCard league={leagueData[0]} />);
 
     const heading = screen.getByRole('heading', { level: 1 });
 
@@ -11,7 +14,8 @@ describe('divisionCard', () => {
   });
 
   it('should render a table', () => {
-    render(<DivisionCard />);
+    const leagueData: LeagueDataProps[] = data.map((league) => league);
+    render(<DivisionCard league={leagueData[0]} />);
 
     const table = screen.getByRole('table');
 

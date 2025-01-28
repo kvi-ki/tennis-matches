@@ -1,9 +1,16 @@
+import data from '../../mock.json';
 import Table from '@/components/table/Table';
 import { render, screen } from '@testing-library/react';
+import { PlayerProps } from '@/components/player/Player';
 
 describe('Player', () => {
   it('should render a player data', () => {
-    render(<Table />);
+    const allPlayers: PlayerProps[][] = data.map((player) => {
+      return player.data;
+    });
+    const players = allPlayers[0];
+    
+    render(<Table players={players} />);
 
     const playerName = screen.getByText('Marc');
     const playerPJ = screen.getByText('4');
