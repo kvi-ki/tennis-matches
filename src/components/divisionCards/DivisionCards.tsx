@@ -8,10 +8,10 @@ export default function DivisionCards({
 }) {
   return (
     <li>
-      {leagueData.map((league) => {
+      {leagueData.map((league, index: number) => {
         return (
-          <ul>
-            <DivisionCard league={league} />{' '}
+          <ul key={index}>
+            <DivisionCard league={league} />
           </ul>
         );
       })}
