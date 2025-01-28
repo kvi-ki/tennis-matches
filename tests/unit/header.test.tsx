@@ -1,9 +1,11 @@
 import Header from '@/components/header/Header';
+import data from '../../mock.json';
 import { render, screen } from '@testing-library/react';
 
 describe('Header', () => {
   it('should print División', () => {
-    render(<Header />);
+    const divisionNumber: string[] = data.map((league) => league.division);
+    render(<Header divisionNumber={divisionNumber[0]} />);
 
     const heading = screen.getByRole('heading', { level: 1 });
 
@@ -11,7 +13,8 @@ describe('Header', () => {
   });
 
   it('should print a division number 1 as a string', () => {
-    render(<Header />);
+    const divisionNumber: string[] = data.map((league) => league.division);
+    render(<Header divisionNumber={divisionNumber[0]} />);
 
     const heading = screen.getByRole('heading', { level: 1 });
 

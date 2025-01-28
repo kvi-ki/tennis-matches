@@ -1,18 +1,7 @@
-import { useState } from 'react';
 import Player, { PlayerProps } from '../player/Player';
-import playersData from '../../../mock.json';
-import { Data } from '../data/Data';
 
-export default function Table() {
-  const [players, setPlayers] = useState(playersData);
-
+export default function Table({ players }: { players: PlayerProps[] }) {
   const showPlayersData = () => {
-    return (players as Data[]).map((playersData: Data) => {
-      return getPlayersList(playersData.data);
-    });
-  };
-
-  const getPlayersList = (players: PlayerProps[]) => {
     return players.map((player: PlayerProps, index: number) => {
       return <Player key={index} {...player} />;
     });

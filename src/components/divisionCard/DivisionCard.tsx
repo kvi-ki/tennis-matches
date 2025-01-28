@@ -1,11 +1,16 @@
+import { LeagueDataProps } from '../leagueData/LeagueData';
 import Header from '../header/Header';
 import Table from '../table/Table';
+import { PlayerProps } from '../player/Player';
 
-export default function DivisionCard() {
+export default function DivisionCard({ league }: { league: LeagueDataProps }) {
+  const divisionNumber: string = league.division;
+  const players: PlayerProps[] = league.data;
+
   return (
     <div className="m-4 flex flex-col items-center">
-      <Header />
-      <Table />
+      <Header divisionNumber={divisionNumber} />
+      <Table players={players} />
     </div>
   );
 }
