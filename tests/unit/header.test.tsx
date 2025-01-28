@@ -9,4 +9,12 @@ describe('Header', () => {
 
     expect(heading).toHaveTextContent('División');
   });
+
+  it('should print a division number 1 as a string', () => {
+    render(<Header />);
+
+    const heading = screen.getByRole('heading', { level: 1 });
+
+    expect(heading).toHaveTextContent(/1/);
+  });
 });
