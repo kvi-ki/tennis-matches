@@ -6,11 +6,11 @@ export default function Matches({ matches }: { matches: MatchProps[] }) {
       <h2 className="border-b text-navy text-header2 text-center text-semibold p-1 lg:text-header2Lg">
         Partidos
       </h2>
-      <li>
+      <ul>
         {matches.map((match: MatchProps, index: number) => {
           return <Match match={match} key={index} />;
         })}
-      </li>
+      </ul>
     </section>
   );
 }

@@ -7,14 +7,14 @@ export default function DivisionCards({
   leagueData: LeagueDataProps[];
 }) {
   return (
-    <li>
+    <ul>
       {leagueData.map((league, index: number) => {
         return (
-          <ul key={index}>
+          <li key={index}>
             <DivisionCard league={league} />
-          </ul>
+          </li>
         );
       })}
-    </li>
+    </ul>
   );
 }
