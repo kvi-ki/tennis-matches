@@ -9,4 +9,12 @@ describe('Matches', () => {
 
     expect(matchesHeading).toHaveTextContent('Partidos');
   });
+
+  it('should render matches data', () => {
+    render(<Matches />);
+
+    const players = screen.getByRole('list');
+
+    expect(players).toBeInTheDocument();
+  })
 });
