@@ -21,4 +21,13 @@ describe('divisionCard', () => {
 
     expect(table).toBeVisible();
   });
+
+  it('should render matches section', () => {
+    const leagueData: LeagueDataProps[] = data.map((league) => league);
+    render(<DivisionCard league={leagueData[0]} />);
+
+    const matchesHeading = screen.getByRole('heading', { level: 2 });
+
+    expect(matchesHeading).toBe('Partidos');
+  });
 });
