@@ -10,11 +10,19 @@ describe('Matches', () => {
     expect(matchesHeading).toHaveTextContent('Partidos');
   });
 
-  it('should render matches data', () => {
+  it('should render matches list', () => {
     render(<Matches />);
 
-    const players = screen.getByRole('list');
+    const playersList = screen.getByRole('list');
 
-    expect(players).toBeInTheDocument();
-  })
+    expect(playersList).toBeInTheDocument();
+  });
+
+  it('should render players names', () => {
+    render(<Matches />);
+
+    const playersNames = screen.getByText('Marc vs Henry');
+
+    expect(playersNames).toBeInTheDocument();
+  });
 });
