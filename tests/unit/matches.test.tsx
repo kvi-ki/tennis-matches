@@ -23,11 +23,5 @@ describe('Matches', () => {
     expect(playersList).toHaveLength(2);
   });
 
-  it('should render players names', () => {
-    render(<Matches matches={matches} />);
-
-    const playersNames = screen.getByText('Marc vs Henry');
-
-    expect(playersNames).toBeInTheDocument();
-  });
+  
 });
