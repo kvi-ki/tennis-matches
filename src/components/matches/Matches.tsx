@@ -1,3 +1,3 @@
 export default function Matches() {
-  return <p>Partidos</p>;
+  return <h2>Partidos</h2>;
 }

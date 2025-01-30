@@ -7,6 +7,6 @@ describe('Matches', () => {
 
     const matchesHeading = screen.getByRole('heading', { level: 2 });
 
-    expect(matchesHeading).toBe('Partidos');
+    expect(matchesHeading).toHaveTextContent('Partidos');
   });
 });
