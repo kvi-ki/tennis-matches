@@ -8,7 +8,7 @@ export default function Table({ players }: { players: PlayerProps[] }) {
   };
 
   return (
-    <table className="w-full md:w-8/12 lg:w-5/12">
+    <table className="w-full md:w-8/12 xl:w-5/12">
       <thead>
         <tr>
           <th>Jugador</th>

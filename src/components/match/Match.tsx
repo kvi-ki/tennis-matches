@@ -6,7 +6,7 @@ export type MatchProps = {
 
 export default function Match({ match }: { match: MatchProps }) {
   return (
-    <ul>
+    <ul className="p-1 text-gray text-textMatches font-semibold md:text-textMd lg:text-textLg">
       {match.player1} vs {match.player2} {match.result}
     </ul>
   );

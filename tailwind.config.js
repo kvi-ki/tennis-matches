@@ -14,6 +14,7 @@ export default {
     screens: {
       'md': '768px',
       'lg': '1024px',
+      'xl': '1280px'
     },
     colors: {
       navy: '#0461a6',
@@ -24,9 +25,12 @@ export default {
     fontSize: {
       header: '2rem',
       headerLg: '3rem',
+      header2: '1.3rem',
+      header2Lg: '2.5rem',
       textSm: '0.6rem',
       textMd: '1rem',
       textLg: '1.25rem',
+      textMatches: '0.8rem'
     }
   },
   plugins: []
