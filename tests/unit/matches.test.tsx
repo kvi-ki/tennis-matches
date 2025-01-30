@@ -18,10 +18,8 @@ describe('Matches', () => {
   it('should render matches list', () => {
     render(<Matches matches={matches} />);
 
-    const playersList = screen.getAllByRole('list');
+    const playersList = screen.getAllByRole('listitem');
 
     expect(playersList).toHaveLength(2);
   });
-
-  
 });
