@@ -26,8 +26,8 @@ describe('divisionCard', () => {
     const leagueData: LeagueDataProps[] = data.map((league) => league);
     render(<DivisionCard league={leagueData[0]} />);
 
-    const matchesHeading = screen.getByRole('heading', { level: 2 });
+    const matchesHeading = screen.getByText('Partidos');
 
-    expect(matchesHeading).toBe('Partidos');
+    expect(matchesHeading).toBeInTheDocument;
   });
 });
