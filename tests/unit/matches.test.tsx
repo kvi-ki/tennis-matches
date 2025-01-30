@@ -1,9 +1,14 @@
+import { MatchProps } from '@/components/match/Match';
 import Matches from '@/components/matches/Matches';
+import data from '../../mock.json';
 import { render, screen } from '@testing-library/react';
+
+const allMatches: MatchProps[][] = data.map((league) => league.matches);
+const matches = allMatches[0];
 
 describe('Matches', () => {
   it('should render matches header', () => {
-    render(<Matches />);
+    render(<Matches matches={matches} />);
 
     const matchesHeading = screen.getByRole('heading', { level: 2 });
 
@@ -11,15 +16,15 @@ describe('Matches', () => {
   });
 
   it('should render matches list', () => {
-    render(<Matches />);
+    render(<Matches matches={matches} />);
 
-    const playersList = screen.getByRole('list');
+    const playersList = screen.getAllByRole('list');
 
-    expect(playersList).toBeInTheDocument();
+    expect(playersList).toHaveLength(2);
   });
 
   it('should render players names', () => {
-    render(<Matches />);
+    render(<Matches matches={matches} />);
 
     const playersNames = screen.getByText('Marc vs Henry');
 
