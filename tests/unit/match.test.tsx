@@ -18,7 +18,7 @@ describe('Match', () => {
   it('should render match score', () => {
     render(<Match match={match} />);
 
-    const score = screen.getByText(/9-7/);
+    const score = screen.getByText(/9 - 7/);
 
     expect(score).toBeInTheDocument();
   });

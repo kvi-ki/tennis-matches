@@ -34,12 +34,12 @@
       {
         "player1": "Marc",
         "player2": "Henry",
-        "result": "9-7"
+        "result": "9 - 7"
       },
       {
         "player1": "Alex",
         "player2": "Henry",
-        "result": "4-6"
+        "result": "4 - 6"
       }
     ]
   },
@@ -78,12 +78,12 @@
       {
         "player1": "John",
         "player2": "Adri",
-        "result": "6-2"
+        "result": "6 - 2"
       },
       {
         "player1": "Adri",
         "player2": "Jan",
-        "result": "6-8"
+        "result": "6 - 8"
       }
     ]
   }
