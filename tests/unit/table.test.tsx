@@ -75,20 +75,23 @@ describe('Table', () => {
       ]
     };
 
-    //player1
-    expect(league.data[0].pj).toBe(1);
-    expect(league.data[0].pg).toBe(1);
-    expect(league.data[0].pp).toBe(0);
-    expect(league.data[0].jf).toBe(9);
-    expect(league.data[0].jc).toBe(7);
-    expect(league.data[0].dif).toBe(2);
+    render(<Table players={league.data} />);
 
-    //player2
-    expect(league.data[0].pj).toBe(1);
-    expect(league.data[0].pg).toBe(0);
-    expect(league.data[0].pp).toBe(1);
-    expect(league.data[0].jf).toBe(7);
-    expect(league.data[0].jc).toBe(9);
-    expect(league.data[0].dif).toBe(-2);
+    const player1 = league.data[0];
+    const player2 = league.data[1];
+
+    expect(player1.pj).toBe(1);
+    expect(player1.pg).toBe(1);
+    expect(player1.pp).toBe(0);
+    expect(player1.jf).toBe(9);
+    expect(player1.jc).toBe(7);
+    expect(player1.dif).toBe(2);
+
+    expect(player2.pj).toBe(1);
+    expect(player2.pg).toBe(0);
+    expect(player2.pp).toBe(1);
+    expect(player2.jf).toBe(7);
+    expect(player2.jc).toBe(9);
+    expect(player2.dif).toBe(-2);
   });
 });
