@@ -20,7 +20,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="font-montserrat">
+      <body className="font-sans">
         <div id="root">{children}</div>
       </body>
     </html>
