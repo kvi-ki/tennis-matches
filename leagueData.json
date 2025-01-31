@@ -43,32 +43,32 @@
       {
         "player1": "Javier Salinas",
         "player2": "Alfonso Pazos",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Alejandro Rodriguez",
         "player2": "Lluis Carrasco",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Javier Salinas",
         "player2": "Lluis Carrasco",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Alejandro Rodriguez",
         "player2": "Alfonso Pazos",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Javier Salinas",
         "player2": "Alejandro Rodriguez",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Alfonso Pazos",
         "player2": "Lluis Carrasco",
-        "result": ""
+        "score": ""
       }
     ]
   },
@@ -116,32 +116,32 @@
       {
         "player1": "German Gonzalez",
         "player2": "Juanmi Vives",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Estefania Garcia",
         "player2": "Tomas Carvalho",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "German Gonzalez",
         "player2": "Tomas Carvalho",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Estefania Garcia",
         "player2": "Juanmi Vives",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "German Gonzalez",
         "player2": "Estefania Garcia",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Juanmi Vives",
         "player2": "Tomas Carvalho",
-        "result": ""
+        "score": ""
       }
     ]
   },
@@ -189,32 +189,32 @@
       {
         "player1": "Narciso Chaparro",
         "player2": "Juan Garralda",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Eloi Torrent",
         "player2": "Albert Bartoli",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Narciso Chaparro",
         "player2": "Albert Bartoli",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Eloi Torrent",
         "player2": "Juan Garralda",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Narciso Chaparro",
         "player2": "Eloi Torrent",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Juan Garralda",
         "player2": "Albert Bartoli",
-        "result": ""
+        "score": ""
       }
     ]
   },
@@ -262,32 +262,32 @@
       {
         "player1": "Daniel Perez",
         "player2": "Alonso Paz",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Javi Campos",
         "player2": "Sergi Escalera",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Daniel Perez",
         "player2": "Sergi Escalera",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Javi Campos",
         "player2": "Alonso Paz",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Daniel Perez",
         "player2": "Javi Campos",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Alonso Paz",
         "player2": "Sergi Escalera",
-        "result": ""
+        "score": ""
       }
     ]
   },
@@ -335,32 +335,32 @@
       {
         "player1": "Santi Martin",
         "player2": "Rafael Chocarro",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Javier Tejedo",
         "player2": "Alex Martin",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Santi Martin",
         "player2": "Alex Martin",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Javier Tejedo",
         "player2": "Rafael Chocarro",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Santi Martin",
         "player2": "Javier Tejedo",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Rafael Chocarro",
         "player2": "Alex Martin",
-        "result": ""
+        "score": ""
       }
     ]
   },
@@ -408,32 +408,32 @@
       {
         "player1": "Guillem Riba",
         "player2": "Miguel Angel Gonzalez",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Eduard Elias",
         "player2": "Daniel Meroño",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Guillem Riba",
         "player2": "Daniel Meroño",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Eduard Elias",
         "player2": "Miguel Angel Gonzalez",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Guillem Riba",
         "player2": "Eduard Elias",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Miguel Angel Gonzalez",
         "player2": "Daniel Meroño",
-        "result": ""
+        "score": ""
       }
     ]
   },
@@ -481,32 +481,32 @@
       {
         "player1": "Miguel Angel Pizarro",
         "player2": "Jean Marc Pinson",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Daniel Chismol",
         "player2": "Alberto Forcada",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Miguel Angel Pizarro",
         "player2": "Alberto Forcada",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Daniel Chismol",
         "player2": "Jean Marc Pinson",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Miguel Angel Pizarro",
         "player2": "Daniel Chismol",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Jean Marc Pinson",
         "player2": "Alberto Forcada",
-        "result": ""
+        "score": ""
       }
     ]
   },
@@ -563,52 +563,52 @@
       {
         "player1": "Gonzalo Roca",
         "player2": "Arnau Guanyabens",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Domènec Sobrevias",
         "player2": "David Ferrus",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Gonzalo Roca",
         "player2": "David Ferrus",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Domènec Sobrevias",
         "player2": "Arnau Guanyabens",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Gonzalo Roca",
         "player2": "Domènec Sobrevias",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Arnau Guanyabens",
         "player2": "David Ferrus",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Gonzalo Roca",
         "player2": "Jordi Roque",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Domènec Sobrevias",
         "player2": "Jordi Roque",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Arnau Guanyabens",
         "player2": "Jordi Roque",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "David Ferrus",
         "player2": "Jordi Roque",
-        "result": ""
+        "score": ""
       }
     ]
   },
@@ -665,52 +665,52 @@
       {
         "player1": "Ines Fallon",
         "player2": "Xavi Palacio",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Raúl Zafrilla",
         "player2": "Alberto Puyada",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Ines Fallon",
         "player2": "Alberto Puyada",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Raúl Zafrilla",
         "player2": "Xavi Palacio",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Ines Fallon",
         "player2": "Raúl Zafrilla",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Xavi Palacio",
         "player2": "Alberto Puyada",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Ines Fallon",
         "player2": "José Aiello",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Raúl Zafrilla",
         "player2": "José Aiello",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Xavi Palacio",
         "player2": "José Aiello",
-        "result": ""
+        "score": ""
       },
       {
         "player1": "Alberto Puyada",
         "player2": "José Aiello",
-        "result": ""
+        "score": ""
       }
     ]
   }

@@ -70,7 +70,7 @@ describe('Table', () => {
         {
           player1: 'Marc',
           player2: 'Henry',
-          result: '9 - 7'
+          score: '9 - 7'
         }
       ]
     };
