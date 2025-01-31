@@ -1,5 +1,5 @@
 export type PlayerProps = {
-  player: string;
+  name: string;
   pj: string;
   pg: string;
   pp: string;
@@ -11,7 +11,7 @@ export type PlayerProps = {
 export default function Player(player: PlayerProps) {
   return (
     <tr>
-      <td className="font-semibold text-left pl-2">{player.player}</td>
+      <td className="font-semibold text-left pl-2">{player.name}</td>
       <td>{player.pj}</td>
       <td>{player.pg}</td>
       <td>{player.pp}</td>

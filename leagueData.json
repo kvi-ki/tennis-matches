@@ -1,9 +1,9 @@
 [
   {
     "division": "1",
-    "data": [
+    "playersData": [
       {
-        "player": "Javier Salinas",
+        "name": "Javier Salinas",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -12,7 +12,7 @@
         "dif": "0"
       },
       {
-        "player": "Alejandro Rodriguez",
+        "name": "Alejandro Rodriguez",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -21,7 +21,7 @@
         "dif": "0"
       },
       {
-        "player": "Alfonso Pazos",
+        "name": "Alfonso Pazos",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -30,7 +30,7 @@
         "dif": "0"
       },
       {
-        "player": "Lluis Carrasco",
+        "name": "Lluis Carrasco",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -74,9 +74,9 @@
   },
   {
     "division": "2",
-    "data": [
+    "playersData": [
       {
-        "player": "German Gonzalez",
+        "name": "German Gonzalez",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -85,7 +85,7 @@
         "dif": "0"
       },
       {
-        "player": "Estefania Garcia",
+        "name": "Estefania Garcia",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -94,7 +94,7 @@
         "dif": "0"
       },
       {
-        "player": "Juanmi Vives",
+        "name": "Juanmi Vives",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -103,7 +103,7 @@
         "dif": "0"
       },
       {
-        "player": "Tomas Carvalho",
+        "name": "Tomas Carvalho",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -147,9 +147,9 @@
   },
   {
     "division": "3",
-    "data": [
+    "playersData": [
       {
-        "player": "Narciso Chaparro",
+        "name": "Narciso Chaparro",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -158,7 +158,7 @@
         "dif": "0"
       },
       {
-        "player": "Eloi Torrent",
+        "name": "Eloi Torrent",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -167,7 +167,7 @@
         "dif": "0"
       },
       {
-        "player": "Juan Garralda",
+        "name": "Juan Garralda",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -176,7 +176,7 @@
         "dif": "0"
       },
       {
-        "player": "Albert Bartoli",
+        "name": "Albert Bartoli",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -220,9 +220,9 @@
   },
   {
     "division": "4",
-    "data": [
+    "playersData": [
       {
-        "player": "Daniel Perez",
+        "name": "Daniel Perez",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -231,7 +231,7 @@
         "dif": "0"
       },
       {
-        "player": "Javi Campos",
+        "name": "Javi Campos",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -240,7 +240,7 @@
         "dif": "0"
       },
       {
-        "player": "Alonso Paz",
+        "name": "Alonso Paz",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -249,7 +249,7 @@
         "dif": "0"
       },
       {
-        "player": "Sergi Escalera",
+        "name": "Sergi Escalera",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -293,9 +293,9 @@
   },
   {
     "division": "5",
-    "data": [
+    "playersData": [
       {
-        "player": "Santi Martin",
+        "name": "Santi Martin",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -304,7 +304,7 @@
         "dif": "0"
       },
       {
-        "player": "Javier Tejedo",
+        "name": "Javier Tejedo",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -313,7 +313,7 @@
         "dif": "0"
       },
       {
-        "player": "Rafael Chocarro",
+        "name": "Rafael Chocarro",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -322,7 +322,7 @@
         "dif": "0"
       },
       {
-        "player": "Alex Martin",
+        "name": "Alex Martin",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -366,9 +366,9 @@
   },
   {
     "division": "6",
-    "data": [
+    "playersData": [
       {
-        "player": "Guillem Riba",
+        "name": "Guillem Riba",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -377,7 +377,7 @@
         "dif": "0"
       },
       {
-        "player": "Eduard Elias",
+        "name": "Eduard Elias",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -386,7 +386,7 @@
         "dif": "0"
       },
       {
-        "player": "Miguel Angel Gonzalez",
+        "name": "Miguel Angel Gonzalez",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -395,7 +395,7 @@
         "dif": "0"
       },
       {
-        "player": "Daniel Meroño",
+        "name": "Daniel Meroño",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -439,9 +439,9 @@
   },
   {
     "division": "7",
-    "data": [
+    "playersData": [
       {
-        "player": "Miguel Angel Pizarro",
+        "name": "Miguel Angel Pizarro",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -450,7 +450,7 @@
         "dif": "0"
       },
       {
-        "player": "Daniel Chismol",
+        "name": "Daniel Chismol",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -459,7 +459,7 @@
         "dif": "0"
       },
       {
-        "player": "Jean Marc Pinson",
+        "name": "Jean Marc Pinson",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -468,7 +468,7 @@
         "dif": "0"
       },
       {
-        "player": "Alberto Forcada",
+        "name": "Alberto Forcada",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -512,9 +512,9 @@
   },
   {
     "division": "8",
-    "data": [
+    "playersData": [
       {
-        "player": "Gonzalo Roca",
+        "name": "Gonzalo Roca",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -523,7 +523,7 @@
         "dif": "0"
       },
       {
-        "player": "Domènec Sobrevias",
+        "name": "Domènec Sobrevias",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -532,7 +532,7 @@
         "dif": "0"
       },
       {
-        "player": "Arnau Guanyabens",
+        "name": "Arnau Guanyabens",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -541,7 +541,7 @@
         "dif": "0"
       },
       {
-        "player": "David Ferrus",
+        "name": "David Ferrus",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -550,7 +550,7 @@
         "dif": "0"
       },
       {
-        "player": "Jordi Roque",
+        "name": "Jordi Roque",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -614,9 +614,9 @@
   },
   {
     "division": "9",
-    "data": [
+    "playersData": [
       {
-        "player": "Ines Fallon",
+        "name": "Ines Fallon",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -625,7 +625,7 @@
         "dif": "0"
       },
       {
-        "player": "Raúl Zafrilla",
+        "name": "Raúl Zafrilla",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -634,7 +634,7 @@
         "dif": "0"
       },
       {
-        "player": "Xavi Palacio",
+        "name": "Xavi Palacio",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -643,7 +643,7 @@
         "dif": "0"
       },
       {
-        "player": "Alberto Puyada",
+        "name": "Alberto Puyada",
         "pj": "0",
         "pg": "0",
         "pp": "0",
@@ -652,7 +652,7 @@
         "dif": "0"
       },
       {
-        "player": "José Aiello",
+        "name": "José Aiello",
         "pj": "0",
         "pg": "0",
         "pp": "0",

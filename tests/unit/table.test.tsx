@@ -7,11 +7,11 @@ import { LeagueDataProps } from '@/components/leagueData/LeagueData';
 describe('Table', () => {
   it('should render column headers', () => {
     const allPlayers: PlayerProps[][] = data.map((player) => {
-      return player.data;
+      return player.playersData;
     });
-    const players = allPlayers[0];
+    const playersData = allPlayers[0];
 
-    render(<Table players={players} />);
+    render(<Table playersData={playersData} />);
 
     const columnHeaders: Array<string | null> = screen
       .getAllByRole('columnheader')
@@ -32,11 +32,11 @@ describe('Table', () => {
 
   it('should render a player data from', () => {
     const allPlayers: PlayerProps[][] = data.map((player) => {
-      return player.data;
+      return player.playersData;
     });
-    const players = allPlayers[0];
+    const playersData = allPlayers[0];
 
-    render(<Table players={players} />);
+    render(<Table playersData={playersData} />);
 
     const rows = screen.queryAllByRole('row');
 
@@ -46,9 +46,9 @@ describe('Table', () => {
   it('should calculate player statistic', () => {
     const league: LeagueDataProps = {
       division: '1',
-      data: [
+      playersData: [
         {
-          player: 'Marc',
+          name: 'Marc',
           pj: '',
           pg: '',
           pp: '',
@@ -57,7 +57,7 @@ describe('Table', () => {
           dif: ''
         },
         {
-          player: 'Henry',
+          name: 'Henry',
           pj: '',
           pg: '',
           pp: '',
@@ -75,10 +75,10 @@ describe('Table', () => {
       ]
     };
 
-    render(<Table players={league.data} />);
+    render(<Table playersData={league.playersData} />);
 
-    const player1 = league.data[0];
-    const player2 = league.data[1];
+    const player1 = league.playersData[0];
+    const player2 = league.playersData[1];
 
     expect(player1.pj).toBe(1);
     expect(player1.pg).toBe(1);

@@ -7,13 +7,13 @@ import { MatchProps } from '../match/Match';
 
 export default function DivisionCard({ league }: { league: LeagueDataProps }) {
   const divisionNumber: string = league.division;
-  const players: PlayerProps[] = league.data;
+  const playersData: PlayerProps[] = league.playersData;
   const matches: MatchProps[] = league.matches;
 
   return (
     <div className="m-4 flex flex-col items-center">
       <Header divisionNumber={divisionNumber} />
-      <Table players={players} />
+      <Table playersData={playersData} />
       <Matches matches={matches} />
     </div>
   );

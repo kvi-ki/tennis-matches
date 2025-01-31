@@ -6,11 +6,11 @@ import { PlayerProps } from '@/components/player/Player';
 describe('Player', () => {
   it('should render a player data', () => {
     const allPlayers: PlayerProps[][] = data.map((player) => {
-      return player.data;
+      return player.playersData;
     });
-    const players = allPlayers[0];
-    
-    render(<Table players={players} />);
+    const playersData = allPlayers[0];
+
+    render(<Table playersData={playersData} />);
 
     const playerName = screen.getByText('Marc');
     const playerPJ = screen.getByText('4');

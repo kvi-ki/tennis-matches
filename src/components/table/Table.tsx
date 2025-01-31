@@ -1,9 +1,9 @@
 import Player, { PlayerProps } from '../player/Player';
 
-export default function Table({ players }: { players: PlayerProps[] }) {
+export default function Table({ playersData }: { playersData: PlayerProps[] }) {
   const showPlayersData = () => {
-    return players.map((player: PlayerProps, index: number) => {
-      return <Player key={index} {...player} />;
+    return playersData.map((playerData: PlayerProps, index: number) => {
+      return <Player key={index} {...playerData} />;
     });
   };
 
