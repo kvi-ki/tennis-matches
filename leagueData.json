@@ -616,6 +616,15 @@
     "division": "9",
     "playersData": [
       {
+        "name": "Alberto Puyada",
+        "pj": "1",
+        "pg": "1",
+        "pp": "0",
+        "jf": "9",
+        "jc": "5",
+        "dif": "4"
+      },
+      {
         "name": "Ines Fallon",
         "pj": "0",
         "pg": "0",
@@ -634,24 +643,6 @@
         "dif": "0"
       },
       {
-        "name": "Xavi Palacio",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
-      },
-      {
-        "name": "Alberto Puyada",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
-      },
-      {
         "name": "José Aiello",
         "pj": "0",
         "pg": "0",
@@ -659,6 +650,15 @@
         "jf": "0",
         "jc": "0",
         "dif": "0"
+      },
+      {
+        "name": "Xavi Palacio",
+        "pj": "1",
+        "pg": "0",
+        "pp": "1",
+        "jf": "5",
+        "jc": "9",
+        "dif": "-4"
       }
     ],
     "matches": [
@@ -690,7 +690,7 @@
       {
         "player1": "Xavi Palacio",
         "player2": "Alberto Puyada",
-        "score": ""
+        "score": "5-9"
       },
       {
         "player1": "Ines Fallon",
