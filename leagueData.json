@@ -3,13 +3,13 @@
     "division": "1",
     "playersData": [
       {
-        "name": "Javier Salinas",
-        "pj": "0",
-        "pg": "0",
+        "name": "Lluis Carrasco",
+        "pj": "1",
+        "pg": "1",
         "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "jf": "9",
+        "jc": "4",
+        "dif": "5"
       },
       {
         "name": "Alejandro Rodriguez",
@@ -30,13 +30,13 @@
         "dif": "0"
       },
       {
-        "name": "Lluis Carrasco",
-        "pj": "0",
+        "name": "Javier Salinas",
+        "pj": "1",
         "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pp": "1",
+        "jf": "4",
+        "jc": "9",
+        "dif": "-5"
       }
     ],
     "matches": [
