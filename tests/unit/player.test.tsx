@@ -10,7 +10,7 @@ describe('Player', () => {
     });
     const playersData = allPlayers[0];
 
-    render(<Table playersData={playersData} />);
+    render(<Table playersData={playersData} matchesScores={[]} />);
 
     const playerName = screen.getByText('Marc');
     const playerPJ = screen.getByText('4');
