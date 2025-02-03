@@ -3,6 +3,7 @@ import Table from '@/components/table/Table';
 import { PlayerProps } from '@/components/player/Player';
 import { render, screen } from '@testing-library/react';
 import { LeagueDataProps } from '@/components/leagueData/LeagueData';
+import { MatchProps, MatchScoreProps } from '@/components/match/Match';
 
 describe('Table', () => {
   it('should render column headers', () => {
@@ -11,7 +12,7 @@ describe('Table', () => {
     });
     const playersData = allPlayers[0];
 
-    render(<Table playersData={playersData} />);
+    render(<Table playersData={playersData} matchesScores={[]} />);
 
     const columnHeaders: Array<string | null> = screen
       .getAllByRole('columnheader')
@@ -36,7 +37,7 @@ describe('Table', () => {
     });
     const playersData = allPlayers[0];
 
-    render(<Table playersData={playersData} />);
+    render(<Table playersData={playersData} matchesScores={[]} />);
 
     const rows = screen.queryAllByRole('row');
 
@@ -75,7 +76,26 @@ describe('Table', () => {
       ]
     };
 
-    render(<Table playersData={league.playersData} />);
+    const getMatchesScore = (matches: MatchProps[]) => {
+      return matches.map((match) => {
+        const score = match.score;
+        const player1Score = score[0];
+        const player2Score = score[score.length - 1];
+
+        const matchScore: MatchScoreProps = {
+          player1Score: player1Score,
+          player2Score: player2Score
+        };
+
+        return matchScore;
+      });
+    };
+
+    const matchesScore: MatchScoreProps[] = getMatchesScore(league.matches);
+
+    render(
+      <Table playersData={league.playersData} matchesScores={matchesScore} />
+    );
 
     const player1 = league.playersData[0];
     const player2 = league.playersData[1];

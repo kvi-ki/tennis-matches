@@ -4,6 +4,11 @@ export type MatchProps = {
   score: string;
 };
 
+export type MatchScoreProps = {
+  player1Score: string;
+  player2Score: string;
+};
+
 export default function Match({ match }: { match: MatchProps }) {
   return (
     <li className="p-1.5 ml-6 text-gray text-textMatches font-semibold md:text-textMd lg:text-textLg">

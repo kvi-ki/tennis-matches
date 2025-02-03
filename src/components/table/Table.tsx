@@ -1,9 +1,22 @@
+import { MatchScoreProps } from '../match/Match';
 import Player, { PlayerProps } from '../player/Player';
 
-export default function Table({ playersData }: { playersData: PlayerProps[] }) {
+export default function Table({
+  playersData,
+  matchesScores
+}: {
+  playersData: PlayerProps[];
+  matchesScores: MatchScoreProps[];
+}) {
   const showPlayersData = () => {
     return playersData.map((playerData: PlayerProps, index: number) => {
-      return <Player key={index} {...playerData} />;
+      return (
+        <Player
+          key={index}
+          playerData={playerData}
+          matchScore={matchesScores[index]}
+        />
+      );
     });
   };
 

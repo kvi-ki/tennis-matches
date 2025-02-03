@@ -1,3 +1,5 @@
+import { MatchScoreProps } from '../match/Match';
+
 export type PlayerProps = {
   name: string;
   pj: string;
@@ -8,16 +10,22 @@ export type PlayerProps = {
   dif: string;
 };
 
-export default function Player(player: PlayerProps) {
+export default function Player({
+  playerData,
+  matchScore
+}: {
+  playerData: PlayerProps;
+  matchScore: MatchScoreProps;
+}) {
   return (
     <tr>
-      <td className="font-semibold text-left pl-2">{player.name}</td>
-      <td>{player.pj}</td>
-      <td>{player.pg}</td>
-      <td>{player.pp}</td>
-      <td>{player.jf}</td>
-      <td>{player.jc}</td>
-      <td>{player.dif}</td>
+      <td className="font-semibold text-left pl-2">{playerData.name}</td>
+      <td>{playerData.pj}</td>
+      <td>{playerData.pg}</td>
+      <td>{playerData.pp}</td>
+      <td>{playerData.jf}</td>
+      <td>{playerData.jc}</td>
+      <td>{playerData.dif}</td>
     </tr>
   );
 }

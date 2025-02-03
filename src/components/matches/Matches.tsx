@@ -1,7 +1,30 @@
-import { useState } from 'react';
-import Match, { MatchProps } from '../match/Match';
+import { useEffect, useState } from 'react';
+import Match, { MatchProps, MatchScoreProps } from '../match/Match';
 
-export default function Matches({ matches }: { matches: MatchProps[] }) {
+export default function Matches({
+  matches,
+  setMatchesScores
+}: {
+  matches: MatchProps[];
+  setMatchesScores: React.Dispatch<React.SetStateAction<MatchScoreProps[]>>;
+}) {
+  useEffect(() => {
+    const matchesScores: MatchScoreProps[] = matches.map((match) => {
+      const score = match.score;
+      const player1Score = score[0];
+      const player2Score = score[score.length - 1];
+
+      const matchScore: MatchScoreProps = {
+        player1Score: player1Score,
+        player2Score: player2Score
+      };
+
+      return matchScore;
+    });
+
+    setMatchesScores(matchesScores);
+  }, [matches, setMatchesScores]);
+
   const [matchesAreHidden, setMatchesAreHidden] = useState(true);
 
   const toggleMatches = () => {
