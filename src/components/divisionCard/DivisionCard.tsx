@@ -10,8 +10,20 @@ export default function DivisionCard({ league }: { league: LeagueDataProps }) {
   const divisionNumber: string = league.division;
   const playersData: PlayerProps[] = league.playersData;
   const matches: MatchProps[] = league.matches;
+  const initialMatchesScores: MatchScoreProps[] = league.matches.map(
+    (match) => {
+      return {
+        player1Name: match.player1,
+        player2Name: match.player2,
+        player1Score: Number(match.score[0]),
+        player2Score: Number(match.score[match.score.length - 1]),
+        theWinner: ''
+      };
+    }
+  );
 
-  const [matchesScores, setMatchesScores] = useState<MatchScoreProps[]>([]);
+  const [matchesScores, setMatchesScores] =
+    useState<MatchScoreProps[]>(initialMatchesScores);
 
   return (
     <div className="m-4 flex flex-col items-center">
