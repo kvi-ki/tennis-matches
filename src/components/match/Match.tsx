@@ -5,6 +5,8 @@ export type MatchProps = {
 };
 
 export type MatchScoreProps = {
+  player1Name: string;
+  player2Name: string;
   player1Score: string;
   player2Score: string;
 };
