@@ -33,7 +33,7 @@ export default function Matches({
     });
 
     setMatchesScores(matchesScores);
-  }, []);
+  }, [matches]);
 
   const [matchesAreHidden, setMatchesAreHidden] = useState(true);
 
