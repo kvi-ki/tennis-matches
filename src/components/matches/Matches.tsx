@@ -8,23 +8,18 @@ export default function Matches({
   matches: MatchProps[];
   setMatchesScores: React.Dispatch<React.SetStateAction<MatchScoreProps[]>>;
 }) {
-  const [theWinner, setTheWinner] = useState('');
-
   useEffect(() => {
     const matchesScores: MatchScoreProps[] = matches.map((match) => {
       const score = match.score;
       const player1Score = Number(score[0]);
       const player2Score = Number(score[score.length - 1]);
 
-      const getTheWinner = () => {
-        if (matchScore.player1Score > matchScore.player2Score) {
-          return setTheWinner(matchScore.player1Name);
-        }
-
-        return setTheWinner(matchScore.player2Name);
-      };
-
-      getTheWinner();
+      const theWinner =
+        player1Score > player2Score
+          ? match.player1
+          : player2Score > player1Score
+            ? match.player2
+            : 'None';
 
       const matchScore: MatchScoreProps = {
         player1Name: match.player1,
@@ -38,7 +33,7 @@ export default function Matches({
     });
 
     setMatchesScores(matchesScores);
-  }, [matches, setMatchesScores]);
+  }, []);
 
   const [matchesAreHidden, setMatchesAreHidden] = useState(true);
 
