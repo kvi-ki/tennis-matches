@@ -4,42 +4,42 @@
     "playersData": [
       {
         "name": "Marc",
-        "pj": "4",
-        "pg": "2",
-        "pp": "1",
-        "jf": "21",
-        "jc": "20",
-        "dif": "1"
+        "pj": 4,
+        "pg": 2,
+        "pp": 1,
+        "jf": 21,
+        "jc": 20,
+        "dif": 1
       },
       {
         "name": "Henry",
-        "pj": "1",
-        "pg": "0",
-        "pp": "1",
-        "jf": "8",
-        "jc": "9",
-        "dif": "-1"
+        "pj": 1,
+        "pg": 0,
+        "pp": 1,
+        "jf": 8,
+        "jc": 9,
+        "dif": -1
       },
       {
         "name": "Alex",
-        "pj": "1",
-        "pg": "1",
-        "pp": "0",
-        "jf": "9",
-        "jc": "3",
-        "dif": "6"
+        "pj": 1,
+        "pg": 1,
+        "pp": 0,
+        "jf": 9,
+        "jc": 3,
+        "dif": 6
       }
     ],
     "matches": [
       {
         "player1": "Marc",
         "player2": "Henry",
-        "score": "9 - 7"
+        "score": "9-7"
       },
       {
         "player1": "Alex",
         "player2": "Henry",
-        "score": "4 - 6"
+        "score": "4-6"
       }
     ]
   },
@@ -48,42 +48,42 @@
     "playersData": [
       {
         "name": "Jhon",
-        "pj": "7",
-        "pg": "2",
-        "pp": "1",
-        "jf": "21",
-        "jc": "25",
-        "dif": "1"
+        "pj": 7,
+        "pg": 2,
+        "pp": 1,
+        "jf": 21,
+        "jc": 25,
+        "dif": 1
       },
       {
         "name": "Adri",
-        "pj": "1",
-        "pg": "0",
-        "pp": "1",
-        "jf": "8",
-        "jc": "9",
-        "dif": "-1"
+        "pj": 1,
+        "pg": 0,
+        "pp": 1,
+        "jf": 8,
+        "jc": 9,
+        "dif": -1
       },
       {
         "name": "Jan",
-        "pj": "1",
-        "pg": "1",
-        "pp": "0",
-        "jf": "9",
-        "jc": "3",
-        "dif": "6"
+        "pj": 1,
+        "pg": 1,
+        "pp": 0,
+        "jf": 9,
+        "jc": 3,
+        "dif": 6
       }
     ],
     "matches": [
       {
         "player1": "John",
         "player2": "Adri",
-        "score": "6 - 2"
+        "score": "6-2"
       },
       {
         "player1": "Adri",
         "player2": "Jan",
-        "score": "6 - 8"
+        "score": "6-8"
       }
     ]
   }

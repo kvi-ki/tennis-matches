@@ -4,39 +4,39 @@
     "playersData": [
       {
         "name": "Lluis Carrasco",
-        "pj": "1",
-        "pg": "1",
-        "pp": "0",
-        "jf": "9",
-        "jc": "4",
-        "dif": "5"
+        "pj": 1,
+        "pg": 1,
+        "pp": 0,
+        "jf": 9,
+        "jc": 4,
+        "dif": 5
       },
       {
         "name": "Alejandro Rodriguez",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Alfonso Pazos",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Javier Salinas",
-        "pj": "1",
-        "pg": "0",
-        "pp": "1",
-        "jf": "4",
-        "jc": "9",
-        "dif": "-5"
+        "pj": 1,
+        "pg": 0,
+        "pp": 1,
+        "jf": 4,
+        "jc": 9,
+        "dif": -5
       }
     ],
     "matches": [
@@ -77,39 +77,39 @@
     "playersData": [
       {
         "name": "German Gonzalez",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Estefania Garcia",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Juanmi Vives",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Tomas Carvalho",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       }
     ],
     "matches": [
@@ -150,39 +150,39 @@
     "playersData": [
       {
         "name": "Narciso Chaparro",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Eloi Torrent",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Juan Garralda",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Albert Bartoli",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       }
     ],
     "matches": [
@@ -223,39 +223,39 @@
     "playersData": [
       {
         "name": "Daniel Perez",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Javi Campos",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Alonso Paz",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Sergi Escalera",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       }
     ],
     "matches": [
@@ -296,39 +296,39 @@
     "playersData": [
       {
         "name": "Santi Martin",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Javier Tejedo",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Rafael Chocarro",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Alex Martin",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       }
     ],
     "matches": [
@@ -369,39 +369,39 @@
     "playersData": [
       {
         "name": "Guillem Riba",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Eduard Elias",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Miguel Angel Gonzalez",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Daniel Meroño",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       }
     ],
     "matches": [
@@ -442,39 +442,39 @@
     "playersData": [
       {
         "name": "Miguel Angel Pizarro",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Daniel Chismol",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Jean Marc Pinson",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Alberto Forcada",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       }
     ],
     "matches": [
@@ -515,48 +515,48 @@
     "playersData": [
       {
         "name": "Gonzalo Roca",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Domènec Sobrevias",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Arnau Guanyabens",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "David Ferrus",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Jordi Roque",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       }
     ],
     "matches": [
@@ -617,48 +617,48 @@
     "playersData": [
       {
         "name": "Alberto Puyada",
-        "pj": "1",
-        "pg": "1",
-        "pp": "0",
-        "jf": "9",
-        "jc": "5",
-        "dif": "4"
+        "pj": 1,
+        "pg": 1,
+        "pp": 0,
+        "jf": 9,
+        "jc": 5,
+        "dif": 4
       },
       {
         "name": "Ines Fallon",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Raúl Zafrilla",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "José Aiello",
-        "pj": "0",
-        "pg": "0",
-        "pp": "0",
-        "jf": "0",
-        "jc": "0",
-        "dif": "0"
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Xavi Palacio",
-        "pj": "1",
-        "pg": "0",
-        "pp": "1",
-        "jf": "5",
-        "jc": "9",
-        "dif": "-4"
+        "pj": 1,
+        "pg": 0,
+        "pp": 1,
+        "jf": 5,
+        "jc": 9,
+        "dif": -4
       }
     ],
     "matches": [

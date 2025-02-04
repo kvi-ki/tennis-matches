@@ -50,21 +50,21 @@ describe('Table', () => {
       playersData: [
         {
           name: 'Marc',
-          pj: '',
-          pg: '',
-          pp: '',
-          jf: '',
-          jc: '',
-          dif: ''
+          pj: 0,
+          pg: 0,
+          pp: 0,
+          jf: 0,
+          jc: 0,
+          dif: 0
         },
         {
           name: 'Henry',
-          pj: '',
-          pg: '',
-          pp: '',
-          jf: '',
-          jc: '',
-          dif: ''
+          pj: 0,
+          pg: 0,
+          pp: 0,
+          jf: 0,
+          jc: 0,
+          dif: 0
         }
       ],
       matches: [
