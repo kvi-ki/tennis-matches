@@ -20,10 +20,11 @@ export default function Player({
 }) {
   const [playerSummary, setPlayerSummery] = useState<PlayerProps>(playerData);
 
-  if (!matchScore) return;
-
   useEffect(() => {
-    if (matchScore.theWinner === matchScore.player1Name) {
+    if (
+      matchScore.theWinner === matchScore.player1Name &&
+      matchScore.player1Name === playerData.name
+    ) {
       return setPlayerSummery({
         name: playerData.name,
         pj: playerData.pj + 1,
@@ -36,7 +37,10 @@ export default function Player({
       });
     }
 
-    if (matchScore.theWinner === matchScore.player2Name) {
+    if (
+      matchScore.theWinner === matchScore.player2Name &&
+      matchScore.player2Name === playerData.name
+    ) {
       return setPlayerSummery({
         name: playerData.name,
         pj: playerData.pj + 1,
@@ -48,17 +52,31 @@ export default function Player({
           playerData.dif + (matchScore.player1Score - matchScore.player2Score)
       });
     }
+
+    if (!matchScore) {
+      return setPlayerSummery({
+        name: playerData.name,
+        pj: playerData.pj,
+        pg: playerData.pg,
+        pp: playerData.pp,
+        jf: playerData.jf,
+        jc: playerData.jc,
+        dif: playerData.dif
+      });
+    }
   }, [playerData, matchScore]);
 
   return (
-    <tr>
-      <td className="font-semibold text-left pl-2">{playerSummary.name}</td>
-      <td>{playerSummary.pj}</td>
-      <td>{playerSummary.pg}</td>
-      <td>{playerSummary.pp}</td>
-      <td>{playerSummary.jf}</td>
-      <td>{playerSummary.jc}</td>
-      <td>{playerSummary.dif}</td>
-    </tr>
+    <>
+      <tr>
+        <td className="font-semibold text-left pl-2">{playerSummary.name}</td>
+        <td>{playerSummary.pj}</td>
+        <td>{playerSummary.pg}</td>
+        <td>{playerSummary.pp}</td>
+        <td>{playerSummary.jf}</td>
+        <td>{playerSummary.jc}</td>
+        <td>{playerSummary.dif}</td>
+      </tr>
+    </>
   );
 }
