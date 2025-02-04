@@ -13,7 +13,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-sans">
-        <div id="root">{children}</div>
+        <main id="root">{children}</main>
       </body>
     </html>
   );
