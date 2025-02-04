@@ -1,9 +1,10 @@
 import data from '../../leagueData.json';
-import React, { useState } from 'react';
+import React from 'react';
 import DivisionCards from '@/components/divisionCards/DivisionCards';
+import { LeagueDataProps } from '@/components/leagueData/LeagueData';
 
 function App() {
-  const [leagueData, setLeagueData] = useState(data);
+  const leagueData: LeagueDataProps[] = data;
 
   return <DivisionCards leagueData={leagueData} />;
 }
