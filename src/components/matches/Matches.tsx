@@ -10,11 +10,11 @@ export default function Matches({
 }) {
   useEffect(() => {
     const matchesScores: MatchScoreProps[] = matches.map((match) => {
-      const score = match.score;
-      const player1Score = Number(score[0]);
-      const player2Score = Number(score[score.length - 1]);
+      const score: string = match.score;
+      const player1Score: number = Number(score[0]);
+      const player2Score: number = Number(score[score.length - 1]);
 
-      const theWinner =
+      const theWinner: string =
         player1Score > player2Score
           ? match.player1
           : player2Score > player1Score
@@ -24,8 +24,8 @@ export default function Matches({
       const matchScore: MatchScoreProps = {
         player1Name: match.player1,
         player2Name: match.player2,
-        player1Score: player1Score,
-        player2Score: player2Score,
+        player1Score: player1Score ? player1Score : 0,
+        player2Score: player2Score ? player2Score : 0,
         theWinner: theWinner
       };
 
