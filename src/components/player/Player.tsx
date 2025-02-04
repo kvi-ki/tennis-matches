@@ -20,6 +20,8 @@ export default function Player({
 }) {
   const [playerSummary, setPlayerSummery] = useState<PlayerProps>(playerData);
 
+  if (!matchScore) return null;
+
   useEffect(() => {
     if (
       matchScore.theWinner === matchScore.player1Name &&
