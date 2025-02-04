@@ -79,8 +79,8 @@ describe('Table', () => {
     const getMatchesScore = (matches: MatchProps[]) => {
       return matches.map((match) => {
         const score = match.score;
-        const player1Score = score[0];
-        const player2Score = score[score.length - 1];
+        const player1Score = Number(score[0]);
+        const player2Score = Number(score[score.length - 1]);
 
         const matchScore: MatchScoreProps = {
           player1Name: match.player1,
