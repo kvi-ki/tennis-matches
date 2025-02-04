@@ -26,10 +26,10 @@ export default function DivisionCard({ league }: { league: LeagueDataProps }) {
     useState<MatchScoreProps[]>(initialMatchesScores);
 
   return (
-    <div className="m-4 flex flex-col items-center">
+    <>
       <Header divisionNumber={divisionNumber} />
       <Table playersData={playersData} matchesScores={matchesScores} />
       <Matches matches={matches} setMatchesScores={setMatchesScores} />
-    </div>
+    </>
   );
 }
