@@ -18,53 +18,49 @@ export default function Player({
   playerData: PlayerProps;
   matchScore: MatchScoreProps;
 }) {
-  const [playerSummary, setPlayerSummery] = useState<PlayerProps>(playerData);
+  const [playerSummary, setPlayerSummary] = useState<PlayerProps>(playerData);
 
-  if (!matchScore) return null;
+  if (!matchScore) {
+    return null;
+  }
 
   useEffect(() => {
     if (
       matchScore.theWinner === matchScore.player1Name &&
       matchScore.player1Name === playerData.name
     ) {
-      return setPlayerSummery({
+      return setPlayerSummary((prevSummary) => ({
+        ...prevSummary,
         name: playerData.name,
         pj: playerData.pj + 1,
         pg: playerData.pg + 1,
-        pp: playerData.pp,
         jf: playerData.jf + matchScore.player1Score,
         jc: playerData.jc + matchScore.player2Score,
         dif:
           playerData.dif + (matchScore.player1Score - matchScore.player2Score)
-      });
+      }));
     }
 
     if (
       matchScore.theWinner === matchScore.player2Name &&
       matchScore.player2Name === playerData.name
     ) {
-      return setPlayerSummery({
+      return setPlayerSummary((prevSummary) => ({
+        ...prevSummary,
         name: playerData.name,
         pj: playerData.pj + 1,
-        pg: playerData.pg,
         pp: playerData.pp + 1,
         jf: playerData.jf + matchScore.player2Score,
         jc: playerData.jc + matchScore.player1Score,
         dif:
           playerData.dif + (matchScore.player1Score - matchScore.player2Score)
-      });
+      }));
     }
 
     if (!matchScore) {
-      return setPlayerSummery({
-        name: playerData.name,
-        pj: playerData.pj,
-        pg: playerData.pg,
-        pp: playerData.pp,
-        jf: playerData.jf,
-        jc: playerData.jc,
-        dif: playerData.dif
-      });
+      return setPlayerSummary((prevSummary) => ({
+        ...prevSummary
+      }));
     }
   }, [playerData, matchScore]);
 
