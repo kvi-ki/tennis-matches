@@ -9,6 +9,7 @@ export type MatchScoreProps = {
   player2Name: string;
   player1Score: string;
   player2Score: string;
+  theWinner: string;
 };
 
 export default function Match({ match }: { match: MatchProps }) {

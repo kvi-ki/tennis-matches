@@ -86,7 +86,8 @@ describe('Table', () => {
           player1Name: match.player1,
           player2Name: match.player2,
           player1Score: player1Score,
-          player2Score: player2Score
+          player2Score: player2Score,
+          theWinner: match.player1
         };
 
         return matchScore;
