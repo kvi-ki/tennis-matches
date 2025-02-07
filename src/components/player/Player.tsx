@@ -25,43 +25,43 @@ export default function Player({
   }
 
   useEffect(() => {
-    if (
-      matchScore.theWinner === matchScore.player1Name &&
-      matchScore.player1Name === playerData.name
-    ) {
-      return setPlayerSummary((prevSummary) => ({
-        ...prevSummary,
-        name: playerData.name,
-        pj: playerData.pj + 1,
-        pg: playerData.pg + 1,
-        jf: playerData.jf + matchScore.player1Score,
-        jc: playerData.jc + matchScore.player2Score,
-        dif:
-          playerData.dif + (matchScore.player1Score - matchScore.player2Score)
-      }));
-    }
-
-    if (
-      matchScore.theWinner === matchScore.player2Name &&
-      matchScore.player2Name === playerData.name
-    ) {
-      return setPlayerSummary((prevSummary) => ({
-        ...prevSummary,
-        name: playerData.name,
-        pj: playerData.pj + 1,
-        pp: playerData.pp + 1,
-        jf: playerData.jf + matchScore.player2Score,
-        jc: playerData.jc + matchScore.player1Score,
-        dif:
-          playerData.dif + (matchScore.player1Score - matchScore.player2Score)
-      }));
-    }
-
-    if (!matchScore) {
-      return setPlayerSummary((prevSummary) => ({
-        ...prevSummary
-      }));
-    }
+    // if (
+    //   matchScore.theWinner === matchScore.player1Name &&
+    //   matchScore.player1Name === playerData.name
+    // ) {
+    //   return setPlayerSummary((prevSummary) => ({
+    //     ...prevSummary,
+    //     name: playerData.name,
+    //     pj: playerData.pj + 1,
+    //     pg: playerData.pg + 1,
+    //     jf: playerData.jf + matchScore.player1Score,
+    //     jc: playerData.jc + matchScore.player2Score,
+    //     dif:
+    //       playerData.dif + (matchScore.player1Score - matchScore.player2Score)
+    //   }));
+    // }
+    //
+    // if (
+    //   matchScore.theWinner === matchScore.player2Name &&
+    //   matchScore.player2Name === playerData.name
+    // ) {
+    //   return setPlayerSummary((prevSummary) => ({
+    //     ...prevSummary,
+    //     name: playerData.name,
+    //     pj: playerData.pj + 1,
+    //     pp: playerData.pp + 1,
+    //     jf: playerData.jf + matchScore.player2Score,
+    //     jc: playerData.jc + matchScore.player1Score,
+    //     dif:
+    //       playerData.dif + (matchScore.player1Score - matchScore.player2Score)
+    //   }));
+    // }
+    //
+    // if (!matchScore) {
+    //   return setPlayerSummary((prevSummary) => ({
+    //     ...prevSummary
+    //   }));
+    // }
   }, [playerData, matchScore]);
 
   return (
