@@ -442,12 +442,12 @@
     "playersData": [
       {
         "name": "Jean Marc Pinson",
-        "pj": 1,
-        "pg": 1,
+        "pj": 2,
+        "pg": 2,
         "pp": 0,
-        "jf": 9,
-        "jc": 1,
-        "dif": 8
+        "jf": 18,
+        "jc": 2,
+        "dif": 16
       },
       {
         "name": "Daniel Chismol",
@@ -481,7 +481,7 @@
       {
         "player1": "Miguel Angel Pizarro",
         "player2": "Jean Marc Pinson",
-        "score": ""
+        "score": "1-9"
       },
       {
         "player1": "Daniel Chismol",
