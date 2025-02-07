@@ -12,6 +12,15 @@
         "dif": 5
       },
       {
+        "name": "Javier Salinas",
+        "pj": 1,
+        "pg": 0,
+        "pp": 1,
+        "jf": 4,
+        "jc": 9,
+        "dif": -5
+      },
+      {
         "name": "Alejandro Rodriguez",
         "pj": 0,
         "pg": 0,
@@ -28,15 +37,6 @@
         "jf": 0,
         "jc": 0,
         "dif": 0
-      },
-      {
-        "name": "Javier Salinas",
-        "pj": 1,
-        "pg": 0,
-        "pp": 1,
-        "jf": 4,
-        "jc": 9,
-        "dif": -5
       }
     ],
     "matches": [
@@ -164,7 +164,7 @@
         "pp": 1,
         "jf": 7,
         "jc": 9,
-        "dif": 0
+        "dif": -2
       },
       {
         "name": "Juan Garralda",
@@ -222,13 +222,13 @@
     "division": "4",
     "playersData": [
       {
-        "name": "Daniel Perez",
-        "pj": 0,
-        "pg": 0,
+        "name": "Sergi Escalera",
+        "pj": 1,
+        "pg": 1,
         "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
+        "jf": 9,
+        "jc": 7,
+        "dif": 2
       },
       {
         "name": "Javi Campos",
@@ -240,7 +240,7 @@
         "dif": -2
       },
       {
-        "name": "Alonso Paz",
+        "name": "Daniel Perez",
         "pj": 0,
         "pg": 0,
         "pp": 0,
@@ -249,13 +249,13 @@
         "dif": 0
       },
       {
-        "name": "Sergi Escalera",
-        "pj": 1,
-        "pg": 1,
+        "name": "Alonso Paz",
+        "pj": 0,
+        "pg": 0,
         "pp": 0,
-        "jf": 9,
-        "jc": 7,
-        "dif": 2
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       }
     ],
     "matches": [
@@ -441,24 +441,6 @@
     "division": "7",
     "playersData": [
       {
-        "name": "Miguel Angel Pizarro",
-        "pj": 0,
-        "pg": 0,
-        "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
-      },
-      {
-        "name": "Daniel Chismol",
-        "pj": 1,
-        "pg": 0,
-        "pp": 1,
-        "jf": 1,
-        "jc": -9,
-        "dif": -8
-      },
-      {
         "name": "Jean Marc Pinson",
         "pj": 1,
         "pg": 1,
@@ -466,6 +448,24 @@
         "jf": 9,
         "jc": 1,
         "dif": 8
+      },
+      {
+        "name": "Daniel Chismol",
+        "pj": 1,
+        "pg": 0,
+        "pp": 1,
+        "jf": 1,
+        "jc": 9,
+        "dif": -8
+      },
+      {
+        "name": "Miguel Angel Pizarro",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Alberto Forcada",
@@ -514,24 +514,6 @@
     "division": "8",
     "playersData": [
       {
-        "name": "Gonzalo Roca",
-        "pj": 0,
-        "pg": 0,
-        "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
-      },
-      {
-        "name": "Domènec Sobrevias",
-        "pj": 0,
-        "pg": 0,
-        "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
-      },
-      {
         "name": "Arnau Guanyabens",
         "pj": 1,
         "pg": 1,
@@ -548,6 +530,24 @@
         "jf": 8,
         "jc": 9,
         "dif": -1
+      },
+      {
+        "name": "Gonzalo Roca",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Domènec Sobrevias",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       },
       {
         "name": "Jordi Roque",
@@ -625,6 +625,15 @@
         "dif": 4
       },
       {
+        "name": "Xavi Palacio",
+        "pj": 1,
+        "pg": 0,
+        "pp": 1,
+        "jf": 5,
+        "jc": 9,
+        "dif": -4
+      },
+      {
         "name": "Ines Fallon",
         "pj": 0,
         "pg": 0,
@@ -650,15 +659,6 @@
         "jf": 0,
         "jc": 0,
         "dif": 0
-      },
-      {
-        "name": "Xavi Palacio",
-        "pj": 1,
-        "pg": 0,
-        "pp": 1,
-        "jf": 5,
-        "jc": 9,
-        "dif": -4
       }
     ],
     "matches": [
