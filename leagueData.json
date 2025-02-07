@@ -4,12 +4,21 @@
     "playersData": [
       {
         "name": "Lluis Carrasco",
-        "pj": 1,
-        "pg": 1,
+        "pj": 2,
+        "pg": 2,
         "pp": 0,
-        "jf": 9,
-        "jc": 4,
-        "dif": 5
+        "jf": 18,
+        "jc": 10,
+        "dif": 8
+      },
+      {
+        "name": "Alejandro Rodriguez",
+        "pj": 1,
+        "pg": 0,
+        "pp": 1,
+        "jf": 6,
+        "jc": 9,
+        "dif": -3
       },
       {
         "name": "Javier Salinas",
@@ -19,15 +28,6 @@
         "jf": 4,
         "jc": 9,
         "dif": -5
-      },
-      {
-        "name": "Alejandro Rodriguez",
-        "pj": 0,
-        "pg": 0,
-        "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
       },
       {
         "name": "Alfonso Pazos",
@@ -48,7 +48,7 @@
       {
         "player1": "Alejandro Rodriguez",
         "player2": "Lluis Carrasco",
-        "score": ""
+        "score": "6-9"
       },
       {
         "player1": "Javier Salinas",
