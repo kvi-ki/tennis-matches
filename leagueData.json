@@ -77,21 +77,21 @@
     "playersData": [
       {
         "name": "German Gonzalez",
-        "pj": 0,
-        "pg": 0,
+        "pj": 1,
+        "pg": 1,
         "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
+        "jf": 9,
+        "jc": 4,
+        "dif": 5
       },
       {
         "name": "Estefania Garcia",
-        "pj": 0,
+        "pj": 1,
         "pg": 0,
-        "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
+        "pp": 1,
+        "jf": 4,
+        "jc": 9,
+        "dif": -5
       },
       {
         "name": "Juanmi Vives",
@@ -136,7 +136,7 @@
       {
         "player1": "German Gonzalez",
         "player2": "Estefania Garcia",
-        "score": ""
+        "score": "9-4"
       },
       {
         "player1": "Juanmi Vives",
@@ -150,20 +150,20 @@
     "playersData": [
       {
         "name": "Narciso Chaparro",
-        "pj": 0,
-        "pg": 0,
+        "pj": 1,
+        "pg": 1,
         "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
+        "jf": 9,
+        "jc": 7,
+        "dif": 2
       },
       {
         "name": "Eloi Torrent",
-        "pj": 0,
+        "pj": 1,
         "pg": 0,
-        "pp": 0,
-        "jf": 0,
-        "jc": 0,
+        "pp": 1,
+        "jf": 7,
+        "jc": 9,
         "dif": 0
       },
       {
@@ -209,7 +209,7 @@
       {
         "player1": "Narciso Chaparro",
         "player2": "Eloi Torrent",
-        "score": ""
+        "score": "9-7"
       },
       {
         "player1": "Juan Garralda",
@@ -232,12 +232,12 @@
       },
       {
         "name": "Javi Campos",
-        "pj": 0,
+        "pj": 1,
         "pg": 0,
-        "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
+        "pp": 1,
+        "jf": 7,
+        "jc": 9,
+        "dif": -2
       },
       {
         "name": "Alonso Paz",
@@ -250,12 +250,12 @@
       },
       {
         "name": "Sergi Escalera",
-        "pj": 0,
-        "pg": 0,
+        "pj": 1,
+        "pg": 1,
         "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
+        "jf": 9,
+        "jc": 7,
+        "dif": 2
       }
     ],
     "matches": [
@@ -267,7 +267,7 @@
       {
         "player1": "Javi Campos",
         "player2": "Sergi Escalera",
-        "score": ""
+        "score": "7-9"
       },
       {
         "player1": "Daniel Perez",
@@ -451,21 +451,21 @@
       },
       {
         "name": "Daniel Chismol",
-        "pj": 0,
+        "pj": 1,
         "pg": 0,
-        "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
+        "pp": 1,
+        "jf": 1,
+        "jc": -9,
+        "dif": -8
       },
       {
         "name": "Jean Marc Pinson",
-        "pj": 0,
-        "pg": 0,
+        "pj": 1,
+        "pg": 1,
         "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
+        "jf": 9,
+        "jc": 1,
+        "dif": 8
       },
       {
         "name": "Alberto Forcada",
@@ -496,7 +496,7 @@
       {
         "player1": "Daniel Chismol",
         "player2": "Jean Marc Pinson",
-        "score": ""
+        "score": "1-9"
       },
       {
         "player1": "Miguel Angel Pizarro",
@@ -533,21 +533,21 @@
       },
       {
         "name": "Arnau Guanyabens",
-        "pj": 0,
-        "pg": 0,
+        "pj": 1,
+        "pg": 1,
         "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
+        "jf": 9,
+        "jc": 8,
+        "dif": 1
       },
       {
         "name": "David Ferrus",
-        "pj": 0,
+        "pj": 1,
         "pg": 0,
-        "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
+        "pp": 1,
+        "jf": 8,
+        "jc": 9,
+        "dif": -1
       },
       {
         "name": "Jordi Roque",
@@ -588,7 +588,7 @@
       {
         "player1": "Arnau Guanyabens",
         "player2": "David Ferrus",
-        "score": ""
+        "score": "9-8"
       },
       {
         "player1": "Gonzalo Roca",
