@@ -460,12 +460,12 @@
       },
       {
         "name": "Miguel Angel Pizarro",
-        "pj": 0,
+        "pj": 1,
         "pg": 0,
-        "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
+        "pp": 1,
+        "jf": 1,
+        "jc": 9,
+        "dif": -8
       },
       {
         "name": "Alberto Forcada",
