@@ -85,6 +85,24 @@
         "dif": 5
       },
       {
+        "name": "Juanmi Vives",
+        "pj": 1,
+        "pg": 1,
+        "pp": 0,
+        "jf": 9,
+        "jc": 8,
+        "dif": 1
+      },
+      {
+        "name": "Tomas Carvalho",
+        "pj": 1,
+        "pg": 0,
+        "pp": 1,
+        "jf": 8,
+        "jc": 9,
+        "dif": -1
+      },
+      {
         "name": "Estefania Garcia",
         "pj": 1,
         "pg": 0,
@@ -92,24 +110,6 @@
         "jf": 4,
         "jc": 9,
         "dif": -5
-      },
-      {
-        "name": "Juanmi Vives",
-        "pj": 0,
-        "pg": 0,
-        "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
-      },
-      {
-        "name": "Tomas Carvalho",
-        "pj": 0,
-        "pg": 0,
-        "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
       }
     ],
     "matches": [
@@ -141,7 +141,7 @@
       {
         "player1": "Juanmi Vives",
         "player2": "Tomas Carvalho",
-        "score": ""
+        "score": "9-8 (10-8)"
       }
     ]
   },
@@ -231,25 +231,25 @@
         "dif": 2
       },
       {
-        "name": "Javi Campos",
+        "name": "Alonso Paz",
         "pj": 1,
+        "pg": 1,
+        "pp": 0,
+        "jf": 9,
+        "jc": 5,
+        "dif": 4
+      },
+      {
+        "name": "Javi Campos",
+        "pj": 2,
         "pg": 0,
-        "pp": 1,
-        "jf": 7,
-        "jc": 9,
-        "dif": -2
+        "pp": 2,
+        "jf": 12,
+        "jc": 18,
+        "dif": -6
       },
       {
         "name": "Daniel Perez",
-        "pj": 0,
-        "pg": 0,
-        "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
-      },
-      {
-        "name": "Alonso Paz",
         "pj": 0,
         "pg": 0,
         "pp": 0,
@@ -277,7 +277,7 @@
       {
         "player1": "Javi Campos",
         "player2": "Alonso Paz",
-        "score": ""
+        "score": "5-9"
       },
       {
         "player1": "Daniel Perez",
@@ -617,39 +617,39 @@
     "playersData": [
       {
         "name": "Alberto Puyada",
+        "pj": 2,
+        "pg": 1,
+        "pp": 1,
+        "jf": 13,
+        "jc": 14,
+        "dif": -1
+      },
+      {
+        "name": "Xavi Palacio",
+        "pj": 2,
+        "pg": 1,
+        "pp": 1,
+        "jf": 14,
+        "jc": 11,
+        "dif": 3
+      },
+      {
+        "name": "Raúl Zafrilla",
         "pj": 1,
         "pg": 1,
         "pp": 0,
         "jf": 9,
-        "jc": 5,
-        "dif": 4
-      },
-      {
-        "name": "Xavi Palacio",
-        "pj": 1,
-        "pg": 0,
-        "pp": 1,
-        "jf": 5,
-        "jc": 9,
-        "dif": -4
+        "jc": 4,
+        "dif": 5
       },
       {
         "name": "Ines Fallon",
-        "pj": 0,
+        "pj": 1,
         "pg": 0,
-        "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
-      },
-      {
-        "name": "Raúl Zafrilla",
-        "pj": 0,
-        "pg": 0,
-        "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
+        "pp": 1,
+        "jf": 2,
+        "jc": 9,
+        "dif": -7
       },
       {
         "name": "José Aiello",
@@ -670,7 +670,7 @@
       {
         "player1": "Raúl Zafrilla",
         "player2": "Alberto Puyada",
-        "score": ""
+        "score": "4-9"
       },
       {
         "player1": "Ines Fallon",
