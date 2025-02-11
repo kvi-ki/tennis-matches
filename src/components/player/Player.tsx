@@ -16,64 +16,97 @@ export default function Player({
   matchScore
 }: {
   playerData: PlayerProps;
-  matchScore: MatchScoreProps;
+  matchScore: MatchScoreProps[];
 }) {
-  const [playerSummary, setPlayerSummary] = useState<PlayerProps>(playerData);
+  const [playerTableData, setPlayerTableData] =
+    useState<PlayerProps>(playerData);
 
   if (!matchScore) {
-    return null;
+    return;
   }
 
   useEffect(() => {
-    // if (
-    //   matchScore.theWinner === matchScore.player1Name &&
-    //   matchScore.player1Name === playerData.name
-    // ) {
-    //   return setPlayerSummary((prevSummary) => ({
-    //     ...prevSummary,
-    //     name: playerData.name,
-    //     pj: playerData.pj + 1,
-    //     pg: playerData.pg + 1,
-    //     jf: playerData.jf + matchScore.player1Score,
-    //     jc: playerData.jc + matchScore.player2Score,
-    //     dif:
-    //       playerData.dif + (matchScore.player1Score - matchScore.player2Score)
-    //   }));
-    // }
-    //
-    // if (
-    //   matchScore.theWinner === matchScore.player2Name &&
-    //   matchScore.player2Name === playerData.name
-    // ) {
-    //   return setPlayerSummary((prevSummary) => ({
-    //     ...prevSummary,
-    //     name: playerData.name,
-    //     pj: playerData.pj + 1,
-    //     pp: playerData.pp + 1,
-    //     jf: playerData.jf + matchScore.player2Score,
-    //     jc: playerData.jc + matchScore.player1Score,
-    //     dif:
-    //       playerData.dif + (matchScore.player1Score - matchScore.player2Score)
-    //   }));
-    // }
-    //
-    // if (!matchScore) {
-    //   return setPlayerSummary((prevSummary) => ({
-    //     ...prevSummary
-    //   }));
-    // }
-  }, [playerData, matchScore]);
+    setPlayerTableData((prev) => {
+      let newData = { ...prev };
+
+      matchScore.map((match) => {
+        const winnerPlayer1 =
+          match.theWinner === prev.name && match.player1Name === prev.name;
+        const winnerPlayer2 =
+          match.theWinner === prev.name && match.player2Name === prev.name;
+        const notWinnerPlayer1 =
+          match.theWinner !== prev.name && match.player1Name === prev.name;
+        const notWinnerPlayer2 =
+          match.theWinner !== prev.name && match.player2Name === prev.name;
+
+        if (winnerPlayer1) {
+          newData.name;
+          newData.pj += 1;
+          newData.pg += 1;
+          newData.pp;
+          newData.jf += match.player1Score;
+          newData.jc += match.player2Score;
+          newData.dif += match.player1Score - match.player2Score;
+        }
+
+        if (winnerPlayer2) {
+          newData.name;
+          newData.pj += 1;
+          newData.pg += 1;
+          newData.pp;
+          newData.jf += match.player2Score;
+          newData.jc += match.player1Score;
+          newData.dif += match.player2Score - match.player1Score;
+        }
+
+        if (notWinnerPlayer1) {
+          newData.name;
+          newData.pj += 1;
+          newData.pg;
+          newData.pp += 1;
+          newData.jf += match.player1Score;
+          newData.jc += match.player2Score;
+          newData.dif += match.player1Score - match.player2Score;
+        }
+
+        if (notWinnerPlayer2) {
+          newData.name;
+          newData.pj += 1;
+          newData.pg;
+          newData.pp += 1;
+          newData.jf += match.player2Score;
+          newData.jc += match.player1Score;
+          newData.dif += match.player2Score - match.player1Score;
+        }
+
+        if (
+          match.player1Name !== prev.name &&
+          match.player2Name !== prev.name
+        ) {
+          newData.name;
+          newData.pj;
+          newData.pg;
+          newData.pp;
+          newData.jf;
+          newData.jc;
+          newData.dif;
+        }
+      });
+
+      return newData;
+    });
+  }, [matchScore]);
 
   return (
     <>
       <tr>
-        <td className="font-semibold text-left pl-2">{playerSummary.name}</td>
-        <td>{playerSummary.pj}</td>
-        <td>{playerSummary.pg}</td>
-        <td>{playerSummary.pp}</td>
-        <td>{playerSummary.jf}</td>
-        <td>{playerSummary.jc}</td>
-        <td>{playerSummary.dif}</td>
+        <td className="font-semibold text-left pl-2">{playerTableData.name}</td>
+        <td>{playerTableData.pj}</td>
+        <td>{playerTableData.pg}</td>
+        <td>{playerTableData.pp}</td>
+        <td>{playerTableData.jf}</td>
+        <td>{playerTableData.jc}</td>
+        <td>{playerTableData.dif}</td>
       </tr>
     </>
   );
