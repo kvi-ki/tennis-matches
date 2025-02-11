@@ -8,7 +8,7 @@ const matches = allMatches[0];
 
 describe('Matches', () => {
   it('should render matches header', () => {
-    render(<Matches matches={matches} setMatchesScores={() => {}} />);
+    render(<Matches matches={matches} />);
 
     const matchesHeading = screen.getByRole('heading', { level: 2 });
 
@@ -16,7 +16,7 @@ describe('Matches', () => {
   });
 
   it('should render matches list', () => {
-    render(<Matches matches={matches} setMatchesScores={() => {}} />);
+    render(<Matches matches={matches} />);
 
     const playersList = screen.getAllByRole('listitem');
 

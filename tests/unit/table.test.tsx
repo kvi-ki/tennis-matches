@@ -2,26 +2,15 @@ import data from '../../mock.json';
 import Table from '@/components/table/Table';
 import { PlayerProps } from '@/components/player/Player';
 import { render, screen } from '@testing-library/react';
-import { MatchScoreProps } from '@/components/match/Match';
 
 describe('Table', () => {
-  const matchesData: MatchScoreProps[] = [
-    {
-      player1Name: 'Marc',
-      player2Name: 'Henry',
-      player1Score: 9,
-      player2Score: 7,
-      theWinner: 'Marc'
-    }
-  ];
-  
   it('should render column headers', () => {
     const allPlayers: PlayerProps[][] = data.map((player) => {
       return player.playersData;
     });
     const playersData = allPlayers[0];
 
-    render(<Table playersData={playersData} matchesScores={matchesData} />);
+    render(<Table playersData={playersData} />);
 
     const columnHeaders: Array<string | null> = screen
       .getAllByRole('columnheader')
@@ -46,7 +35,7 @@ describe('Table', () => {
     });
     const playersData = allPlayers[0];
 
-    render(<Table playersData={playersData} matchesScores={matchesData} />);
+    render(<Table playersData={playersData} />);
 
     const rows = screen.queryAllByRole('row');
 
