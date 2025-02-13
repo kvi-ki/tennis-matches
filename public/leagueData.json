@@ -3,7 +3,6 @@
     "division": "1",
     "playersData": [
       {
-        "ranking": 0,
         "name": "Lluis Carrasco",
         "pj": 0,
         "pg": 0,
@@ -13,7 +12,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Alejandro Rodriguez",
         "pj": 0,
         "pg": 0,
@@ -23,7 +21,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Javier Salinas",
         "pj": 0,
         "pg": 0,
@@ -33,7 +30,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Alfonso Pazos",
         "pj": 0,
         "pg": 0,
@@ -80,7 +76,6 @@
     "division": "2",
     "playersData": [
       {
-        "ranking": 0,
         "name": "German Gonzalez",
         "pj": 0,
         "pg": 0,
@@ -90,7 +85,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Juanmi Vives",
         "pj": 0,
         "pg": 0,
@@ -100,7 +94,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Tomas Carvalho",
         "pj": 0,
         "pg": 0,
@@ -110,7 +103,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Estefania Garcia",
         "pj": 0,
         "pg": 0,
@@ -157,7 +149,6 @@
     "division": "3",
     "playersData": [
       {
-        "ranking": 0,
         "name": "Narciso Chaparro",
         "pj": 0,
         "pg": 0,
@@ -167,7 +158,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Eloi Torrent",
         "pj": 0,
         "pg": 0,
@@ -177,7 +167,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Juan Garralda",
         "pj": 0,
         "pg": 0,
@@ -187,7 +176,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Albert Bartoli",
         "pj": 0,
         "pg": 0,
@@ -234,7 +222,6 @@
     "division": "4",
     "playersData": [
       {
-        "ranking": 0,
         "name": "Sergi Escalera",
         "pj": 0,
         "pg": 0,
@@ -244,7 +231,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Alonso Paz",
         "pj": 0,
         "pg": 0,
@@ -254,7 +240,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Javi Campos",
         "pj": 0,
         "pg": 0,
@@ -264,7 +249,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Daniel Perez",
         "pj": 0,
         "pg": 0,
@@ -311,7 +295,6 @@
     "division": "5",
     "playersData": [
       {
-        "ranking": 0,
         "name": "Santi Martin",
         "pj": 0,
         "pg": 0,
@@ -321,7 +304,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Javier Tejedo",
         "pj": 0,
         "pg": 0,
@@ -331,7 +313,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Rafael Chocarro",
         "pj": 0,
         "pg": 0,
@@ -341,7 +322,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Alex Martin",
         "pj": 0,
         "pg": 0,
@@ -388,7 +368,6 @@
     "division": "6",
     "playersData": [
       {
-        "ranking": 0,
         "name": "Daniel Meroño",
         "pj": 0,
         "pg": 0,
@@ -398,7 +377,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Eduard Elias",
         "pj": 0,
         "pg": 0,
@@ -408,7 +386,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Guillem Riba",
         "pj": 0,
         "pg": 0,
@@ -418,7 +395,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Miguel Angel Gonzalez",
         "pj": 0,
         "pg": 0,
@@ -465,7 +441,6 @@
     "division": "7",
     "playersData": [
       {
-        "ranking": 0,
         "name": "Jean Marc Pinson",
         "pj": 0,
         "pg": 0,
@@ -475,7 +450,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Daniel Chismol",
         "pj": 0,
         "pg": 0,
@@ -485,7 +459,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Miguel Angel Pizarro",
         "pj": 0,
         "pg": 0,
@@ -495,7 +468,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Alberto Forcada",
         "pj": 0,
         "pg": 0,
@@ -542,7 +514,6 @@
     "division": "8",
     "playersData": [
       {
-        "ranking": 0,
         "name": "Arnau Guanyabens",
         "pj": 0,
         "pg": 0,
@@ -552,7 +523,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "David Ferrus",
         "pj": 0,
         "pg": 0,
@@ -562,7 +532,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Gonzalo Roca",
         "pj": 0,
         "pg": 0,
@@ -572,7 +541,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Domènec Sobrevias",
         "pj": 0,
         "pg": 0,
@@ -582,7 +550,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Jordi Roque",
         "pj": 0,
         "pg": 0,
@@ -649,7 +616,6 @@
     "division": "9",
     "playersData": [
       {
-        "ranking": 0,
         "name": "Alberto Puyada",
         "pj": 0,
         "pg": 0,
@@ -659,7 +625,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Xavi Palacio",
         "pj": 0,
         "pg": 0,
@@ -669,7 +634,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Raúl Zafrilla",
         "pj": 0,
         "pg": 0,
@@ -679,7 +643,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "Ines Fallon",
         "pj": 0,
         "pg": 0,
@@ -689,7 +652,6 @@
         "dif": 0
       },
       {
-        "ranking": 0,
         "name": "José Aiello",
         "pj": 0,
         "pg": 0,

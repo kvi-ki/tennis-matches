@@ -3,7 +3,6 @@
     "division": "1",
     "playersData": [
       {
-        "ranking": 0,
         "name": "Marc",
         "pj": 4,
         "pg": 2,
@@ -13,7 +12,6 @@
         "dif": 1
       },
       {
-        "ranking": 0,
         "name": "Henry",
         "pj": 1,
         "pg": 0,
@@ -23,7 +21,6 @@
         "dif": -1
       },
       {
-        "ranking": 0,
         "name": "Alex",
         "pj": 1,
         "pg": 1,
@@ -50,7 +47,6 @@
     "division": "2",
     "playersData": [
       {
-        "ranking": 0,
         "name": "Jhon",
         "pj": 7,
         "pg": 2,
@@ -60,7 +56,6 @@
         "dif": 1
       },
       {
-        "ranking": 0,
         "name": "Adri",
         "pj": 1,
         "pg": 0,
@@ -70,7 +65,6 @@
         "dif": -1
       },
       {
-        "ranking": 0,
         "name": "Jan",
         "pj": 1,
         "pg": 1,
