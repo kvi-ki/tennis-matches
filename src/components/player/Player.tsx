@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { MatchScoreProps } from '../match/Match';
 
 export type PlayerProps = {
+  ranking: number;
   name: string;
   pj: number;
   pg: number;
