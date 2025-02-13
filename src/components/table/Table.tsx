@@ -42,6 +42,7 @@ export default function Table({ playersData }: { playersData: PlayerProps[] }) {
     <table className="w-full md:w-8/12 xl:w-5/12">
       <thead>
         <tr>
+          <th>Ranking</th>
           <th>Jugador</th>
           <th>PJ</th>
           <th>PG</th>
