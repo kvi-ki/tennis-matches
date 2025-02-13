@@ -22,6 +22,8 @@ export default function Player({
   const [playerTableData, setPlayerTableData] =
     useState<PlayerProps>(playerData);
 
+  const [ranking, setRanking] = useState<number>(0);
+
   if (!matchScore) {
     return;
   }
@@ -98,10 +100,18 @@ export default function Player({
     });
   }, [matchScore]);
 
+  useEffect(() => {
+    const winningPoints: number = playerTableData.pg * 3;
+    const losingPoints: number = playerTableData.pp * 1;
+    const rankingPoints: number = winningPoints + losingPoints;
+
+    setRanking(rankingPoints);
+  }, [playerTableData]);
+
   return (
     <>
       <tr>
-        <td>{playerTableData.ranking}</td>
+        <td>{ranking}</td>
         <td className="font-semibold text-left pl-2">{playerTableData.name}</td>
         <td>{playerTableData.pj}</td>
         <td>{playerTableData.pg}</td>
