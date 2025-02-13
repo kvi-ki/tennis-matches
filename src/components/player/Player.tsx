@@ -101,7 +101,7 @@ export default function Player({
   return (
     <>
       <tr>
-        <td></td>
+        <td>{playerTableData.ranking}</td>
         <td className="font-semibold text-left pl-2">{playerTableData.name}</td>
         <td>{playerTableData.pj}</td>
         <td>{playerTableData.pg}</td>
