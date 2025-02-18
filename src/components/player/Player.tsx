@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { MatchScoreProps } from '../match/Match';
+import { calculatePlayerPoints } from '@/utils/calculatePlayerPoints';
 
 export type PlayerProps = {
   name: string;
@@ -13,15 +14,17 @@ export type PlayerProps = {
 
 export default function Player({
   playerData,
-  matchScore
+  matchScore,
+  setRanking
 }: {
   playerData: PlayerProps;
   matchScore: MatchScoreProps[];
+  setRanking: React.Dispatch<React.SetStateAction<number[]>>;
 }) {
   const [playerTableData, setPlayerTableData] =
     useState<PlayerProps>(playerData);
 
-  const [ranking, setRanking] = useState<number>(0);
+  const [playerRanking, setPlayerRanking] = useState<number>(0);
 
   if (!matchScore) {
     return;
@@ -29,73 +32,7 @@ export default function Player({
 
   useEffect(() => {
     setPlayerTableData((prev) => {
-      let newData = { ...prev };
-
-      matchScore.map((match) => {
-        const winnerPlayer1 =
-          match.theWinner === prev.name && match.player1Name === prev.name;
-        const winnerPlayer2 =
-          match.theWinner === prev.name && match.player2Name === prev.name;
-        const notWinnerPlayer1 =
-          match.theWinner !== prev.name && match.player1Name === prev.name;
-        const notWinnerPlayer2 =
-          match.theWinner !== prev.name && match.player2Name === prev.name;
-
-        if (winnerPlayer1) {
-          newData.name;
-          newData.pj += 1;
-          newData.pg += 1;
-          newData.pp;
-          newData.jf += match.player1Score;
-          newData.jc += match.player2Score;
-          newData.dif += match.player1Score - match.player2Score;
-        }
-
-        if (winnerPlayer2) {
-          newData.name;
-          newData.pj += 1;
-          newData.pg += 1;
-          newData.pp;
-          newData.jf += match.player2Score;
-          newData.jc += match.player1Score;
-          newData.dif += match.player2Score - match.player1Score;
-        }
-
-        if (notWinnerPlayer1) {
-          newData.name;
-          newData.pj += 1;
-          newData.pg;
-          newData.pp += 1;
-          newData.jf += match.player1Score;
-          newData.jc += match.player2Score;
-          newData.dif += match.player1Score - match.player2Score;
-        }
-
-        if (notWinnerPlayer2) {
-          newData.name;
-          newData.pj += 1;
-          newData.pg;
-          newData.pp += 1;
-          newData.jf += match.player2Score;
-          newData.jc += match.player1Score;
-          newData.dif += match.player2Score - match.player1Score;
-        }
-
-        if (
-          match.player1Name !== prev.name &&
-          match.player2Name !== prev.name
-        ) {
-          newData.name;
-          newData.pj;
-          newData.pg;
-          newData.pp;
-          newData.jf;
-          newData.jc;
-          newData.dif;
-        }
-      });
-
-      return newData;
+      return calculatePlayerPoints(prev, matchScore);
     });
   }, [matchScore]);
 
@@ -104,13 +41,17 @@ export default function Player({
     const losingPoints: number = playerTableData.pp * 1;
     const rankingPoints: number = winningPoints + losingPoints;
 
-    setRanking(rankingPoints);
+    setPlayerRanking(rankingPoints);
+    setRanking((prev) => {
+      const updatedRankingArray = [...prev, rankingPoints];
+      return updatedRankingArray;
+    });
   }, [playerTableData]);
 
   return (
     <>
       <tr>
-        <td>{ranking}</td>
+        <td>{playerRanking}</td>
         <td className="font-semibold text-left pl-2">{playerTableData.name}</td>
         <td>{playerTableData.pj}</td>
         <td>{playerTableData.pg}</td>
