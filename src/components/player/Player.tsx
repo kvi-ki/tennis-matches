@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { MatchScoreProps } from '../match/Match';
 import { calculatePlayerPoints } from '@/utils/calculatePlayerPoints';
+import { calculateRanking } from '@/utils/calculateRanking';
 
 export type PlayerProps = {
   name: string;
@@ -37,11 +38,9 @@ export default function Player({
   }, [matchScore]);
 
   useEffect(() => {
-    const winningPoints: number = playerTableData.pg * 3;
-    const losingPoints: number = playerTableData.pp * 1;
-    const rankingPoints: number = winningPoints + losingPoints;
-
+    const rankingPoints: number = calculateRanking(playerTableData);
     setPlayerRanking(rankingPoints);
+    
     setRanking((prev) => {
       const updatedRankingArray = [...prev, rankingPoints];
       return updatedRankingArray;
