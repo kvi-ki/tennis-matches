@@ -15,12 +15,10 @@ export type PlayerProps = {
 
 export default function Player({
   playerData,
-  matchScore,
-  setRanking
+  matchScore
 }: {
   playerData: PlayerProps;
   matchScore: MatchScoreProps[];
-  setRanking: React.Dispatch<React.SetStateAction<number[]>>;
 }) {
   const [playerTableData, setPlayerTableData] =
     useState<PlayerProps>(playerData);
@@ -40,11 +38,7 @@ export default function Player({
   useEffect(() => {
     const rankingPoints: number = calculateRanking(playerTableData);
     setPlayerRanking(rankingPoints);
-    
-    setRanking((prev) => {
-      const updatedRankingArray = [...prev, rankingPoints];
-      return updatedRankingArray;
-    });
+
   }, [playerTableData]);
 
   return (

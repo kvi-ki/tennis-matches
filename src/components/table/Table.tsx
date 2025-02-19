@@ -11,7 +11,7 @@ export default function Table({ playersData }: { playersData: PlayerProps[] }) {
 
   const { matchesScores } = context;
   const [playersDataToShow, setPlayersDataToShow] = useState<JSX.Element[]>([]);
-
+  
   useEffect(() => {
     const updatedPlayersData = playersData.map(
       (playerData: PlayerProps, index: number) => {
