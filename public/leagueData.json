@@ -76,7 +76,7 @@
     "division": "2",
     "playersData": [
       {
-        "name": "German Gonzalez",
+        "name": "Juanmi Vives",
         "pj": 0,
         "pg": 0,
         "pp": 0,
@@ -85,7 +85,7 @@
         "dif": 0
       },
       {
-        "name": "Juanmi Vives",
+        "name": "German Gonzalez",
         "pj": 0,
         "pg": 0,
         "pp": 0,
@@ -131,7 +131,7 @@
       {
         "player1": "Estefania Garcia",
         "player2": "Juanmi Vives",
-        "score": ""
+        "score": "2-9"
       },
       {
         "player1": "German Gonzalez",
@@ -148,6 +148,15 @@
   {
     "division": "3",
     "playersData": [
+      {
+        "name": "Albert Bartoli",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
       {
         "name": "Narciso Chaparro",
         "pj": 0,
@@ -168,15 +177,6 @@
       },
       {
         "name": "Juan Garralda",
-        "pj": 0,
-        "pg": 0,
-        "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
-      },
-      {
-        "name": "Albert Bartoli",
         "pj": 0,
         "pg": 0,
         "pp": 0,
