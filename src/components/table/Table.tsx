@@ -102,8 +102,6 @@ export default function Table({ playersData }: { playersData: PlayerProps[] }) {
     (a, b) => b.rankingPoints - a.rankingPoints
   );
 
-  console.log(sortedPlayersByRanking);
-
   return (
     <table className="w-full md:w-8/12 xl:w-5/12">
       <thead>
