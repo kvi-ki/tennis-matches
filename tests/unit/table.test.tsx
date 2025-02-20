@@ -17,6 +17,7 @@ describe('Table', () => {
       .map((header) => header.textContent);
 
     const expectedColumnHeaders: Array<string> = [
+      'Ranking',
       'Jugador',
       'PJ',
       'PG',
