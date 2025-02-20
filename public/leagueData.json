@@ -12,7 +12,7 @@
         "dif": 0
       },
       {
-        "name": "Alejandro Rodriguez",
+        "name": "Javier Salinas",
         "pj": 0,
         "pg": 0,
         "pp": 0,
@@ -21,7 +21,7 @@
         "dif": 0
       },
       {
-        "name": "Javier Salinas",
+        "name": "Alejandro Rodriguez",
         "pj": 0,
         "pg": 0,
         "pp": 0,
@@ -43,7 +43,7 @@
       {
         "player1": "Javier Salinas",
         "player2": "Alfonso Pazos",
-        "score": ""
+        "score": "9-2"
       },
       {
         "player1": "Alejandro Rodriguez",
@@ -58,17 +58,17 @@
       {
         "player1": "Alejandro Rodriguez",
         "player2": "Alfonso Pazos",
-        "score": ""
+        "score": "9-6"
       },
       {
         "player1": "Javier Salinas",
         "player2": "Alejandro Rodriguez",
-        "score": ""
+        "score": "9-4"
       },
       {
         "player1": "Alfonso Pazos",
         "player2": "Lluis Carrasco",
-        "score": ""
+        "score": "4-9"
       }
     ]
   },
@@ -76,7 +76,7 @@
     "division": "2",
     "playersData": [
       {
-        "name": "German Gonzalez",
+        "name": "Juanmi Vives",
         "pj": 0,
         "pg": 0,
         "pp": 0,
@@ -85,7 +85,7 @@
         "dif": 0
       },
       {
-        "name": "Juanmi Vives",
+        "name": "German Gonzalez",
         "pj": 0,
         "pg": 0,
         "pp": 0,
@@ -131,7 +131,7 @@
       {
         "player1": "Estefania Garcia",
         "player2": "Juanmi Vives",
-        "score": ""
+        "score": "2-9"
       },
       {
         "player1": "German Gonzalez",
@@ -141,13 +141,22 @@
       {
         "player1": "Juanmi Vives",
         "player2": "Tomas Carvalho",
-        "score": "9-8 (10-8)"
+        "score": "9-8 - (10-8)"
       }
     ]
   },
   {
     "division": "3",
     "playersData": [
+      {
+        "name": "Albert Bartoli",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
       {
         "name": "Narciso Chaparro",
         "pj": 0,
@@ -174,15 +183,6 @@
         "jf": 0,
         "jc": 0,
         "dif": 0
-      },
-      {
-        "name": "Albert Bartoli",
-        "pj": 0,
-        "pg": 0,
-        "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
       }
     ],
     "matches": [
@@ -199,7 +199,7 @@
       {
         "player1": "Narciso Chaparro",
         "player2": "Albert Bartoli",
-        "score": ""
+        "score": "3-9"
       },
       {
         "player1": "Eloi Torrent",
@@ -214,7 +214,7 @@
       {
         "player1": "Juan Garralda",
         "player2": "Albert Bartoli",
-        "score": ""
+        "score": "4-9"
       }
     ]
   },
@@ -262,7 +262,7 @@
       {
         "player1": "Daniel Perez",
         "player2": "Alonso Paz",
-        "score": ""
+        "score": "9-7"
       },
       {
         "player1": "Javi Campos",
@@ -272,7 +272,7 @@
       {
         "player1": "Daniel Perez",
         "player2": "Sergi Escalera",
-        "score": ""
+        "score": "9-7"
       },
       {
         "player1": "Javi Campos",
@@ -423,7 +423,7 @@
       {
         "player1": "Eduard Elias",
         "player2": "Miguel Angel Gonzalez",
-        "score": ""
+        "score": "9-5"
       },
       {
         "player1": "Guillem Riba",
@@ -491,7 +491,7 @@
       {
         "player1": "Miguel Angel Pizarro",
         "player2": "Alberto Forcada",
-        "score": ""
+        "score": "1-9"
       },
       {
         "player1": "Daniel Chismol",
@@ -501,7 +501,7 @@
       {
         "player1": "Miguel Angel Pizarro",
         "player2": "Daniel Chismol",
-        "score": ""
+        "score": "3-9"
       },
       {
         "player1": "Jean Marc Pinson",
@@ -665,12 +665,12 @@
       {
         "player1": "Ines Fallon",
         "player2": "Xavi Palacio",
-        "score": ""
+        "score": "2-9"
       },
       {
         "player1": "Raúl Zafrilla",
         "player2": "Alberto Puyada",
-        "score": "4-9"
+        "score": "9-4"
       },
       {
         "player1": "Ines Fallon",
@@ -685,7 +685,7 @@
       {
         "player1": "Ines Fallon",
         "player2": "Raúl Zafrilla",
-        "score": ""
+        "score": "0-9"
       },
       {
         "player1": "Xavi Palacio",
