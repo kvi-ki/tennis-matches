@@ -99,9 +99,13 @@ export default function Table({ playersData }: { playersData: PlayerProps[] }) {
     return { newData, matchScore: updatedMatches, rankingPoints };
   });
 
-  const sortedPlayersByRanking = playersDataToShow.sort(
-    (a, b) => b.rankingPoints - a.rankingPoints
-  );
+  const sortedPlayersByRanking = playersDataToShow.sort((a, b) => {
+    if (a.rankingPoints === b.rankingPoints) {
+      return b.newData.dif - a.newData.dif;
+    }
+
+    return b.rankingPoints - a.rankingPoints;
+  });
 
   return (
     <table className="w-full md:w-8/12 xl:w-5/12">
