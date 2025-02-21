@@ -109,3 +109,11 @@ export const updatePlayersData = (
     { ...playerData, pj: 0, pg: 0, pp: 0, jf: 0, jc: 0, dif: 0 }
   );
 };
+
+export const getPlayerRankingPoints = (playerData: PlayerProps) => {
+  const winningPoints: number = playerData.pg * 3;
+  const losingPoints: number = playerData.pp * 1;
+  const rankingPoints: number = winningPoints + losingPoints;
+
+  return rankingPoints;
+};

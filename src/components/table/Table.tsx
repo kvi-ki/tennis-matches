@@ -4,6 +4,7 @@ import { MatchesGlobalStateContext } from '../divisionCard/DivisionCard';
 import { MatchScoreProps } from '../match/Match';
 import {
   filterPlayersByPlayedMatches,
+  getPlayerRankingPoints,
   updatePlayersData
 } from '@/utils/players';
 
@@ -24,9 +25,7 @@ export default function Table({ playersData }: { playersData: PlayerProps[] }) {
 
     const newData = updatePlayersData(updatedMatches, playerData);
 
-    const winningPoints: number = newData.pg * 3;
-    const losingPoints: number = newData.pp * 1;
-    const rankingPoints: number = winningPoints + losingPoints;
+    const rankingPoints: number = getPlayerRankingPoints(newData);
 
     return { newData, matchScore: updatedMatches, rankingPoints };
   });
