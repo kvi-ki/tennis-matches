@@ -18,24 +18,35 @@ export const filterPlayersByPlayedMatches = (
   return updatedMatches;
 };
 
+const getPlayerStatus = (match: MatchScoreProps, playerData: PlayerProps) => {
+  const winnerPlayer1 =
+    match.theWinner === playerData.name &&
+    match.player1Name === playerData.name;
+  const winnerPlayer2 =
+    match.theWinner === playerData.name &&
+    match.player2Name === playerData.name;
+  const notWinnerPlayer1 =
+    match.theWinner !== playerData.name &&
+    match.player1Name === playerData.name;
+  const notWinnerPlayer2 =
+    match.theWinner !== playerData.name &&
+    match.player2Name === playerData.name;
+
+  return { winnerPlayer1, winnerPlayer2, notWinnerPlayer1, notWinnerPlayer2 };
+};
+
 export const updatePlayersData = (
   matches: MatchScoreProps[],
   playerData: PlayerProps
 ) => {
   return matches.reduce(
     (data: PlayerProps, match: MatchScoreProps) => {
-      const winnerPlayer1 =
-        match.theWinner === playerData.name &&
-        match.player1Name === playerData.name;
-      const winnerPlayer2 =
-        match.theWinner === playerData.name &&
-        match.player2Name === playerData.name;
-      const notWinnerPlayer1 =
-        match.theWinner !== playerData.name &&
-        match.player1Name === playerData.name;
-      const notWinnerPlayer2 =
-        match.theWinner !== playerData.name &&
-        match.player2Name === playerData.name;
+      const {
+        winnerPlayer1,
+        winnerPlayer2,
+        notWinnerPlayer1,
+        notWinnerPlayer2
+      } = getPlayerStatus(match, playerData);
 
       if (winnerPlayer1) {
         return {
