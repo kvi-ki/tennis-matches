@@ -18,21 +18,29 @@ export const filterPlayersByPlayedMatches = (
   return updatedMatches;
 };
 
-const getPlayerStatus = (match: MatchScoreProps, playerData: PlayerProps) => {
-  const winnerPlayer1 =
+const getPlayersStatus = (match: MatchScoreProps, playerData: PlayerProps) => {
+  const player1IsWinner =
     match.theWinner === playerData.name &&
     match.player1Name === playerData.name;
-  const winnerPlayer2 =
+
+  const player2IsWinner =
     match.theWinner === playerData.name &&
     match.player2Name === playerData.name;
-  const notWinnerPlayer1 =
+
+  const player1DidNotWin =
     match.theWinner !== playerData.name &&
     match.player1Name === playerData.name;
-  const notWinnerPlayer2 =
+
+  const player2DidNotWin =
     match.theWinner !== playerData.name &&
     match.player2Name === playerData.name;
 
-  return { winnerPlayer1, winnerPlayer2, notWinnerPlayer1, notWinnerPlayer2 };
+  return {
+    player1IsWinner,
+    player2IsWinner,
+    player1DidNotWin,
+    player2DidNotWin
+  };
 };
 
 export const updatePlayersData = (
@@ -42,13 +50,13 @@ export const updatePlayersData = (
   return matches.reduce(
     (data: PlayerProps, match: MatchScoreProps) => {
       const {
-        winnerPlayer1,
-        winnerPlayer2,
-        notWinnerPlayer1,
-        notWinnerPlayer2
-      } = getPlayerStatus(match, playerData);
+        player1IsWinner,
+        player2IsWinner,
+        player1DidNotWin,
+        player2DidNotWin
+      } = getPlayersStatus(match, playerData);
 
-      if (winnerPlayer1) {
+      if (player1IsWinner) {
         return {
           ...data,
           pj: (data.pj += 1),
@@ -60,7 +68,7 @@ export const updatePlayersData = (
         };
       }
 
-      if (winnerPlayer2) {
+      if (player2IsWinner) {
         return {
           ...data,
           pj: (data.pj += 1),
@@ -72,7 +80,7 @@ export const updatePlayersData = (
         };
       }
 
-      if (notWinnerPlayer1) {
+      if (player1DidNotWin) {
         return {
           ...data,
           pj: (data.pj += 1),
@@ -84,7 +92,7 @@ export const updatePlayersData = (
         };
       }
 
-      if (notWinnerPlayer2) {
+      if (player2DidNotWin) {
         return {
           ...data,
           pj: (data.pj += 1),
