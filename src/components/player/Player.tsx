@@ -13,9 +13,9 @@ export default function Player({
   ranking
 }: {
   playerData: PlayerProps;
-  ranking: number
+  ranking: number;
 }) {
-   return (
+  return (
     <>
       <tr>
         <td>{ranking}</td>

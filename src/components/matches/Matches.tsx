@@ -1,6 +1,7 @@
-import { useContext, useEffect, useRef, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import Match, { MatchProps, MatchScoreProps } from '../match/Match';
 import { MatchesGlobalStateContext } from '../divisionCard/DivisionCard';
+import { processMatchesData } from '@/utils/matches';
 
 export default function Matches({ matches }: { matches: MatchProps[] }) {
   const context = useContext(MatchesGlobalStateContext);
@@ -12,31 +13,9 @@ export default function Matches({ matches }: { matches: MatchProps[] }) {
   const { setMatchesScores } = context;
 
   useEffect(() => {
-    const matchesScoresArray: MatchScoreProps[] = matches.map((match) => {
-      const scoreStringBeforeDash: string = match.score.split('-')[0];
-      const scoreStringAfterDash: string = match.score.split('-')[1];
-      const player1Score: number = Number(scoreStringBeforeDash);
-      const player2Score: number = Number(scoreStringAfterDash);
+    const matchesScores: MatchScoreProps[] = processMatchesData(matches);
 
-      const theWinner: string =
-        player1Score > player2Score
-          ? match.player1
-          : player2Score > player1Score
-            ? match.player2
-            : 'None';
-
-      const matchScore: MatchScoreProps = {
-        player1Name: match.player1,
-        player2Name: match.player2,
-        player1Score: player1Score ? player1Score : 0,
-        player2Score: player2Score ? player2Score : 0,
-        theWinner: theWinner
-      };
-
-      return matchScore;
-    });
-
-    setMatchesScores(matchesScoresArray);
+    setMatchesScores(matchesScores);
   }, [matches]);
 
   const [matchesAreHidden, setMatchesAreHidden] = useState(true);
