@@ -1,6 +1,7 @@
 import { MatchScoreProps } from '@/components/match/Match';
 import { PlayerProps } from '@/components/player/Player';
 import { PlayersTableProps } from '@/components/table/Table';
+import { Match } from '@testing-library/react';
 
 export const filterPlayersByPlayedMatches = (
   matchesScores: MatchScoreProps[],
@@ -117,6 +118,24 @@ export const getPlayerRankingPoints = (playerData: PlayerProps) => {
   const rankingPoints: number = winningPoints + losingPoints;
 
   return rankingPoints;
+};
+
+export const processPlayersData = (
+  playersData: PlayerProps[],
+  matchesScores: MatchScoreProps[]
+) => {
+  return playersData.map((playerData) => {
+    const updatedMatches = filterPlayersByPlayedMatches(
+      matchesScores,
+      playerData
+    );
+
+    const newData = updatePlayersData(updatedMatches, playerData);
+
+    const rankingPoints: number = getPlayerRankingPoints(newData);
+
+    return { newData, matchScore: updatedMatches, rankingPoints };
+  });
 };
 
 export const sortPlayrsByRankingPoints = (playersData: PlayersTableProps[]) => {

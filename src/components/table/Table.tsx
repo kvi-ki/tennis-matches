@@ -2,12 +2,7 @@ import { useContext } from 'react';
 import Player, { PlayerProps } from '../player/Player';
 import { MatchesGlobalStateContext } from '../divisionCard/DivisionCard';
 import { MatchScoreProps } from '../match/Match';
-import {
-  filterPlayersByPlayedMatches,
-  getPlayerRankingPoints,
-  sortPlayrsByRankingPoints,
-  updatePlayersData
-} from '@/utils/players';
+import { processPlayersData, sortPlayrsByRankingPoints } from '@/utils/players';
 
 export type PlayersTableProps = {
   newData: {
@@ -32,23 +27,13 @@ export default function Table({ playersData }: { playersData: PlayerProps[] }) {
 
   const { matchesScores } = context;
 
-  const playersDataToShow: PlayersTableProps[] = playersData.map(
-    (playerData) => {
-      const updatedMatches = filterPlayersByPlayedMatches(
-        matchesScores,
-        playerData
-      );
-
-      const newData = updatePlayersData(updatedMatches, playerData);
-
-      const rankingPoints: number = getPlayerRankingPoints(newData);
-
-      return { newData, matchScore: updatedMatches, rankingPoints };
-    }
+  const processedPlayersData: PlayersTableProps[] = processPlayersData(
+    playersData,
+    matchesScores
   );
 
   const sortedPlayersByRanking: PlayersTableProps[] =
-    sortPlayrsByRankingPoints(playersDataToShow);
+    sortPlayrsByRankingPoints(processedPlayersData);
 
   return (
     <table className="w-full md:w-8/12 xl:w-5/12">
