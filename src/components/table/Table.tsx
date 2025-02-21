@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import Player, { PlayerProps } from '../player/Player';
 import { MatchesGlobalStateContext } from '../divisionCard/DivisionCard';
 import { MatchScoreProps } from '../match/Match';
+import { filterPlayersByPlayedMatches } from '@/utils/players';
 
 export default function Table({ playersData }: { playersData: PlayerProps[] }) {
   const context = useContext(MatchesGlobalStateContext);
@@ -13,14 +14,9 @@ export default function Table({ playersData }: { playersData: PlayerProps[] }) {
   const { matchesScores } = context;
 
   const playersDataToShow = playersData.map((playerData) => {
-    const matchesPlayedByThisPlayer = matchesScores.filter(
-      (match) =>
-        match.player1Name === playerData.name ||
-        match.player2Name === playerData.name
-    );
-
-    const updatedMatches = matchesPlayedByThisPlayer.filter(
-      (match) => match.player1Score > 0 || match.player2Score > 0
+    const updatedMatches = filterPlayersByPlayedMatches(
+      matchesScores,
+      playerData
     );
 
     const newData = updatedMatches.reduce(
