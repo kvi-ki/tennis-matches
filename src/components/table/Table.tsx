@@ -5,8 +5,23 @@ import { MatchScoreProps } from '../match/Match';
 import {
   filterPlayersByPlayedMatches,
   getPlayerRankingPoints,
+  sortPlayrsByRankingPoints,
   updatePlayersData
 } from '@/utils/players';
+
+export type PlayersTableProps = {
+  newData: {
+    pj: number;
+    pg: number;
+    pp: number;
+    jf: number;
+    jc: number;
+    dif: number;
+    name: string;
+  };
+  matchScore: MatchScoreProps[];
+  rankingPoints: number;
+};
 
 export default function Table({ playersData }: { playersData: PlayerProps[] }) {
   const context = useContext(MatchesGlobalStateContext);
@@ -17,26 +32,23 @@ export default function Table({ playersData }: { playersData: PlayerProps[] }) {
 
   const { matchesScores } = context;
 
-  const playersDataToShow = playersData.map((playerData) => {
-    const updatedMatches = filterPlayersByPlayedMatches(
-      matchesScores,
-      playerData
-    );
+  const playersDataToShow: PlayersTableProps[] = playersData.map(
+    (playerData) => {
+      const updatedMatches = filterPlayersByPlayedMatches(
+        matchesScores,
+        playerData
+      );
 
-    const newData = updatePlayersData(updatedMatches, playerData);
+      const newData = updatePlayersData(updatedMatches, playerData);
 
-    const rankingPoints: number = getPlayerRankingPoints(newData);
+      const rankingPoints: number = getPlayerRankingPoints(newData);
 
-    return { newData, matchScore: updatedMatches, rankingPoints };
-  });
-
-  const sortedPlayersByRanking = playersDataToShow.sort((a, b) => {
-    if (a.rankingPoints === b.rankingPoints) {
-      return b.newData.dif - a.newData.dif;
+      return { newData, matchScore: updatedMatches, rankingPoints };
     }
+  );
 
-    return b.rankingPoints - a.rankingPoints;
-  });
+  const sortedPlayersByRanking: PlayersTableProps[] =
+    sortPlayrsByRankingPoints(playersDataToShow);
 
   return (
     <table className="w-full md:w-8/12 xl:w-5/12">

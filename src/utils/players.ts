@@ -1,5 +1,6 @@
 import { MatchScoreProps } from '@/components/match/Match';
 import { PlayerProps } from '@/components/player/Player';
+import { PlayersTableProps } from '@/components/table/Table';
 
 export const filterPlayersByPlayedMatches = (
   matchesScores: MatchScoreProps[],
@@ -116,4 +117,14 @@ export const getPlayerRankingPoints = (playerData: PlayerProps) => {
   const rankingPoints: number = winningPoints + losingPoints;
 
   return rankingPoints;
+};
+
+export const sortPlayrsByRankingPoints = (playersData: PlayersTableProps[]) => {
+  return playersData.sort((a, b) => {
+    if (a.rankingPoints === b.rankingPoints) {
+      return b.newData.dif - a.newData.dif;
+    }
+
+    return b.rankingPoints - a.rankingPoints;
+  });
 };
