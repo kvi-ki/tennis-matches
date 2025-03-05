@@ -475,7 +475,17 @@
         "jf": 0,
         "jc": 0,
         "dif": 0
+      },
+      {
+        "name": "Miguel Angel Ocaña",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
       }
+
     ],
     "matches": [
       {
@@ -506,6 +516,26 @@
       {
         "player1": "Miguel Angel Gonzalez",
         "player2": "Eduard Sarda",
+        "score": ""
+      },
+      {
+        "player1": "Miguel Angel Gonzalez",
+        "player2": "Miguel Angel Ocaña",
+        "score": ""
+      },
+      {
+        "player1": "Eduard Sarda",
+        "player2": "Miguel Angel Ocaña",
+        "score": ""
+      },
+      {
+        "player1": "José Aiello",
+        "player2": "Miguel Angel Ocaña",
+        "score": ""
+      },
+      {
+        "player1": "Jordi Roque",
+        "player2": "Miguel Angel Ocaña",
         "score": ""
       }
     ]
