@@ -1,0 +1,440 @@
+[
+  {
+    "division": "1",
+    "playersData": [
+      {
+        "name": "Lluis Carrasco",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Javier Salinas",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Albert Bartoli",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Narcis Chaparro",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      }
+    ],
+    "matches": []
+  },
+  {
+    "division": "2",
+    "playersData": [
+      {
+        "name": "Juanmi Vives",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Tomas Carvalho",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Eloi Torrent",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Alonso Paz",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      }
+    ],
+    "matches": []
+  },
+  {
+    "division": "3",
+    "playersData": [
+      {
+        "name": "Daniel Perez",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "German Gonzalez",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Alex Martin",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Juan Garralda",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      }
+    ],
+    "matches": []
+  },
+  {
+    "division": "4",
+    "playersData": [
+      {
+        "name": "Estefania Garcia",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Hugo Juanals",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Sergi Escalera",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Daniel Meroño",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      }
+    ],
+    "matches": []
+  },
+  {
+    "division": "5",
+    "playersData": [
+      {
+        "name": "Javi Campos",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Javier Tejedo",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Santi Martin",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Eduardo Elias",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      }
+    ],
+    "matches": []
+  },
+  {
+    "division": "6",
+    "playersData": [
+      {
+        "name": "Alberto Forcada",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Miguel Angel Gonzalez",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Juli Carrere",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "José Aiello",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      }
+    ],
+    "matches": []
+  },
+  {
+    "division": "7",
+    "playersData": [
+      {
+        "name": "Domènec Sobrevias",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Jean-Marc Pinson",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Daniel Chismol",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Rafael Chocarro",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      }
+    ],
+    "matches": []
+  },
+  {
+    "division": "8",
+    "playersData": [
+      {
+        "name": "Eduard Sarda",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Jordi Roque",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Alberto Puyada",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Gonzalo Roca",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      }
+    ],
+    "matches": []
+  },
+  {
+    "division": "9",
+    "playersData": [
+      {
+        "name": "Josep Pons",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Miguel Angel Ocaña",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Raúl Zafrilla",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Xavi Palacio",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Gonzalo Roca",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      }
+    ],
+    "matches": []
+  },
+  {
+    "division": "10",
+    "playersData": [
+      {
+        "name": "Alberto Cuadros",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Juan Assens",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "David Ferrus",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Ines Fallon",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
+        "name": "Arnau Guanyabens",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      }
+    ],
+    "matches": []
+  }
+]
