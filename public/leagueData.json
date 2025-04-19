@@ -366,6 +366,15 @@
         "dif": 0
       },
       {
+        "name": "Juan Assens",
+        "pj": 0,
+        "pg": 0,
+        "pp": 0,
+        "jf": 0,
+        "jc": 0,
+        "dif": 0
+      },
+      {
         "name": "Alberto Puyada",
         "pj": 0,
         "pg": 0,
@@ -382,15 +391,6 @@
     "playersData": [
       {
         "name": "Alberto Cuadros",
-        "pj": 0,
-        "pg": 0,
-        "pp": 0,
-        "jf": 0,
-        "jc": 0,
-        "dif": 0
-      },
-      {
-        "name": "Juan Assens",
         "pj": 0,
         "pg": 0,
         "pp": 0,
