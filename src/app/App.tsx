@@ -3,7 +3,11 @@ import React from 'react';
 import DivisionCards from '@/components/divisionCards/DivisionCards';
 
 function App() {
-  return <DivisionCards leagueData={data} />;
+  return (
+    <main>
+      <DivisionCards leagueData={data} />
+    </main>
+  );
 }
 
 export default App;
