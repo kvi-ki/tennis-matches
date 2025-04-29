@@ -264,7 +264,13 @@
         "dif": 0
       }
     ],
-    "matches": []
+    "matches": [
+      {
+        "player1": "Alberto Forcada",
+        "player2": "Rafael Chocarro",
+        "score": "9-7"
+      }
+    ]
   },
   {
     "division": "7",
@@ -316,6 +322,11 @@
         "player1": "Jean-Marc Pinson",
         "player2": "Daniel Chismol",
         "score": "9-3"
+      }
+      {
+        "player1": "Domènec Sobrevias",
+        "player2": "Daniel Chismol",
+        "score": "8-10"
       }
     ]
   },
