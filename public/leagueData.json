@@ -168,7 +168,13 @@
             "dif": 0
           }
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Estefania Garcia",
+            "player2": "Daniel Meroño",
+            "score": "9-7"
+          }
+        ]
       },
       {
         "division": "5",
@@ -1417,7 +1423,13 @@
             "dif": 0
           }
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Jean-Marc Pinson",
+            "player2": "Javi Campos",
+            "score": "9-1"
+          }
+        ]
       },
       {
         "division": "6",
@@ -1459,7 +1471,13 @@
             "dif": 0
           }
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Alberto Forcada",
+            "player2": "Rafael Chocarro",
+            "score": "9-7"
+          }
+        ]
       },
       {
         "division": "7",
@@ -1511,6 +1529,11 @@
             "player1": "Jean-Marc Pinson",
             "player2": "Daniel Chismol",
             "score": "9-3"
+          },
+          {
+            "player1": "Domènec Sobrevias",
+            "player2": "Daniel Chismol",
+            "score": "8-10"
           }
         ]
       },
@@ -1605,7 +1628,13 @@
             "dif": 0
           }
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Juan Assens",
+            "player2": "Miguel Angel Ocaña",
+            "score": "9-7"
+          }
+        ]
       },
       {
         "division": "10",
