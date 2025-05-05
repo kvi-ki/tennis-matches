@@ -1511,7 +1511,13 @@
             "dif": 0
           }
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Javier Salinas",
+            "player2": "Narcis Chaparro",
+            "score": "9-5"
+          }
+        ]
       },
       {
         "division": "2",
@@ -1553,7 +1559,13 @@
             "dif": 0
           }
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Juanmi Vives",
+            "player2": "Tomas Carvalho",
+            "score": "9-7"
+          }
+        ]
       },
       {
         "division": "3",
@@ -1699,6 +1711,16 @@
             "player1": "Jean-Marc Pinson",
             "player2": "Javi Campos",
             "score": "9-1"
+          },
+          {
+            "player1": "Jean-Marc Pinson",
+            "player2": "Juli Carrere",
+            "score": "9-0"
+          },
+          {
+            "player1": "Eduardo Elias",
+            "player2": "Santi Martin",
+            "score": "9-7"
           }
         ]
       },
@@ -1799,6 +1821,11 @@
           {
             "player1": "Jean-Marc Pinson",
             "player2": "Daniel Chismol",
+            "score": "9-3"
+          },
+          {
+            "player1": "Jean-Marc Pinson",
+            "player2": "Joan Sagales",
             "score": "9-3"
           },
           {
@@ -1904,6 +1931,11 @@
             "player1": "Juan Assens",
             "player2": "Miguel Angel Ocaña",
             "score": "9-7"
+          },
+          {
+            "player1": "Juan Assens",
+            "player2": "Josep Pons",
+            "score": "9-7"
           }
         ]
       },
@@ -1947,7 +1979,13 @@
             "dif": 0
           }
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Ines Fallon",
+            "player2": "Alberto Cuadros",
+            "score": "9-6"
+          }
+        ]
       }
     ]
   }
