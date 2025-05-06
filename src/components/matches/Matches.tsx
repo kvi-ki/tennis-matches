@@ -27,7 +27,7 @@ export default function Matches({ matches }: { matches: MatchProps[] }) {
   return (
     <section className="mt-4 w-full md:w-9/12 xl:w-6/12">
       <button
-        className="pl-4 pr-4 border-b text-navy text-header2 text-semibold hover:text-blue cursor-pointer"
+        className="mb-6 pl-4 pr-4 border-b text-navy text-header2 text-semibold hover:text-blue cursor-pointer"
         onClick={toggleMatches}
       >
         Partidos

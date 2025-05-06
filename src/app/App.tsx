@@ -53,7 +53,7 @@ function App() {
         <ul className="flex gap-4">
           {formattedData.map((data) => {
             return (
-              <li key={data.month} className=''>
+              <li key={data.month}>
                 <MonthlyBoard
                   monthData={data}
                   selectedMonth={selectedMonth}
