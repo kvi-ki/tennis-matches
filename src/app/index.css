@@ -20,6 +20,6 @@
 
 @layer base {
   td {
-    @apply text-gray text-center;
+    @apply text-darkGray text-center;
   }
 }

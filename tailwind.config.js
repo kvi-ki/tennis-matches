@@ -19,8 +19,8 @@ export default {
     colors: {
       navy: '#0461a6',
       green: '#0089c1',
-      gray: '#3f4756',
-      darkGray: "#7D8080",
+      gray: "#7D8080",
+      darkGray: '#3f4756',
       white: '#FFFFFF'
     },
     fontSize: {
