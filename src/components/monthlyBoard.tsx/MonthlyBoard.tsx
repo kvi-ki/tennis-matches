@@ -20,7 +20,7 @@ export default function MonthlyBoard({
   return (
     <button
       onClick={onClick}
-      className={`${monthIsSelected ? 'bg-green text-white hover:bg-navy' : 'bg-white text-green hover:bg-navy hover:text-white'} mt-4 w-20 border border-navy text-textMd text-center text-semibold  cursor-pointer md:w-28`}
+      className={`${monthIsSelected ? 'text-green' : 'text-darkGray'} font-medium mt-4 w-20 text-textMd text-center text-semibold  cursor-pointer hover:text-navy md:w-28`}
     >
       {monthData.month}
     </button>
