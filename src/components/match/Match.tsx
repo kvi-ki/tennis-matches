@@ -13,10 +13,24 @@ export type MatchScoreProps = {
 };
 
 export default function Match({ match }: { match: MatchProps }) {
+  function getScore() {
+    const firstPlayerScore: string = match.score.split('-')[0];
+    const secondPlayerScore: string = match.score.split('-')[1];
+
+    return {
+      score1: firstPlayerScore,
+      score2: secondPlayerScore
+    };
+  }
+
+  const score = getScore();
+
   return (
-    <li className="p-1.5 ml-6 text-darkGray text-textMatches font-semibold md:text-textMd lg:text-textLg">
-      <span className="m-2">&#9643;</span> {match.player1} vs {match.player2}{' '}
-      {match.score}
+    <li className="my-8 grid grid-flow-row grid-cols-2 text-center text-darkGray text-textMatches font-semibold md:text-textMd md:w-4/6">
+      <p className="p-2">{match.player1}</p>
+      <p className="p-2 border-l border-blue">{match.player2}</p>
+      <p className="p-2 border-t border-blue">{score.score1}</p>
+      <p className="p-2 border-t border-l border-blue">{score.score2}</p>
     </li>
   );
 }

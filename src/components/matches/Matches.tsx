@@ -32,7 +32,9 @@ export default function Matches({ matches }: { matches: MatchProps[] }) {
       >
         Partidos
       </button>
-      <ul className={matchesAreHidden ? 'hidden' : 'visible'}>
+      <ul
+        className={`${matchesAreHidden ? 'hidden' : 'visible'} w-full flex flex-col items-center`}
+      >
         {matches.map((match: MatchProps, index: number) => {
           return <Match match={match} key={index} />;
         })}
