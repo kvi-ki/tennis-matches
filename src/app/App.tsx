@@ -5,9 +5,34 @@ import MonthlyBoard, {
   MonthlyDataProps
 } from '@/components/monthlyBoard.tsx/MonthlyBoard';
 
+const formattedData: MonthlyDataProps[] = data.map((month) => {
+  const monthData = month.monthData;
+
+  return {
+    month: month.month,
+    monthData: monthData.map((data) => {
+      return {
+        division: data.division,
+        playersData: data.players.map((data) => {
+          return {
+            name: data,
+            pj: 0,
+            pg: 0,
+            pp: 0,
+            jf: 0,
+            jc: 0,
+            dif: 0
+          };
+        }),
+        matches: data.matches
+      };
+    })
+  };
+});
+
 function App() {
   const lastMonth: string = data[data.length - 1].month;
-  const lastMonthData: MonthlyDataProps | undefined = data.find(
+  const lastMonthData: MonthlyDataProps | undefined = formattedData.find(
     (data) => data.month === lastMonth
   );
 
@@ -15,7 +40,7 @@ function App() {
   const [monthData, setMonthData] = useState(lastMonthData);
 
   useEffect(() => {
-    const chosenMonth = data.find(
+    const chosenMonth = formattedData.find(
       (data) => selectedMonth && selectedMonth === data.month
     );
 
@@ -26,7 +51,7 @@ function App() {
     <main>
       <menu className="m-4 flex justify-center">
         <ul className="flex gap-4">
-          {data.map((data) => {
+          {formattedData.map((data) => {
             return (
               <li key={data.month}>
                 <MonthlyBoard
