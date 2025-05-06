@@ -25,13 +25,13 @@ export default function Matches({ matches }: { matches: MatchProps[] }) {
   };
 
   return (
-    <section className="border border-navy mt-4 w-full md:w-9/12 xl:w-6/12">
-      <h2
-        className="border-b text-navy text-header2 text-center text-semibold hover:text-blue cursor-pointer"
+    <section className="mt-4 w-full md:w-9/12 xl:w-6/12">
+      <button
+        className="pl-4 pr-4 border-b text-navy text-header2 text-semibold hover:text-blue cursor-pointer"
         onClick={toggleMatches}
       >
         Partidos
-      </h2>
+      </button>
       <ul className={matchesAreHidden ? 'hidden' : 'visible'}>
         {matches.map((match: MatchProps, index: number) => {
           return <Match match={match} key={index} />;
