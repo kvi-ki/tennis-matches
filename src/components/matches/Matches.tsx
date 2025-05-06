@@ -25,15 +25,15 @@ export default function Matches({ matches }: { matches: MatchProps[] }) {
   };
 
   return (
-    <section className="mt-4 w-full md:w-9/12 xl:w-6/12">
+    <section className="self-start w-full">
       <button
-        className="mb-6 pl-4 pr-4 border-b text-navy text-header2 text-semibold hover:text-blue cursor-pointer"
+        className="mb-6 px-4 border-b text-navy text-header2 text-semibold hover:text-blue cursor-pointer"
         onClick={toggleMatches}
       >
         Partidos
       </button>
       <ul
-        className={`${matchesAreHidden ? 'hidden' : 'visible'} w-full flex flex-col items-center`}
+        className={`${matchesAreHidden ? 'hidden' : 'visible'} flex flex-col pl-20`}
       >
         {matches.map((match: MatchProps, index: number) => {
           return <Match match={match} key={index} />;

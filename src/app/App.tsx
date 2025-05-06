@@ -48,8 +48,8 @@ function App() {
   }, [selectedMonth]);
 
   return (
-    <main>
-      <menu className="m-4 flex justify-center bg-white sticky top-0">
+    <main className="flex flex-col items-center">
+      <menu className="m-4 bg-white sticky top-0">
         <ul className="flex gap-4">
           {formattedData.map((data) => {
             return (

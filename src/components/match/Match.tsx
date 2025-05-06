@@ -26,10 +26,10 @@ export default function Match({ match }: { match: MatchProps }) {
   const score = getScore();
 
   return (
-    <li className="my-8 grid grid-flow-row grid-cols-2 text-center text-darkGray text-textMatches font-semibold md:text-textMd md:w-4/6">
-      <p className="p-2">{match.player1}</p>
-      <p className="p-2 border-l border-blue">{match.player2}</p>
-      <p className="p-2 border-t border-blue">{score.score1}</p>
+    <li className="my-8 w-8/12 grid grid-flow-row grid-cols-3 text-center text-darkGray text-textMatches font-semibold md:text-textMd">
+      <p className="p-2 col-span-2">{match.player1}</p>
+      <p className="p-2 border-l border-blue">{score.score1}</p>
+      <p className="p-2 col-span-2 border-t border-blue">{match.player2}</p>
       <p className="p-2 border-t border-l border-blue">{score.score2}</p>
     </li>
   );
