@@ -25,11 +25,11 @@ export default {
     },
     fontSize: {
       header: '2rem',
-      headerLg: '3rem',
+      headerLg: '2.5rem',
       header2: '1.3rem',
       header2Lg: '2rem',
       textSm: '0.6rem',
-      textMd: '1rem',
+      textMd: '1.1rem',
       textLg: '1.25rem',
       textMatches: '0.8rem'
     }
