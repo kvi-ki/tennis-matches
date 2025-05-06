@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import { LeagueDataProps } from '../leagueData/LeagueData';
 
 export type MonthlyDataProps = {
@@ -20,7 +19,7 @@ export default function MonthlyBoard({
   return (
     <button
       onClick={onClick}
-      className={`${monthIsSelected ? 'text-green' : 'text-darkGray'} font-medium mt-4 text-textLg text-center text-semibold cursor-pointer hover:text-green md:w-28`}
+      className={`${monthIsSelected ? 'text-green' : 'text-darkGray'} font-medium mt-4 w-20 text-textLg text-center text-semibold cursor-pointer hover:text-green md:w-28`}
     >
       {monthData.month}
     </button>
