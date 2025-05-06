@@ -15,7 +15,7 @@ const formattedData: MonthlyDataProps[] = data.map((month) => {
         division: data.division,
         playersData: data.playersData.map((data) => {
           return {
-            name: data.name,
+            name: data,
             pj: 0,
             pg: 0,
             pp: 0,
