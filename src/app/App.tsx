@@ -49,11 +49,11 @@ function App() {
 
   return (
     <main>
-      <menu className="m-4 flex justify-center">
+      <menu className="m-4 flex justify-center bg-white sticky top-0">
         <ul className="flex gap-4">
           {formattedData.map((data) => {
             return (
-              <li key={data.month}>
+              <li key={data.month} className=''>
                 <MonthlyBoard
                   monthData={data}
                   selectedMonth={selectedMonth}
