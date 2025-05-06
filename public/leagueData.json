@@ -4,7 +4,7 @@
     "monthData": [
       {
         "division": "1",
-        "playersData": [
+        "players": [
           "Lluis Carrasco",
           "Javier Salinas",
           "Alejandro Rodriguez",
@@ -45,7 +45,7 @@
       },
       {
         "division": "2",
-        "playersData": [
+        "players": [
           "Juanmi Vives",
           "German Gonzalez",
           "Tomas Carvalho",
@@ -86,7 +86,7 @@
       },
       {
         "division": "3",
-        "playersData": [
+        "players": [
           "Albert Bartoli",
           "Narciso Chaparro",
           "Eloi Torrent",
@@ -127,7 +127,7 @@
       },
       {
         "division": "4",
-        "playersData": [
+        "players": [
           "Sergi Escalera",
           "Alonso Paz",
           "Javi Campos",
@@ -168,7 +168,7 @@
       },
       {
         "division": "5",
-        "playersData": [
+        "players": [
           "Santi Martin",
           "Javier Tejedo",
           "Rafael Chocarro",
@@ -209,7 +209,7 @@
       },
       {
         "division": "6",
-        "playersData": [
+        "players": [
           "Daniel Meroño",
           "Eduard Elias",
           "Guillem Riba",
@@ -250,7 +250,7 @@
       },
       {
         "division": "7",
-        "playersData": [
+        "players": [
           "Jean Marc Pinson",
           "Daniel Chismol",
           "Miguel Angel Pizarro",
@@ -291,7 +291,7 @@
       },
       {
         "division": "8",
-        "playersData": [
+        "players": [
           "Arnau Guanyabens",
           "David Ferrus",
           "Gonzalo Roca",
@@ -353,7 +353,7 @@
       },
       {
         "division": "9",
-        "playersData": [
+        "players": [
           "Alberto Puyada",
           "Xavi Palacio",
           "Raúl Zafrilla",
@@ -420,7 +420,7 @@
     "monthData": [
       {
         "division": "1",
-        "playersData": [
+        "players": [
           "Lluis Carrasco",
           "Javier Salinas",
           "Tomas Carvalho",
@@ -461,7 +461,7 @@
       },
       {
         "division": "2",
-        "playersData": [
+        "players": [
           "Daniel Perez",
           "German Gonzalez",
           "Albert Bartoli",
@@ -502,7 +502,7 @@
       },
       {
         "division": "3",
-        "playersData": [
+        "players": [
           "Estefania Garcia",
           "Sergi Escalera",
           "Eloi Torrent",
@@ -543,7 +543,7 @@
       },
       {
         "division": "4",
-        "playersData": [
+        "players": [
           "Juan Garralda",
           "Santi Martin",
           "Javi Campos",
@@ -584,7 +584,7 @@
       },
       {
         "division": "5",
-        "playersData": [
+        "players": [
           "Guillem Riba",
           "Javier Tejedo",
           "Daniel Meroño",
@@ -625,7 +625,7 @@
       },
       {
         "division": "6",
-        "playersData": [
+        "players": [
           "Rafael Chocarro",
           "Jean-Marc Pinson",
           "Eduardo Elias",
@@ -666,7 +666,7 @@
       },
       {
         "division": "7",
-        "playersData": [
+        "players": [
           "Miguel Angel Gonzalez",
           "José Aiello",
           "Jordi Roque",
@@ -728,7 +728,7 @@
       },
       {
         "division": "8",
-        "playersData": [
+        "players": [
           "Arnau Guanyabens",
           "Daniel Chismol",
           "Raúl Zafrilla",
@@ -790,7 +790,7 @@
       },
       {
         "division": "9",
-        "playersData": [
+        "players": [
           "Alberto Puyada",
           "Gonzalo Roca",
           "David Ferrus",
@@ -857,7 +857,7 @@
     "monthData": [
       {
         "division": "1",
-        "playersData": [
+        "players": [
           "Lluis Carrasco",
           "Javier Salinas",
           "Albert Bartoli",
@@ -873,7 +873,7 @@
       },
       {
         "division": "2",
-        "playersData": [
+        "players": [
           "Juanmi Vives",
           "Tomas Carvalho",
           "Eloi Torrent",
@@ -889,7 +889,7 @@
       },
       {
         "division": "3",
-        "playersData": [
+        "players": [
           "Daniel Perez",
           "Hugo Juanals",
           "Alex Martin",
@@ -899,7 +899,7 @@
       },
       {
         "division": "4",
-        "playersData": [
+        "players": [
           "Estefania Garcia",
           "Javier Tejedo",
           "Sergi Escalera",
@@ -915,7 +915,7 @@
       },
       {
         "division": "5",
-        "playersData": [
+        "players": [
           "Javi Campos",
           "Juli Carrere",
           "Santi Martin",
@@ -942,7 +942,7 @@
       },
       {
         "division": "6",
-        "playersData": [
+        "players": [
           "Alberto Forcada",
           "Miguel Angel Gonzalez",
           "Rafael Chocarro",
@@ -958,7 +958,7 @@
       },
       {
         "division": "7",
-        "playersData": [
+        "players": [
           "Domènec Sobrevias",
           "Jean-Marc Pinson",
           "Daniel Chismol",
@@ -989,7 +989,7 @@
       },
       {
         "division": "8",
-        "playersData": [
+        "players": [
           "Eduard Sarda",
           "Jordi Roque",
           "Xavi Palacio",
@@ -999,7 +999,7 @@
       },
       {
         "division": "9",
-        "playersData": [
+        "players": [
           "Josep Pons",
           "Miguel Angel Ocaña",
           "Raúl Zafrilla",
@@ -1021,7 +1021,7 @@
       },
       {
         "division": "10",
-        "playersData": [
+        "players": [
           "Alberto Cuadros",
           "David Ferrus",
           "Ines Fallon",

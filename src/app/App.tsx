@@ -13,7 +13,7 @@ const formattedData: MonthlyDataProps[] = data.map((month) => {
     monthData: monthData.map((data) => {
       return {
         division: data.division,
-        playersData: data.playersData.map((data) => {
+        playersData: data.players.map((data) => {
           return {
             name: data,
             pj: 0,
