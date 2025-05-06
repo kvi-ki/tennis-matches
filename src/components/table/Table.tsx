@@ -36,24 +36,24 @@ export default function Table({ playersData }: { playersData: PlayerProps[] }) {
     sortPlayrsByRankingPoints(processedPlayersData);
 
   return (
-    <table className="w-full md:w-8/12 xl:w-5/12">
-      <thead>
-        <tr>
-          <th>Ranking</th>
-          <th>Jugador</th>
-          <th>PJ</th>
-          <th>PG</th>
-          <th>PP</th>
-          <th>JF</th>
-          <th>JC</th>
-          <th>Dif</th>
-        </tr>
-      </thead>
-      <tbody>
-        {sortedPlayersByRanking.map(({ newData }, index) => (
-          <Player key={index} playerData={newData} ranking={index + 1} />
-        ))}
-      </tbody>
-    </table>
+      <table className="w-full m-10 md:w-8/12 xl:w-6/12">
+        <thead>
+          <tr>
+            <th>Ranking</th>
+            <th>Jugador</th>
+            <th>PJ</th>
+            <th>PG</th>
+            <th>PP</th>
+            <th>JF</th>
+            <th>JC</th>
+            <th>Dif</th>
+          </tr>
+        </thead>
+        <tbody>
+          {sortedPlayersByRanking.map(({ newData }, index) => (
+            <Player key={index} playerData={newData} ranking={index + 1} />
+          ))}
+        </tbody>
+      </table>
   );
 }
