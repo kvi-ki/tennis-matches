@@ -6,15 +6,20 @@
   table,
   th,
   td {
-    @apply border border-navy text-textSm p-0.5;
+    @apply text-textSm p-3;
     @apply md:text-textMd;
-    @apply lg:text-textLg;
+  }
+}
+
+@layer base {
+  tr:nth-child(even) {
+    @apply text-darkGray text-center bg-lightGray;
   }
 }
 
 @layer base {
   th {
-    @apply text-white font-semibold text-center bg-blue;
+    @apply text-blue font-semibold text-center bg-lightGray;
   }
 }
 
