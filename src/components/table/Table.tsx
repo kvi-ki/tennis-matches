@@ -36,9 +36,9 @@ export default function Table({ playersData }: { playersData: PlayerProps[] }) {
     sortPlayrsByRankingPoints(processedPlayersData);
 
   return (
-    <table className="w-full md:w-8/12 xl:w-5/12">
+    <table className="shadow-[0_0_25px_rgb(0,0,0,0.1)] rounded-xl border-collapse overflow-hidden w-full m-10">
       <thead>
-        <tr>
+        <tr className="border-b border-navy">
           <th>Ranking</th>
           <th>Jugador</th>
           <th>PJ</th>

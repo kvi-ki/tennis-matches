@@ -18,17 +18,17 @@ export default {
     },
     colors: {
       navy: '#0461a6',
-      green: '#0089c1',
-      gray: '#3f4756',
+      blue: '#0089c1',
+      gray: "#7D8080",
+      darkGray: '#787777',
+      lightGray: '#faf9f8',
       white: '#FFFFFF'
     },
     fontSize: {
       header: '2rem',
-      headerLg: '3rem',
-      header2: '1.3rem',
-      header2Lg: '2rem',
+      header2: '1.5rem',
       textSm: '0.6rem',
-      textMd: '1rem',
+      textMd: '1.1rem',
       textLg: '1.25rem',
       textMatches: '0.8rem'
     }
