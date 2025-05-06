@@ -14,7 +14,7 @@
 
 @layer base {
   th {
-    @apply text-white font-semibold text-center bg-green;
+    @apply text-white font-semibold text-center bg-blue;
   }
 }
 

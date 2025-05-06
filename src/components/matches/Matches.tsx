@@ -27,7 +27,7 @@ export default function Matches({ matches }: { matches: MatchProps[] }) {
   return (
     <section className="border border-navy mt-4 w-full md:w-9/12 xl:w-6/12">
       <h2
-        className="border-b text-navy text-header2 text-center text-semibold hover:text-green cursor-pointer lg:text-header2Lg"
+        className="border-b text-navy text-header2 text-center text-semibold hover:text-blue cursor-pointer lg:text-header2Lg"
         onClick={toggleMatches}
       >
         Partidos
