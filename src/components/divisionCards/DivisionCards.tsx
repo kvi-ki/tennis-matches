@@ -12,7 +12,7 @@ export default function DivisionCards({
         return (
           <li
             key={index}
-            className="my-4 pb-8 px-6 w-full flex flex-col items-center border-b border-[#e2e1e1] md:px-16"
+            className="my-4 pb-8 px-2 w-full flex flex-col items-center border-b border-[#e2e1e1] md:px-16"
           >
             <DivisionCard league={league} />
           </li>
