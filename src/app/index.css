@@ -6,8 +6,8 @@
   table,
   th,
   td {
-    @apply text-textSm p-3;
-    @apply md:text-textMd;
+    @apply text-textSm p-2;
+    @apply md:text-textMd md:p-4;
   }
 }
 

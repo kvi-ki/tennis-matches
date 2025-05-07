@@ -27,7 +27,7 @@ export default {
     fontSize: {
       header: '2rem',
       header2: '1.5rem',
-      textSm: '0.6rem',
+      textSm: '0.8rem',
       textMd: '1.1rem',
       textLg: '1.25rem',
       textMatches: '0.8rem'
