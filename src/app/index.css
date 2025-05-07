@@ -6,7 +6,7 @@
   table,
   th,
   td {
-    @apply text-textSm p-2;
+    @apply text-textSm p-1;
     @apply md:text-textMd md:p-4;
   }
 }
