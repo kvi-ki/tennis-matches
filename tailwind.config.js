@@ -30,7 +30,7 @@ export default {
       textSm: '0.8rem',
       textMd: '1.1rem',
       textLg: '1.25rem',
-      textMatches: '0.8rem'
+      textMatches: '0.6rem'
     }
   },
   plugins: []
