@@ -7,7 +7,7 @@ export default function DivisionCards({
   leagueData: LeagueDataProps[];
 }) {
   return (
-    <ul className="w-full lg:w-10/12 xl:w-7/12">
+    <ul className="w-full mt-10 lg:w-10/12 xl:w-7/12">
       {leagueData.map((league, index: number) => {
         return (
           <li

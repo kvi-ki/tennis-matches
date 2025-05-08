@@ -49,7 +49,7 @@ function App() {
 
   return (
     <main className="flex flex-col items-center">
-      <menu className="w-full bg-white fixed bottom-0">
+      <menu className="w-full bg-white fixed top-0">
         <ul className="flex justify-center gap-4">
           {formattedData.map((data) => {
             return (
