@@ -49,7 +49,7 @@ function App() {
 
   return (
     <main className="flex flex-col items-center">
-      <div className="w-full bg-white fixed top-0 z-99">
+      <menu className="w-full bg-white fixed bottom-0">
         <ul className="flex justify-center gap-4">
           {formattedData.map((data) => {
             return (
@@ -63,7 +63,7 @@ function App() {
             );
           })}
         </ul>
-      </div>
+      </menu>
       {monthData && <DivisionCards leagueData={monthData.monthData} />}
     </main>
   );
