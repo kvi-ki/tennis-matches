@@ -946,6 +946,11 @@
             "player1": "Sergi Escalera",
             "player2": "Javier Tejedo",
             "score": "6-9"
+          },
+          {
+            "player1": "Daniel Meroño",
+            "player2": "Javier Tejedo",
+            "score": "5-9"
           }
         ]
       },
@@ -988,6 +993,11 @@
             "player1": "Javi Campos",
             "player2": "Juli Carrere",
             "score": "9-7"
+          },
+          {
+            "player1": "Santi Martin",
+            "player2": "Juli Carrere",
+            "score": "8-9"
           }
         ]
       },
@@ -1051,7 +1061,13 @@
           "Xavi Palacio",
           "Gonzalo Roca"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Gonzalo Roca",
+            "player2": "Xavi Palacio",
+            "score": "9-4"
+          }
+        ]
       },
       {
         "division": "9",
@@ -1082,6 +1098,11 @@
             "player1": "Raúl Zafrilla",
             "player2": "Josep Pons",
             "score": "7-9"
+          },
+          {
+            "player1": "Alberto Puyada",
+            "player2": "Josep Pons",
+            "score": "5-9"
           }
         ]
       },
