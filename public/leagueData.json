@@ -1044,6 +1044,11 @@
             "player1": "Javi Compos",
             "player2": "Eduardo Elias",
             "score": "5-9"
+          },
+          {
+            "player1": "Santi Martin",
+            "player2": "Jean-Marc Pinson",
+            "score": "4-9"
           }
         ]
       },
@@ -1132,6 +1137,11 @@
             "player1": "Gonzalo Roca",
             "player2": "Jordi Roque",
             "score": "4-9"
+          },
+          {
+            "player1": "Xavi Palacio",
+            "player2": "Jordi Roque",
+            "score": "4-9"
           }
         ]
       },
@@ -1215,6 +1225,16 @@
             "player1": "David Ferrus",
             "player2": "Alberto Cuadros",
             "score": "9-3"
+          },
+          {
+            "player1": "David Ferrus",
+            "player2": "Arnau Guanyabens",
+            "score": "4-9"
+          },
+          {
+            "player1": "David Ferrus",
+            "player2": "Ines Fallon",
+            "score": "9-2"
           }
         ]
       }
