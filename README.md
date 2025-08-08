@@ -13,3 +13,9 @@ Run development
 ```shell
 pnpm dev
 ```
+
+## Ranking
+
+```shell
+node calculateRanking.js
+```
