@@ -50,7 +50,7 @@ function App() {
   return (
     <main className="flex flex-col items-center">
       <menu className="w-full bg-white fixed top-0">
-        <ul className="flex justify-center gap-4">
+        <ul className="flex flex-wrap justify-center gap-2">
           {formattedData.map((data) => {
             return (
               <li key={data.month}>
