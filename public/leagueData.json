@@ -1299,28 +1299,28 @@
           "Santi Martin",
           "Daniel Meroño",
           "Jordi Tomás",
-          "Chechu Azezar"
+          "Sergi Moral"
         ],
         "matches": []
       },
       {
         "division": "7",
         "players": [
-          "Javi Campos",
-          "Jordi Roque",
-          "Mario Segers",
-          "Miguel Angel Viejo"
+          "Antonio Luis Pereiras",
+          "Miguel Angel Viejo",
+          "Chechu Azezar",
+          "Juli Carrere"
         ],
         "matches": []
       },
       {
         "division": "8",
         "players": [
-          "Juli Carrere",
-          "Daniel Chismol",
+          "Jordi Roque",
+          "Mario Segers",
           "Hugo Juanals",
           "Domènec Sobrevias",
-          "Gonzalo Roca"
+          "Javi Campos"
         ],
         "matches": []
       },
@@ -1329,14 +1329,24 @@
         "players": [
           "Juan Assens",
           "Raúl Zafrilla",
-          "Arnau Guanyabens",
-          "Josep Pons",
-          "Rafael Guerrero"
+          "Domènec Sobrevias",
+          "Daniel Chismol"
         ],
         "matches": []
       },
       {
         "division": "10",
+        "players": [
+          "David Ferrus",
+          "Rafael Guerrero",
+          "Arnau Guanyabens",
+          "Josep Pons",
+          "Gonzalo Roca"
+        ],
+        "matches": []
+      },
+      {
+        "division": "11",
         "players": [
           "Marc Ramon",
           "Miguel Angel Ocaña",
