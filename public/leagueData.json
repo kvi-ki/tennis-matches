@@ -1332,7 +1332,13 @@
           "Daniel Chismol",
           "David Martinez"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Juan Assens",
+            "player2": "Raúl Zafrilla",
+            "score": "6-9"
+          }
+        ]
       },
       {
         "division": "10",
