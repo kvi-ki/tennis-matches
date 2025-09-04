@@ -251,7 +251,7 @@
       {
         "division": "7",
         "players": [
-          "Jean Marc Pinson",
+          "Jean-Marc Pinson",
           "Daniel Chismol",
           "Miguel Angel Pizarro",
           "Alberto Forcada"
@@ -259,7 +259,7 @@
         "matches": [
           {
             "player1": "Miguel Angel Pizarro",
-            "player2": "Jean Marc Pinson",
+            "player2": "Jean-Marc Pinson",
             "score": "1-9"
           },
           {
@@ -274,7 +274,7 @@
           },
           {
             "player1": "Daniel Chismol",
-            "player2": "Jean Marc Pinson",
+            "player2": "Jean-Marc Pinson",
             "score": "1-9"
           },
           {
@@ -283,7 +283,7 @@
             "score": "3-9"
           },
           {
-            "player1": "Jean Marc Pinson",
+            "player1": "Jean-Marc Pinson",
             "player2": "Alberto Forcada",
             "score": "9-7"
           }
@@ -1277,11 +1277,17 @@
         "division": "4",
         "players": [
           "Estefania Garcia",
-          "Jean Marc Pinson",
+          "Jean-Marc Pinson",
           "Eduard Elias",
           "Jorge Herrero"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Jean-Marc Pinson",
+            "player2": "Jorge Herrero",
+            "score": "9-0"
+          }
+        ]
       },
       {
         "division": "5",
