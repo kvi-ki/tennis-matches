@@ -951,7 +951,6 @@
             "player2": "Juan Garralda",
             "score": "1-9"
           }
-
         ]
       },
       {
@@ -1355,11 +1354,18 @@
           "Josep Pons",
           "Gonzalo Roca"
         ],
-        "matches": [{
-          "player1": "Rafael Guerrero",
-          "player2": "Arnau Guanyabens",
-          "score": "7-9"
-        }]
+        "matches": [
+          {
+            "player1": "Rafael Guerrero",
+            "player2": "Arnau Guanyabens",
+            "score": "7-9"
+          },
+          {
+            "player1": "Gonzalo Roca",
+            "player2": "Arnau Guanyabens",
+            "score": "9-0"
+          }
+        ]
       },
       {
         "division": "11",
@@ -1377,10 +1383,16 @@
             "score": "9-6"
           },
           {
-          "player1": "Marc Ramon",
-          "player2": "Miguel Angel Ocaña",
-          "score": "9-5"
-        }]
+            "player1": "Marc Ramon",
+            "player2": "Miguel Angel Ocaña",
+            "score": "9-5"
+          },
+          {
+            "player1": "Marc Ramon",
+            "player2": "Ines Fallon",
+            "score": "9-2"
+          }
+        ]
       }
     ]
   }
