@@ -1326,7 +1326,14 @@
           "Hugo Juanals",
           "Javi Campos"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Jordi Roque",
+            "player2": "Mario Segers",
+            "score": "9-8 - (14-12)"
+          }
+
+        ]
       },
       {
         "division": "9",
@@ -1364,6 +1371,11 @@
             "player1": "Gonzalo Roca",
             "player2": "Arnau Guanyabens",
             "score": "9-0"
+          },
+          {
+            "player1": "Josep Pons",
+            "player2": "David Ferrus",
+            "score": "9-5"
           }
         ]
       },
