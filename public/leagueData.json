@@ -1250,7 +1250,13 @@
           "Alejandro Rodriguez",
           "Pedro Moreno"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Alejandro Rodriguez",
+            "player2": "Pedro Moreno",
+            "score": "9-6"
+          }
+        ]
       },
       {
         "division": "2",
@@ -1285,6 +1291,11 @@
             "player1": "Jean-Marc Pinson",
             "player2": "Jorge Herrero",
             "score": "9-0"
+          },
+          {
+            "player1": "Estefania Garcia",
+            "player2": "Jorge Herrero",
+            "score": "7-9"
           }
         ]
       },
@@ -1380,6 +1391,11 @@
             "player1": "Josep Pons",
             "player2": "David Ferrus",
             "score": "9-5"
+          },
+          {
+            "player1": "Josep Pons",
+            "player2": "Gonzalo Roca",
+            "score": "9-6"
           }
         ]
       },
