@@ -1307,7 +1307,13 @@
           "Sergi Escalera",
           "José Aiello"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Alonso Paz",
+            "player2": "José Aiello",
+            "score": "9-6"
+          }
+        ]
       },
       {
         "division": "6",
