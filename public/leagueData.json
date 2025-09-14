@@ -1255,6 +1255,11 @@
             "player1": "Alejandro Rodriguez",
             "player2": "Pedro Moreno",
             "score": "9-6"
+          },
+          {
+            "player1": "Alex Martin",
+            "player2": "Pedro Moreno",
+            "score": "9-5"
           }
         ]
       },
@@ -1296,6 +1301,11 @@
             "player1": "Estefania Garcia",
             "player2": "Jorge Herrero",
             "score": "7-9"
+          },
+          {
+            "player1": "Eduard Elias",
+            "player2": "Jorge Herrero",
+            "score": "8-9 - (2-7)"
           }
         ]
       },
@@ -1323,7 +1333,13 @@
           "Jordi Tomás",
           "Sergi Moral"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Daniel Meroño",
+            "player2": "Santi Martin",
+            "score": "9-8 - (14-12"
+          }
+        ]
       },
       {
         "division": "7",
@@ -1338,6 +1354,11 @@
             "player1": "Juli Carrere",
             "player2": "Miguel Angel Viejo",
             "score": "9-1"
+          },
+          {
+            "player1": "Chechu Azezar",
+            "player2": "Miguel Angel Viejo",
+            "score": "9-0"
           }
         ]
       },
