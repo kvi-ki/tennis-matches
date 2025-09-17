@@ -1271,7 +1271,14 @@
           "Eloi Torrent",
           "German Gonzalez"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Narcis Chaparro",
+            "player2": "Alfonso Pazos",
+            "score": "5-9"
+          }
+
+        ]
       },
       {
         "division": "3",
@@ -1494,6 +1501,11 @@
           },
           {
             "player1": "Miguel Angel Ocaña",
+            "player2": "Carlos Larrosa",
+            "score": "3-9"
+          },
+          {
+            "player1": "Marc Ramon",
             "player2": "Carlos Larrosa",
             "score": "3-9"
           }
