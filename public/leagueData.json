@@ -1288,7 +1288,12 @@
           "Daniel Perez",
           "Joan Real"
         ],
-        "matches": []
+        "matches": [          {
+          "player1": "Tomas Carvalho",
+          "player2": "Joan Real",
+          "score": "2-9"
+        }
+        ]
       },
       {
         "division": "4",
@@ -1402,6 +1407,11 @@
             "player1": "Jordi Roque",
             "player2": "Hugo Juanals",
             "score": "9-8 - (10-7)"
+          },
+          {
+            "player1": "Hugo Juanals",
+            "player2": "Mario Segers",
+            "score": "2-9"
           }
         ]
       },
