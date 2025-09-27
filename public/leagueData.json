@@ -1270,6 +1270,11 @@
             "player1": "Alejandro Rodriguez",
             "player2": "Javier Salinas",
             "score": "9-4"
+          },
+          {
+            "player1": "Alex Martin",
+            "player2": "Javier Salinas",
+            "score": "4-9"
           }
         ]
       },
@@ -1520,6 +1525,11 @@
           {
             "player1": "Gonzalo Roca",
             "player2": "David Ferrus",
+            "score": "9-3"
+          },
+          {
+            "player1": "Gonzalo Roca",
+            "player2": "Rafael Guerrero",
             "score": "9-3"
           }
         ]
