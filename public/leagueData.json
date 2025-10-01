@@ -1640,8 +1640,8 @@
         "division": "3",
         "players": [
           "Jorge Herrero",
-          "German Gonzalez",
           "Daniel Perez",
+          "Tomas Carvalho",
           "Joan Real"
         ],
         "matches": []
@@ -1650,8 +1650,8 @@
         "division": "4",
         "players": [
           "Estefania Garcia",
-          "Tomas Carvalho",
           "Alonso Paz",
+          "Eduard Elias",
           "Sergi Escalera"
         ],
         "matches": []
@@ -1660,9 +1660,9 @@
         "division": "5",
         "players": [
           "Daniel Meroño",
-          "Eduard Elias",
           "Santi Martin",
-          "José Aiello"
+          "José Aiello",
+          "Juli Carrere"
         ],
         "matches": []
       },
@@ -1672,16 +1672,16 @@
           "Marcos Chaparro",
           "Juan Garralda",
           "Jordi Tomás",
-          "Juli Carrere"
+          "Alberto Forcada"
         ],
         "matches": []
       },
       {
         "division": "7",
         "players": [
-          "Alberto Forcada",
-          "Miguel Angel Viejo",
+          "Mario Segers",
           "Chechu Azezar",
+          "Daniel Chismol",
           "Jordi Roque"
         ],
         "matches": []
@@ -1689,9 +1689,9 @@
       {
         "division": "8",
         "players": [
+          "Miguel Angel Viejo",
           "Toni Pereiras",
-          "Mario Segers",
-          "Daniel Chismol",
+          "Javi Campos",
           "Domènec Sobrevias"
         ],
         "matches": []
@@ -1700,8 +1700,8 @@
         "division": "9",
         "players": [
           "Sergi Moral",
-          "Javi Campos",
           "Gonzalo Roca",
+          "Raúl Zafrilla",
           "Hugo Juanals"
         ],
         "matches": []
@@ -1709,9 +1709,10 @@
       {
         "division": "10",
         "players": [
-          "Raúl Zafrilla",
           "Juan Assens",
           "Josep Pons",
+          "Marc Ramon",
+          "Carlos Larrosa",
           "Arnau Guanyabens"
         ],
         "matches": []
@@ -1720,8 +1721,9 @@
         "division": "11",
         "players": [
           "David Martinez",
-          "Marc Ramon",
-          "Carlos Larrosa",
+          "Lluis Roig",
+          "David Ferrus",
+          "Miguel Angel Ocaña",
           "Manel Rodriguez"
         ],
         "matches": []
@@ -1730,17 +1732,8 @@
         "division": "12",
         "players": [
           "Rafael Guerrero",
-          "David Ferrus",
-          "Miguel Angel Ocaña",
-          "Alberto Puyada"
-        ],
-        "matches": []
-      },
-      {
-        "division": "13",
-        "players": [
           "Ines Fallon",
-          "Lluis Roig",
+          "Alberto Puyada",
           "Sergi Gomez",
           "Sergi Broto"
         ],
