@@ -1659,7 +1659,13 @@
           "Eduard Elias",
           "Sergi Escalera"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Alonso Paz",
+            "player2": "Sergi Escalera",
+            "score": "9-6"
+          }
+        ]
       },
       {
         "division": "5",
