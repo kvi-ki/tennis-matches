@@ -1679,7 +1679,13 @@
           "Jordi Tomás",
           "Alberto Forcada"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Alberto Forcada",
+            "player2": "Jordi Tomás",
+            "score": "9-4"
+          }
+        ]
       },
       {
         "division": "7",
@@ -1720,7 +1726,13 @@
           "Carlos Larrosa",
           "Arnau Guanyabens"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Marc Ramon",
+            "player2": "Juan Assens",
+            "score": "9-6"
+          }
+        ]
       },
       {
         "division": "11",
