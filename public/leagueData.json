@@ -1760,7 +1760,14 @@
           "Sergi Gomez",
           "Sergi Broto"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Sergi Broto",
+            "player2": "Sergi Gomez",
+            "score": "9-1"
+          }
+
+        ]
       }
     ]
   }
