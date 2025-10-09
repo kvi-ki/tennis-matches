@@ -1649,7 +1649,13 @@
           "Tomas Carvalho",
           "Joan Real"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Daniel Perez",
+            "player2": "Tomas Carvalho",
+            "score": "9-6"
+          }
+        ]
       },
       {
         "division": "4",
@@ -1664,6 +1670,11 @@
             "player1": "Alonso Paz",
             "player2": "Sergi Escalera",
             "score": "9-6"
+          },
+          {
+            "player1": "Estefania Garcia",
+            "player2": "Eduard Elias",
+            "score": "3-9"
           }
         ]
       },
