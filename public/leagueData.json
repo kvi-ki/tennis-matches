@@ -1645,7 +1645,13 @@
           "Juanmi Vives",
           "Jean-Marc Pinson"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Juanmi Vives",
+            "player2": "Narcis Chaparro",
+            "score": "9-8 - (10-2)"
+          }
+        ]
       },
       {
         "division": "3",
