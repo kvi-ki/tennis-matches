@@ -1660,6 +1660,11 @@
             "player1": "Daniel Perez",
             "player2": "Tomas Carvalho",
             "score": "9-6"
+          },
+          {
+            "player1": "Daniel Perez",
+            "player2": "Jorge Herrero",
+            "score": "9-3"
           }
         ]
       },
@@ -1681,6 +1686,11 @@
             "player1": "Estefania Garcia",
             "player2": "Eduard Elias",
             "score": "3-9"
+          },
+          {
+            "player1": "Alonso Paz",
+            "player2": "Eduard Elias",
+            "score": "9-6"
           }
         ]
       },
@@ -1692,7 +1702,14 @@
           "José Aiello",
           "Juli Carrere"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Santi Martin",
+            "player2": "Daniel Meroño",
+            "score": "9-7"
+          }
+
+        ]
       },
       {
         "division": "6",
@@ -1738,7 +1755,14 @@
           "Raúl Zafrilla",
           "Hugo Juanals"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Raúl Zafrilla",
+            "player2": "Hugo Juanals",
+            "score": "6-9"
+          }
+
+        ]
       },
       {
         "division": "10",
