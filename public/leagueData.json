@@ -1816,7 +1816,13 @@
           "Alberto Puyada",
           "Miguel Angel Ocaña"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Rafael Guerrero",
+            "player2": "Lluis Roig",
+            "score": "9-4"
+          }
+        ]
       },
       {
         "division": "12",
