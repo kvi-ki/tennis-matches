@@ -1697,6 +1697,11 @@
             "player1": "Alonso Paz",
             "player2": "Eduard Elias",
             "score": "9-6"
+          },
+          {
+            "player1": "Sergi Escalera",
+            "player2": "Eduard Elias",
+            "score": "9-4"
           }
         ]
       },
@@ -1751,7 +1756,13 @@
           "Daniel Chismol",
           "Jordi Roque"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Chechu Azezar",
+            "player2": "Jordi Roque",
+            "score": "9-3"
+          }
+        ]
       },
       {
         "division": "8",
