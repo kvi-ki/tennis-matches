@@ -1729,7 +1729,6 @@
             "player2": "Daniel Meroño",
             "score": "9-6"
           }
-
         ]
       },
       {
@@ -1754,7 +1753,12 @@
           {
             "player1": "Juan Garralda",
             "player2": "Alberto Forcada",
-            "score": "9-9"
+            "score": "9-2"
+          },
+          {
+            "player1": "Juan Garralda",
+            "player2": "Marcos Chaparro",
+            "score": "9-4"
           }
         ]
       },
@@ -1814,7 +1818,6 @@
             "player2": "Hugo Juanals",
             "score": "6-9"
           }
-
         ]
       },
       {
@@ -1901,7 +1904,6 @@
             "player2": "Ines Fallon",
             "score": "4-9"
           }
-
         ]
       }
     ]
