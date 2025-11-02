@@ -2067,5 +2067,131 @@
         ]
       }
     ]
+  },
+  {
+    "month": "Noviembre",
+    "monthData": [
+      {
+        "division": "1",
+        "players": [
+          "Javier Salinas",
+          "Alex Martin",
+          "Alfonso Pazos",
+          "Juanmi Vives"
+        ],
+        "matches": []
+      },
+      {
+        "division": "2",
+        "players": [
+          "Narcis Chaparro",
+          "Jean-Marc Pinson",
+          "Joan Real",
+          "Daniel Perez"
+        ],
+        "matches": []
+      },
+      {
+        "division": "3",
+        "players": [
+          "Alonso Paz",
+          "Eduard Elias",
+          "Tomas Carvalho",
+          "Sergi Escalera "
+        ],
+        "matches": []
+      },
+      {
+        "division": "4",
+        "players": [
+          "Jorge Herrero",
+          "Juli Carrere",
+          "Santi Martin ",
+          "Juan Garralda"
+        ],
+        "matches": []
+      },
+      {
+        "division": "5",
+        "players": [
+          "José Aiello",
+          "Daniel Meroño",
+          "Marcos Chaparro",
+          "Alberto Forcada"
+        ],
+        "matches": []
+      },
+      {
+        "division": "6",
+        "players": [
+          "Jordi Tomás",
+          "Chechu Azezar",
+          "Mario Segers",
+          "Javi Campos"
+        ],
+        "matches": []
+      },
+      {
+        "division": "7",
+        "players": [
+          "Jordi Roque",
+          "Daniel Chismol",
+          "Domènec Sobrevias",
+          "Toni Pereiras"
+        ],
+        "matches": []
+      },
+      {
+        "division": "8",
+        "players": [
+          "Miguel Angel Viejo",
+          "Gonzalo Roca",
+          "Raúl Zafrilla",
+          "Carlos Larrosa"
+        ],
+        "matches": []
+      },
+      {
+        "division": "9",
+        "players": [
+          "Hugo Juanals",
+          "Marc Ramon",
+          "Josep Pons",
+          "David Ferrus"
+        ],
+        "matches": []
+      },
+      {
+        "division": "10",
+        "players": [
+          "Arnau Guanyabens",
+          "Sergi Broto",
+          "Miguel Angel Ocaña",
+          "Rafael Guerrero"
+        ],
+        "matches": []
+      },
+      {
+        "division": "11",
+        "players": [
+          "Juan Assens",
+          "David Martinez",
+          "Gemma Puigventos",
+          "Alberto Puyada"
+        ],
+        "matches": []
+      },
+      {
+        "division": "12",
+        "players": [
+          "Manel Rodriguez",
+          "Ines Fallon",
+          "Sergi Gomez",
+          "Lluis Roig",
+          "David Amorós"
+        ],
+        "matches": []
+      }
+    ]
   }
 ]
