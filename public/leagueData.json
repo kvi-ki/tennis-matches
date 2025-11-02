@@ -2123,22 +2123,12 @@
       },
       {
         "division": "6",
-        "players": [
-          "Jordi Tomás",
-          "Chechu Azezar",
-          "Mario Segers",
-          "Javi Campos"
-        ],
+        "players": ["Jordi Tomás", "Domènec Sobrevias", "Mario Segers", "Javi Campos"],
         "matches": []
       },
       {
         "division": "7",
-        "players": [
-          "Jordi Roque",
-          "Daniel Chismol",
-          "Domènec Sobrevias",
-          "Toni Pereiras"
-        ],
+        "players": ["Jordi Roque", "Daniel Chismol", "Carlos Larrosa", "Toni Pereiras"],
         "matches": []
       },
       {
@@ -2147,17 +2137,17 @@
           "Miguel Angel Viejo",
           "Gonzalo Roca",
           "Raúl Zafrilla",
-          "Carlos Larrosa"
+          "Hugo Juanals"
         ],
         "matches": []
       },
       {
         "division": "9",
         "players": [
-          "Hugo Juanals",
           "Marc Ramon",
           "Josep Pons",
-          "David Ferrus"
+          "David Ferrus",
+          "Sergi Broto"
         ],
         "matches": []
       },
@@ -2165,9 +2155,9 @@
         "division": "10",
         "players": [
           "Arnau Guanyabens",
-          "Sergi Broto",
           "Miguel Angel Ocaña",
-          "Rafael Guerrero"
+          "Rafael Guerrero",
+          "Gemma Puigventos"
         ],
         "matches": []
       },
@@ -2176,8 +2166,8 @@
         "players": [
           "Juan Assens",
           "Ines Fallon",
-          "Gemma Puigventos",
-          "Alberto Puyada"
+          "Alberto Puyada",
+          "Lluis Roig"
         ],
         "matches": []
       },
@@ -2187,7 +2177,6 @@
           "Manel Rodriguez",
           "David Martinez",
           "Sergi Gomez",
-          "Lluis Roig",
           "David Amorós"
         ],
         "matches": []
