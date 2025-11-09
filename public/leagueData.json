@@ -2148,9 +2148,14 @@
         ],
         "matches": [
           {
+            "player1": "Daniel Meroño",
+            "player2": "Alberto Forcada",
+            "score": "9-3"
+          }
+          {
             "player1": "Marcos Chaparro",
             "player2": "José Aiello",
-            "score": "9-"
+            "score": "9-1"
           }
 
         ]
