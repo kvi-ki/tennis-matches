@@ -2079,7 +2079,13 @@
           "Alfonso Pazos",
           "Juanmi Vives"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Alex Martin",
+            "player2": "Juanmi Vives",
+            "score": "9-3"
+          }
+        ]
       },
       {
         "division": "2",
@@ -2087,9 +2093,16 @@
           "Narcis Chaparro",
           "Jean-Marc Pinson",
           "Joan Real",
-          "Daniel Perez"
+          "Daniel Perez",
+          "German Gonzalez"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "German Gonzalez",
+            "player2": "Jean-Marc Pinson",
+            "score": "9-8 - (11-9)"
+          }
+        ]
       },
       {
         "division": "3",
@@ -2099,7 +2112,14 @@
           "Tomas Carvalho",
           "Sergi Escalera "
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Alonso Paz",
+            "player2": "Eduard Elias",
+            "score": "9-1"
+          }
+
+        ]
       },
       {
         "division": "4",
@@ -2109,7 +2129,14 @@
           "Santi Martin ",
           "Juan Garralda"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Juan Garralda",
+            "player2": "Jorge Herrero",
+            "score": "9-3"
+          }
+
+        ]
       },
       {
         "division": "5",
@@ -2119,7 +2146,14 @@
           "Marcos Chaparro",
           "Alberto Forcada"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Marcos Chaparro",
+            "player2": "José Aiello",
+            "score": "9-"
+          }
+
+        ]
       },
       {
         "division": "6",
@@ -2139,7 +2173,9 @@
           "Raúl Zafrilla",
           "Hugo Juanals"
         ],
-        "matches": []
+        "matches": [
+
+        ]
       },
       {
         "division": "9",
@@ -2149,7 +2185,14 @@
           "David Ferrus",
           "Sergi Broto"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Sergi Broto",
+            "player2": "Josep Pons",
+            "score": "9-4"
+          }
+
+        ]
       },
       {
         "division": "10",
@@ -2159,7 +2202,14 @@
           "Rafael Guerrero",
           "Gemma Puigventos"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Rafael Guerrero",
+            "player2": "Miguel Angel Ocaña",
+            "score": "9-5"
+          }
+
+        ]
       },
       {
         "division": "11",
@@ -2179,7 +2229,14 @@
           "Sergi Gomez",
           "David Amorós"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Manel Rodriguez",
+            "player2": "David Amorós",
+            "score": "9-0"
+          }
+
+        ]
       }
     ]
   }
