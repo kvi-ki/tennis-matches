@@ -2202,6 +2202,11 @@
             "player1": "Toni Pereiras",
             "player2": "Carlos Larrosa",
             "score": "9-3"
+          },
+          {
+            "player1": "Jordi Roque",
+            "player2": "Carlos Larrosa",
+            "score": "4-9"
           }
         ]
       },
@@ -2217,6 +2222,11 @@
           {
             "player1": "Miguel Angel Viejo",
             "player2": "Hugo Juanals",
+            "score": "9-5"
+          },
+          {
+            "player1": "Gonzalo Roca",
+            "player2": "Raúl Zafrilla",
             "score": "9-5"
           }
         ]
@@ -2266,6 +2276,11 @@
             "player1": "Rafael Guerrero",
             "player2": "Miguel Angel Ocaña",
             "score": "9-5"
+          },
+          {
+            "player1": "Rafael Guerrero",
+            "player2": "Arnau Guanyabens",
+            "score": "9-6"
           }
 
         ]
@@ -2278,7 +2293,18 @@
           "Alberto Puyada",
           "Lluis Roig"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Juan Assens",
+            "player2": "Alberto Puyada",
+            "score": "9-5"
+          },
+          {
+            "player1": "Lluis Roig",
+            "player2": "Alberto Puyada",
+            "score": "11-9"
+          }
+        ]
       },
       {
         "division": "12",
