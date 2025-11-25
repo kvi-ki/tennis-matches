@@ -2094,6 +2094,16 @@
             "player1": "Javier Salinas",
             "player2": "Alfonso Pazos",
             "score": "9-4"
+          },
+          {
+            "player1": "Juanmi Vives",
+            "player2": "Alfonso Pazos",
+            "score": "9-4"
+          },
+          {
+            "player1": "Juanmi Vives",
+            "player2": "Javier Salinas",
+            "score": "5-9"
           }
         ]
       },
@@ -2121,6 +2131,11 @@
             "player1": "Daniel Perez",
             "player2": "Jean-Marc Pinson",
             "score": "7-9"
+          },
+          {
+            "player1": "Daniel Perez",
+            "player2": "Narcis Chaparro",
+            "score": "4-9"
           }
         ]
       },
@@ -2130,7 +2145,7 @@
           "Alonso Paz",
           "Eduard Elias",
           "Tomas Carvalho",
-          "Sergi Escalera "
+          "Sergi Escalera"
         ],
         "matches": [
           {
@@ -2142,6 +2157,11 @@
             "player1": "Alonso Paz",
             "player2": "Tomas Carvalho",
             "score": "4-9"
+          },
+          {
+            "player1": "Sergi Escalera",
+            "player2": "Eduard Elias",
+            "score": "9-6"
           }
         ]
       },
@@ -2150,7 +2170,7 @@
         "players": [
           "Jorge Herrero",
           "Juli Carrere",
-          "Santi Martin ",
+          "Santi Martin",
           "Juan Garralda"
         ],
         "matches": [
@@ -2163,6 +2183,11 @@
             "player1": "Juli Carrere",
             "player2": "Jorge Herrero",
             "score": "6-9"
+          },
+          {
+            "player1": "Santi Martin",
+            "player2": "Jorge Herrero",
+            "score": "4-9"
           }
 
         ]
@@ -2185,6 +2210,11 @@
             "player1": "Marcos Chaparro",
             "player2": "José Aiello",
             "score": "9-1"
+          },
+          {
+            "player1": "Marcos Chaparro",
+            "player2": "Alberto Forcada",
+            "score": "9-3"
           }
 
         ]
@@ -2192,7 +2222,9 @@
       {
         "division": "6",
         "players": ["Jordi Tomás", "Domènec Sobrevias", "Mario Segers", "Javi Campos"],
-        "matches": []
+        "matches": [
+
+        ]
       },
       {
         "division": "7",
@@ -2228,6 +2260,11 @@
             "player1": "Gonzalo Roca",
             "player2": "Raúl Zafrilla",
             "score": "9-5"
+          },
+          {
+            "player1": "Gonzalo Roca",
+            "player2": "Hugo Juanals",
+            "score": "9-7"
           }
         ]
       },
@@ -2259,6 +2296,11 @@
             "player1": "David Ferrus",
             "player2": "Josep Pons",
             "score": "9-8 - (10-8)"
+          },
+          {
+            "player1": "David Ferrus",
+            "player2": "Sergi Broto",
+            "score": "5-9"
           }
 
         ]
@@ -2303,6 +2345,11 @@
             "player1": "Lluis Roig",
             "player2": "Alberto Puyada",
             "score": "11-9"
+          },
+          {
+            "player1": "Juan Assens",
+            "player2": "Alberto Puyada",
+            "score": "9-5"
           }
         ]
       },
