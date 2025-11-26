@@ -2239,6 +2239,16 @@
             "player1": "Jordi Roque",
             "player2": "Carlos Larrosa",
             "score": "4-9"
+          },
+          {
+            "player1": "Jordi Roque",
+            "player2": "Toni Pereiras",
+            "score": "4-9"
+          },
+          {
+            "player1": "Jordi Roque",
+            "player2": "Daniel Chismol",
+            "score": "8-9 - (8-10)"
           }
         ]
       },
@@ -2255,6 +2265,11 @@
             "player1": "Miguel Angel Viejo",
             "player2": "Hugo Juanals",
             "score": "9-5"
+          },
+          {
+            "player1": "Miguel Angel Viejo",
+            "player2": "Raúl Zafrilla",
+            "score": "9-0"
           },
           {
             "player1": "Gonzalo Roca",
@@ -2377,7 +2392,6 @@
             "player2": "David Amorós",
             "score": "9-7"
           }
-
         ]
       }
     ]
