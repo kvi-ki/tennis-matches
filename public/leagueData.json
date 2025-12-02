@@ -2104,6 +2104,11 @@
             "player1": "Juanmi Vives",
             "player2": "Javier Salinas",
             "score": "5-9"
+          },
+          {
+            "player1": "Alex Martin",
+            "player2": "Javier Salinas",
+            "score": "4-9"
           }
         ]
       },
@@ -2223,7 +2228,11 @@
         "division": "6",
         "players": ["Jordi Tomás", "Domènec Sobrevias", "Mario Segers", "Javi Campos"],
         "matches": [
-
+          {
+            "player1": "Javi Campos",
+            "player2": "Jordi Tomás",
+            "score": "9-1"
+          }
         ]
       },
       {
