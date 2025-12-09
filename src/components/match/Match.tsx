@@ -26,7 +26,7 @@ export default function Match({ match }: { match: MatchProps }) {
   const score = getScore();
 
   return (
-    <li className="m-2 grid grid-flow-row grid-cols-3 text-center text-darkGray text-textMatches font-semibold">
+    <li className="m-2 grid grid-flow-row grid-cols-3 text-center text-dark-gray text-text-matches font-semibold">
       <p className="p-1 col-span-2">{match.player1}</p>
       <p className="p-1 border-l border-blue">{score.score1}</p>
       <p className="p-1 col-span-2 border-t border-blue">{match.player2}</p>
