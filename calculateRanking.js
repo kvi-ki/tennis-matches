@@ -5,7 +5,7 @@ const path = require('path');
 
 // Read the league data
 function loadLeagueData() {
-  const dataPath = path.join(__dirname, 'public', 'leagueData.json');
+  const dataPath = path.join(__dirname, 'public', 'leagueData-2025.json');
   const rawData = fs.readFileSync(dataPath, 'utf8');
   return JSON.parse(rawData);
 }
