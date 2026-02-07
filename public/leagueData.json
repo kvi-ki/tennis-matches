@@ -926,7 +926,18 @@
           "Juan Garralda",
           "Daniel Meroño"
         ],
-        "matches": []
+        "matches": [
+          {
+          "player1": "Cristian Galimany",
+          "player2": "Sergi Escalera",
+          "score": "9-3"
+          },
+          {
+            "player1": "Juan Garralda",
+            "player2": "Daniel Meroño",
+            "score": "9-8 - (11-9)"
+          }
+        ]
       },
       {
         "division": "5",
@@ -962,7 +973,13 @@
           "Manel Rodriguez",
           "Edu Andrés"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Daniel Chismol",
+            "player2": "Manel Rodriguez",
+            "score": "9-2"
+          }
+        ]
       },
       {
         "division": "8",
