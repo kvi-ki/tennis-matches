@@ -1015,7 +1015,13 @@
           "Elias Hadad",
           "Miquel Liso"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Josep Pons",
+            "player2": "Miquel Liso",
+            "score": "6-9"
+          }
+        ]
       },
       {
         "division": "11",
