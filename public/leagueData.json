@@ -906,7 +906,13 @@
           "Eloi Torrent ",
           "Juanmi Vives"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Juanmi Vives",
+            "player2": "Joan Real",
+            "score": "9-2"
+          }
+        ]
       },
       {
         "division": "3",
@@ -916,7 +922,13 @@
           "Alonso Paz",
           "Victor Galimany"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Daniel Perez",
+            "player2": "Jorge Herrero",
+            "score": "9-3"
+          }
+        ]
       },
       {
         "division": "4",
