@@ -1054,7 +1054,13 @@
           "Xavi Abellán",
           "Marc Tarrés"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Xavi Abellán",
+            "player2": "Jordi Mendez",
+            "score": "9-3"
+          }
+        ]
       }
     ]
   }
