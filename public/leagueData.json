@@ -896,14 +896,20 @@
           "Alfonso Pazos",
           "German Gonzalez"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Javier Salinas",
+            "player2": "Alfonso Pazos",
+            "score": "9-1"
+          }
+        ]
       },
       {
         "division": "2",
         "players": [
           "Narcis Chaparro",
           "Joan Real",
-          "Eloi Torrent ",
+          "Eloi Torrent",
           "Juanmi Vives"
         ],
         "matches": [
@@ -911,6 +917,11 @@
             "player1": "Juanmi Vives",
             "player2": "Joan Real",
             "score": "9-2"
+          },
+          {
+            "player1": "Juanmi Vives",
+            "player2": "Eloi Torrent",
+            "score": "8-9"
           }
         ]
       },
@@ -937,6 +948,11 @@
             "player1": "Jorge Herrero",
             "player2": "Victor Galimany",
             "score": "5-9"
+          },
+          {
+            "player1": "Jorge Herrero",
+            "player2": "Alonso Paz",
+            "score": "1-9"
           }
         ]
       },
@@ -967,7 +983,7 @@
           "Juli Carrere",
           "Sergi Duard",
           "Javi Campos",
-          "Santi Martin "
+          "Santi Martin"
         ],
         "matches": [
           {
@@ -979,6 +995,11 @@
             "player1": "Javi Campos",
             "player2": "Sergi Duard",
             "score": "4-9"
+          },
+          {
+            "player1": "Santi Martin",
+            "player2": "Sergi Duard",
+            "score": "3-9"
           }
         ]
       },
@@ -990,7 +1011,19 @@
           "Domènec Sobrevias",
           "Toni Pereiras"
         ],
-        "matches": []
+        "matches": [
+{
+            "player1": "Domènec Sobrevias",
+            "player2": "Alberto Forcada",
+            "score": "2-9"
+          },
+{
+            "player1": "Jordi Martinez",
+            "player2": "Alberto Forcada",
+            "score": "7-9"
+          }
+
+        ]
       },
       {
         "division": "7",
@@ -1064,6 +1097,11 @@
             "player1": "Xavi Abellán",
             "player2": "Jordi Mendez",
             "score": "9-3"
+          },
+          {
+            "player1": "Xavi Abellán",
+            "player2": "David Amorós",
+            "score": "9-8"
           }
         ]
       }
