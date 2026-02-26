@@ -922,6 +922,16 @@
             "player1": "Juanmi Vives",
             "player2": "Eloi Torrent",
             "score": "8-9"
+          },
+          {
+            "player1": "Narcis Chaparro",
+            "player2": "Eloi Torrent",
+            "score": "8-9"
+          },
+          {
+            "player1": "Narcis Chaparro",
+            "player2": "Joan Real",
+            "score": "0-3 (WO)"
           }
         ]
       },
@@ -1038,6 +1048,21 @@
             "player1": "Daniel Chismol",
             "player2": "Manel Rodriguez",
             "score": "9-2"
+          },
+          {
+            "player1": "Daniel Chismol",
+            "player2": "Gonzalo Roca",
+            "score": "8-10"
+          },
+          {
+            "player1": "Daniel Chismol",
+            "player2": "Edu Andrés",
+            "score": "2-9"
+          },
+          {
+            "player1": "Manel Rodriguez",
+            "player2": "Edu Andrés",
+            "score": "1-9"
           }
         ]
       },
@@ -1061,9 +1086,19 @@
         ],
         "matches": [
           {
-            "player2": "Marc Ramon",
             "player1": "David Ferrus",
-            "score": "9-1"
+            "player2": "Marc Ramon",
+            "score": "1-9"
+          },
+          {
+            "player1": "Raúl Zafrilla",
+            "player2": "Marc Ramon",
+            "score": "2-9"
+          },
+          {
+            "player1": "Miguel Angel Ocaña",
+            "player2": "Marc Ramon",
+            "score": "4-9"
           }
         ]
       },
