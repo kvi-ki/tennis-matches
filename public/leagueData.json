@@ -989,6 +989,11 @@
             "player1": "Juan Garralda",
             "player2": "Daniel Meroño",
             "score": "9-8 - (11-9)"
+          },
+          {
+            "player1": "Juan Garralda",
+            "player2": "Cristian Galimany",
+            "score": "9-4"
           }
         ]
       },
@@ -1037,22 +1042,31 @@
           "Toni Pereiras"
         ],
         "matches": [
-{
+          {
             "player1": "Domènec Sobrevias",
             "player2": "Alberto Forcada",
             "score": "2-9"
           },
-{
+          {
             "player1": "Jordi Martinez",
             "player2": "Alberto Forcada",
             "score": "7-9"
           },
-{
+          {
             "player1": "Alberto Forcada",
             "player2": "Toni Pereiras",
             "score": "5-9"
+          },
+          {
+            "player1": "Domènec Sobrevias",
+            "player2": "Toni Pereiras",
+            "score": "4-9"
+          },
+          {
+            "player1": "Domènec Sobrevias",
+            "player2": "Jordi Martinez",
+            "score": "8-9 - (8-10)"
           }
-
         ]
       },
       {
