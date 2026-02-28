@@ -1113,7 +1113,13 @@
           "Jordi Roque",
           "Rafael Guerrero"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Miguel Angel Viejo",
+            "player2": "Hugo Juanals",
+            "score": "9-1"
+          }
+        ]
       },
       {
         "division": "9",
