@@ -901,6 +901,11 @@
             "player1": "Javier Salinas",
             "player2": "Alfonso Pazos",
             "score": "9-1"
+          },
+          {
+            "player1": "Alex Martin",
+            "player2": "Alfonso Pazos",
+            "score": "9-1"
           }
         ]
       },
@@ -1004,6 +1009,16 @@
             "player1": "Juan Garralda",
             "player2": "Cristian Galimany",
             "score": "9-4"
+          },
+          {
+            "player1": "Cristian Galimany",
+            "player2": "Daniel Meroño",
+            "score": "9-3"
+          },
+          {
+            "player1": "Juan Garralda",
+            "player2": "Sergi Escalera",
+            "score": "9-3"
           }
         ]
       },
@@ -1184,6 +1199,11 @@
           {
             "player1": "Josep Pons",
             "player2": "Alberto Puyada",
+            "score": "9-2"
+          },
+          {
+            "player1": "Josep Pons",
+            "player2": "Elias Hadad",
             "score": "9-2"
           }
         ]
