@@ -1267,7 +1267,13 @@
           "Juanmi Vives",
           "Alonso Paz"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Juanmi Vives",
+            "player2": "Alonso Paz",
+            "score": "9-4"
+          }
+        ]
       },
       {
         "division": "3",
@@ -1287,7 +1293,13 @@
           "Daniel Meroño",
           "Juli Carrere"
         ],
-        "matches": []      },
+        "matches": [
+          {
+            "player1": "Daniel Meroño",
+            "player2": "Juli Carrere",
+            "score": "9-6"
+          }
+        ]      },
       {
         "division": "5",
         "players": [
@@ -1296,7 +1308,13 @@
           "Sergi Escalera",
           "Alberto Forcada"
         ],
-        "matches": []      },
+        "matches": [
+          {
+            "player1": "Toni Pereiras",
+            "player2": "Alberto Forcada",
+            "score": "5-9"
+          }
+        ]      },
       {
         "division": "6",
         "players": [
