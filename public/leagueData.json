@@ -1179,7 +1179,7 @@
             "player1": "Miguel Angel Ocaña",
             "player2": "Marc Ramon",
             "score": "4-9"
-          }.,
+          },
           {
             "player1": "Raúl Zafrilla",
             "player2": "Miguel Angel Ocaña",
@@ -1270,6 +1270,11 @@
         "matches": [
           {
             "player1": "Juanmi Vives",
+            "player2": "Alonso Paz",
+            "score": "9-4"
+          },
+          {
+            "player1": "Narcis Chaparro",
             "player2": "Alonso Paz",
             "score": "9-4"
           }
