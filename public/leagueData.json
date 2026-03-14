@@ -1310,6 +1310,16 @@
             "player1": "Daniel Meroño",
             "player2": "Juli Carrere",
             "score": "9-6"
+          },
+          {
+            "player1": "Daniel Meroño",
+            "player2": "Sergi Duard",
+            "score": "5-9"
+          },
+          {
+            "player1": "Cristian Galimany",
+            "player2": "Ferran Arnau",
+            "score": "4-9"
           }
         ]      },
       {
@@ -1364,7 +1374,9 @@
           "Rafael Guerrero",
           "Josep Pons"
         ],
-        "matches": []      },
+        "matches": [
+
+        ]      },
       {
         "division": "9",
         "players": [
@@ -1374,7 +1386,13 @@
           "Alberto Puyada",
           "Xavi Abellán"
         ],
-        "matches": []      },
+        "matches": [
+          {
+            "player1": "Raúl Zafrilla",
+            "player2": "Xavi Abellán",
+            "score": "9-8"
+          }
+        ]      },
       {
         "division": "10",
         "players": [
@@ -1384,7 +1402,14 @@
           "Jordi Mendez",
           "David Amorós"
         ],
-        "matches": []      }
+        "matches": [
+          {
+            "player1": "David Amorós",
+            "player2": "Elias Hadad",
+            "score": "7-9"
+          }
+
+        ]      }
     ]
   }
 ]
