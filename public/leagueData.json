@@ -1268,6 +1268,11 @@
             "player1": "Javier Salinas",
             "player2": "Alfonso Pazos",
             "score": "9-5"
+          },
+          {
+            "player1": "Alex Martin",
+            "player2": "Alfonso Pazos",
+            "score": "9-7"
           }
 
         ]      },
@@ -1307,7 +1312,7 @@
           },
           {
             "player1": "Joan Real",
-            "player2": "Narcis Chaparro",
+              "player2": "Narcis Chaparro",
             "score": "7-9"
           }
         ]
@@ -1335,6 +1340,21 @@
             "player1": "Edu Andrés",
             "player2": "Jorge Herrero",
             "score": "9-4"
+          },
+          {
+            "player1": "Edu Andrés",
+            "player2": "Victor Galimany",
+            "score": "6-9"
+          },
+          {
+            "player1": "Juan Garralda",
+            "player2": "Victor Galimany",
+            "score": "6-9"
+          },
+          {
+            "player1": "Jorge Herrero",
+            "player2": "Victor Galimany",
+            "score": "6-9"
           }
         ]      },
       {
@@ -1401,6 +1421,16 @@
             "player1": "Javi Campos",
             "player2": "Toni Pereiras",
             "score": "5-9"
+          },
+          {
+            "player1": "Sergi Escalera",
+            "player2": "Toni Pereiras",
+            "score": "5-9"
+          },
+          {
+            "player1": "Javi Campos",
+            "player2": "Sergi Escalera",
+            "score": "9-5"
           }
         ]      },
       {
@@ -1486,6 +1516,11 @@
             "player1": "Hugo Juanals",
             "player2": "Josep Pons",
             "score": "4-9"
+          },
+          {
+            "player1": "Hugo Juanals",
+            "player2": "Jordi Roque",
+            "score": "7-9"
           }
         ]      },
       {
