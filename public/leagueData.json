@@ -1273,8 +1273,17 @@
             "player1": "Alex Martin",
             "player2": "Alfonso Pazos",
             "score": "9-7"
+          },
+          {
+            "player1": "Alfonso Pazos",
+            "player2": "Eloi Torrent",
+            "score": "9-3"
+          },
+          {
+            "player1": "Alex Martin",
+            "player2": "Eloi Torrent",
+            "score": "9-1"
           }
-
         ]      },
       {
         "division": "2",
@@ -1486,6 +1495,11 @@
             "player1": "Manel Rodriguez",
             "player2": "Marc Ramon",
             "score": "9-1"
+          },
+          {
+            "player1": "Miquel Liso",
+            "player2": "Gonzalo Roca",
+            "score": "9-3"
           }
         ]      },
       {
