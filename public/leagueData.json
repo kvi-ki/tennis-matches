@@ -1643,7 +1643,13 @@
           "Alfonso Pazos",
           "Juanmi Vives"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Alex Martin",
+            "player2": "Juanmi Vives",
+            "score": "9-7"
+          }
+        ]
       },
       {
         "division": "2",
@@ -1675,7 +1681,13 @@
           "Toni Pereiras",
           "Nacho Colom"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Nacho Colom",
+            "player2": "Jorge Herrero",
+            "score": "7-9"
+          }
+        ]
       },
       {
         "division": "5",
