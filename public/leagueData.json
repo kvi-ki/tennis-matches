@@ -1702,7 +1702,9 @@
           "Alberto Forcada",
           "Daniel Chismol"
         ],
-        "matches": []
+        "matches": [
+
+        ]
       },
       {
         "division": "6",
@@ -1712,7 +1714,13 @@
           "Jordi Martinez",
           "Miguel Angel Viejo"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Sergi Escalera",
+            "player2": "Domènec Sobrevias",
+            "score": "9-5"
+          }
+        ]
       },
       {
         "division": "7",
@@ -1722,7 +1730,13 @@
           "Josep Pons",
           "Jordi Roque"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Gonzalo Roca",
+            "player2": "Manel Rodriguez",
+            "score": "9-3"
+          }
+        ]
       },
       {
         "division": "8",
@@ -1738,6 +1752,16 @@
             "player1": "Marc Ramon",
             "player2": "Elias Hadad",
             "score": "9-5"
+          },
+          {
+            "player1": "Marc Ramon",
+            "player2": "Miguel Angel Ocaña",
+            "score": "9-2"
+          },
+          {
+            "player1": "Hugo Juanals",
+            "player2": "Miguel Angel Ocaña",
+            "score": "9-5"
           }
         ]
       },
@@ -1750,7 +1774,18 @@
           "Jordi Mendez",
           "Marc Guillén"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Rafael Guerrero",
+            "player2": "David Ferrus",
+            "score": "8-10"
+          },
+          {
+            "player1": "Marc Guillén",
+            "player2": "David Ferrus",
+            "score": "9-6"
+          }
+        ]
       },
       {
         "division": "10",
