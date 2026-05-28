@@ -1648,6 +1648,11 @@
             "player1": "Alex Martin",
             "player2": "Juanmi Vives",
             "score": "9-7"
+          },
+          {
+            "player1": "Javier Salinas",
+            "player2": "Alfonso Pazos",
+            "score": "8-9"
           }
         ]
       },
@@ -1670,7 +1675,28 @@
           "Ferran Arnau",
           "Miquel Liso"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Miquel Liso",
+            "player2": "Victor Galimany",
+            "score": "9-5"
+          },
+          {
+            "player1": "Joan Real",
+            "player2": "Victor Galimany",
+            "score": "9-8"
+          },
+          {
+            "player1": "Joan Real",
+            "player2": "Miquel Liso",
+            "score": "9-2"
+          },
+          {
+            "player1": "Juan Garralda",
+            "player2": "Miquel Liso",
+            "score": "9-8"
+          }
+        ]
       },
       {
         "division": "4",
@@ -1706,6 +1732,21 @@
             "player1": "Cristian Galimany",
             "player2": "Nacho Colom",
             "score": "9-4"
+          },
+          {
+            "player1": "Toni Pereiras",
+            "player2": "Nacho Colom",
+            "score": "9-2"
+          },
+          {
+            "player1": "Toni Pereiras",
+            "player2": "Daniel Meroño",
+            "score": "8-9 - (3-10)"
+          },
+          {
+            "player1": "Jorge Herrero",
+            "player2": "Daniel Meroño",
+            "score": "5-9"
           }
         ]
       },
@@ -1718,7 +1759,11 @@
           "Daniel Chismol"
         ],
         "matches": [
-
+          {
+            "player1": "Alberto Forcada",
+            "player2": "Javi Campos",
+            "score": "9-6"
+          }
         ]
       },
       {
@@ -1734,6 +1779,11 @@
             "player1": "Sergi Escalera",
             "player2": "Domènec Sobrevias",
             "score": "9-5"
+          },
+          {
+            "player1": "Sergi Escalera",
+            "player2": "Jordi Martinez",
+            "score": "9-5"
           }
         ]
       },
@@ -1743,13 +1793,44 @@
           "Gonzalo Roca",
           "Manel Rodriguez",
           "Josep Pons",
-          "Jordi Roque"
+          "Jordi Roque",
+          "Santi Martin"
         ],
         "matches": [
           {
             "player1": "Gonzalo Roca",
             "player2": "Manel Rodriguez",
             "score": "9-3"
+          },
+          {
+            "player1": "Gonzalo Roca",
+            "player2": "Santi Martin",
+            "score": "4-9"
+          },
+          {
+            "player1": "Josep Pons",
+            "player2": "Santi Martin",
+            "score": "2-9"
+          },
+          {
+            "player1": "Josep Pons",
+            "player2": "Gonzalo Roca",
+            "score": "5-9"
+          },
+          {
+            "player1": "Santi Martin",
+            "player2": "Manel Rodriguez",
+            "score": "9-4"
+          },
+          {
+            "player1": "Gonzalo Roca",
+            "player2": "Jordi Roque",
+            "score": "5-9"
+          },
+          {
+            "player1": "Josep Pons",
+            "player2": "Jordi Roque",
+            "score": "6-9"
           }
         ]
       },
@@ -1777,6 +1858,21 @@
             "player1": "Hugo Juanals",
             "player2": "Miguel Angel Ocaña",
             "score": "9-5"
+          },
+          {
+            "player1": "Hugo Juanals",
+            "player2": "Elias Hadad",
+            "score": "9-8 - (10-8)"
+          },
+          {
+            "player1": "Miguel Angel Ocaña",
+            "player2": "Elias Hadad",
+            "score": "3-9"
+          },
+          {
+            "player1": "Hugo Juanals",
+            "player2": "Marc Ramon",
+            "score": "9-3"
           }
         ]
       },
@@ -1799,6 +1895,16 @@
             "player1": "Marc Guillén",
             "player2": "David Ferrus",
             "score": "9-6"
+          },
+          {
+            "player1": "Rafael Guerrero",
+            "player2": "Marc Guillén",
+            "score": "3-9"
+          },
+          {
+            "player1": "Rafael Guerrero",
+            "player2": "Alberto Puyada",
+            "score": "8-9"
           }
         ]
       },
@@ -1810,7 +1916,13 @@
           "Alberto Cuadros",
           "David Amorós"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Xavi Abellán",
+            "player2": "David Amorós",
+            "score": "9-4"
+          }
+        ]
       }
     ]
   }
