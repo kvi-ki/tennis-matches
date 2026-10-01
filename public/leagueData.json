@@ -1117,21 +1117,21 @@
       {
         "division": "8",
         "players": [
-          "Josep Pons",
           "Hugo Juanals",
           "Eduard Sarda",
           "Manel Rodriguez",
-          "Sergi Broto"
+          "Sergi Broto",
+          "Marc Guillén"
         ],
         "matches": []
       },
       {
         "division": "9",
         "players": [
-          "Elias Hadad",
           "Miguel Angel Ocaña",
           "David Ferrus",
-          "Rafael Guerrero"
+          "Rafael Guerrero",
+          "Josep Pons"
         ],
         "matches": []
       },
@@ -1140,8 +1140,8 @@
         "players": [
           "Raúl Zafrilla",
           "Alberto Puyada",
-          "Marc Guillén",
-          "Nico Gallegos"
+          "Nico Gallegos",
+          "Elias Hadad"
         ],
         "matches": []
       },
