@@ -1050,7 +1050,18 @@
           "Mateu Rodriguez",
           "Eloi Torrent "
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Javier Salinas",
+            "player2": "Alfonso Pazos",
+            "score": "9-5"
+          },
+          {
+            "player1": "Javier Salinas",
+            "player2": "Eloi Torrent",
+            "score": "9-7"
+          }
+        ]
       },
       {
         "division": "2",
@@ -1060,17 +1071,69 @@
           "Miquel Liso",
           "Jean-Marc Pinson"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Jean-Marc Pinson",
+            "player2": "Miquel Liso",
+            "score": "9-2"
+          },
+          {
+            "player1": "Jean-Marc Pinson",
+            "player2": "Joan Real",
+            "score": "4-9"
+          },
+          {
+            "player1": "Narcis Chaparro",
+            "player2": "Miquel Liso",
+            "score": "9-1"
+          },
+          {
+            "player1": "Narcis Chaparro",
+            "player2": "Jean-Marc Pinson",
+            "score": "9-7"
+          }
+        ]
       },
       {
         "division": "3",
         "players": [
           "Feliu Planchat",
-          "Jorge Herrero ",
+          "Jorge Herrero",
           "Cristian Galimany",
           "Nacho Colom"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Nacho Colom",
+            "player2": "Feliu Planchat",
+            "score": "9-2"
+          },
+          {
+            "player1": "Cristian Galimany",
+            "player2": "Feliu Planchat",
+            "score": "8-9"
+          },
+          {
+            "player1": "Cristian Galimany",
+            "player2": "Jorge Herrero",
+            "score": "9-2"
+          },
+          {
+            "player1": "Cristian Galimany",
+            "player2": "Nacho Colom",
+            "score": "9-4"
+          },
+          {
+            "player1": "Feliu Planchat",
+            "player2": "Jorge Herrero",
+            "score": "9-1"
+          },
+          {
+            "player1": "Nacho Colom",
+            "player2": "Jorge Herrero",
+            "score": "9-6"
+          }
+        ]
       },
       {
         "division": "4",
@@ -1080,7 +1143,23 @@
           "Alberto Forcada",
           "Juanca Dellisola"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Daniel Meroño",
+            "player2": "Alberto Forcada",
+            "score": "9-2"
+          },
+          {
+            "player1": "Daniel Meroño",
+            "player2": "Juli Carrere",
+            "score": "9-4"
+          },
+          {
+            "player1": "Juanca Dellisola",
+            "player2": "Juli Carrere",
+            "score": "8-9"
+          }
+        ]
       },
       {
         "division": "5",
@@ -1090,7 +1169,24 @@
           "Javi Campos",
           "Sergi Escalera"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Sergi Escalera",
+            "player2": "Toni Pereiras",
+            "score": "8-9"
+          },
+          {
+            "player1": "Javi Campos",
+            "player2": "Toni Pereiras",
+            "score": "9-5"
+          },
+          {
+            "player1": "Javi Campos",
+            "player2": "Sergi Escalera",
+            "score": "9-8"
+          }
+
+        ]
       },
       {
         "division": "6",
@@ -1101,7 +1197,18 @@
           "Santi Martin",
           "Domènec Sobrevias"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Santi Martin",
+            "player2": "Jordi Tomás",
+            "score": "9-3"
+          },
+          {
+            "player1": "Daniel Chismol",
+            "player2": "Jordi Tomás",
+            "score": "8-9"
+          }
+        ]
       },
       {
         "division": "7",
@@ -1112,7 +1219,34 @@
           "Carlos Larrosa",
           "Marc Ramon"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Marc Ramon",
+            "player2": "Gonzalo Roca",
+            "score": "9-5"
+          },
+          {
+            "player1": "Jordi Roque",
+            "player2": "Gonzalo Roca",
+            "score": "3-9"
+          },
+          {
+            "player1": "Jordi Roque",
+            "player2": "Marc Ramon",
+            "score": "9-5"
+          },
+          {
+            "player1": "Jordi Martinez",
+            "player2": "Gonzalo Roca",
+            "score": "2-9"
+          },
+          {
+            "player1": "Marc Ramon",
+            "player2": "Carlos Larrosa",
+            "score": "9-5"
+          }
+
+        ]
       },
       {
         "division": "8",
@@ -1123,7 +1257,29 @@
           "Sergi Broto",
           "Marc Guillén"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Hugo Juanals",
+            "player2": "Sergi Broto",
+            "score": "1-9"
+          },
+          {
+            "player1": "Marc Guillén",
+            "player2": "Eduard Sarda",
+            "score": "9-2"
+          },
+          {
+            "player1": "Hugo Juanals",
+            "player2": "Eduard Sarda",
+            "score": "9-4"
+          },
+          {
+            "player1": "Sergi Broto",
+            "player2": "Marc Guillén",
+            "score": "9-6"
+          }
+
+        ]
       },
       {
         "division": "9",
@@ -1133,7 +1289,33 @@
           "Rafael Guerrero",
           "Josep Pons"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Rafael Guerrero",
+            "player2": "David Ferrus",
+            "score": "9-6"
+          },
+          {
+            "player1": "Josep Pons",
+            "player2": "David Ferrus",
+            "score": "7-9"
+          },
+          {
+            "player1": "Rafael Guerrero",
+            "player2": "Miguel Angel Ocaña",
+            "score": "9-8"
+          },
+          {
+            "player1": "Josep Pons",
+            "player2": "Miguel Angel Ocaña",
+            "score": "9-7"
+          },
+          {
+            "player1": "Josep Pons",
+            "player2": "Rafael Guerrero",
+            "score": "3-9"
+          }
+        ]
       },
       {
         "division": "10",
@@ -1143,7 +1325,24 @@
           "Nico Gallegos",
           "Elias Hadad"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Elias Hadad",
+            "player2": "Nico Gallegos",
+            "score": "9-6"
+          },
+          {
+            "player1": "Elias Hadad",
+            "player2": "Alberto Puyada",
+            "score": "6-9"
+          },
+          {
+            "player1": "Elias Hadad",
+            "player2": "Raúl Zafrilla",
+            "score": "7-9"
+          }
+
+        ]
       },
       {
         "division": "11",
@@ -1153,7 +1352,24 @@
           "Edu Diaz",
           "Luis Collantes"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Edu Diaz",
+            "player2": "David Amorós",
+            "score": "9-3"
+          },
+          {
+            "player1": "Alberto Cuadros",
+            "player2": "David Amorós",
+            "score": "5-9"
+          },
+          {
+            "player1": "Alberto Cuadros",
+            "player2": "Edu Diaz",
+            "score": "5-9"
+          }
+
+        ]
       }
     ]
   }
