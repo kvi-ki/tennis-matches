@@ -1163,6 +1163,16 @@
             "player1": "Juanca Dellisola",
             "player2": "Juli Carrere",
             "score": "8-9"
+          },
+          {
+            "player1": "Juanca Dellisola",
+            "player2": "Daniel Meroño",
+            "score": "7-9"
+          },
+          {
+            "player1": "Juli Carrere",
+            "player2": "Alberto Forcada",
+            "score": "9-8"
           }
         ]
       },
@@ -1190,7 +1200,6 @@
             "player2": "Sergi Escalera",
             "score": "9-8"
           }
-
         ]
       },
       {
@@ -1212,6 +1221,11 @@
             "player1": "Daniel Chismol",
             "player2": "Jordi Tomás",
             "score": "8-9"
+          },
+          {
+            "player1": "Daniel Chismol",
+            "player2": "Santi Martin",
+            "score": "3-9"
           }
         ]
       },
@@ -1364,8 +1378,17 @@
             "player1": "Elias Hadad",
             "player2": "Raúl Zafrilla",
             "score": "7-9"
+          },
+          {
+            "player1": "Nico Gallegos",
+            "player2": "Raúl Zafrilla",
+            "score": "5-9"
+          },
+          {
+            "player1": "Alberto Puyada",
+            "player2": "Raúl Zafrilla",
+            "score": "9-7"
           }
-
         ]
       },
       {
