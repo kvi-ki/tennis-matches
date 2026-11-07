@@ -1060,6 +1060,16 @@
             "player1": "Javier Salinas",
             "player2": "Eloi Torrent",
             "score": "9-7"
+          },
+          {
+            "player1": "Alfonso Pazos",
+            "player2": "Eloi Torrent",
+            "score": "9-4"
+          },
+          {
+            "player1": "Alfonso Pazos",
+            "player2": "Mateu Rodriguez",
+            "score": "2-9"
           }
         ]
       },
@@ -1173,6 +1183,11 @@
             "player1": "Juli Carrere",
             "player2": "Alberto Forcada",
             "score": "9-8"
+          },
+          {
+            "player1": "Juanca Dellisola",
+            "player2": "Alberto Forcada",
+            "score": "9-3"
           }
         ]
       },
@@ -1199,6 +1214,11 @@
             "player1": "Javi Campos",
             "player2": "Sergi Escalera",
             "score": "9-8"
+          },
+          {
+            "player1": "Javi Campos",
+            "player2": "Derek Joseph",
+            "score": "9-0"
           }
         ]
       },
@@ -1268,6 +1288,21 @@
             "player1": "Jordi Martinez",
             "player2": "Marc Ramon",
             "score": "7-9"
+          },
+          {
+            "player1": "Gonzalo Roca",
+            "player2": "Carlos Larrosa",
+            "score": "10-8"
+          },
+          {
+            "player1": "Jordi Martinez",
+            "player2": "Jordi Roque",
+            "score": "9-7"
+          },
+          {
+            "player1": "Jordi Roque",
+            "player2": "Carlos Larrosa",
+            "score": "6-9"
           }
         ]
       },
@@ -1310,8 +1345,12 @@
             "player1": "Manel Rodriguez",
             "player2": "Eduard Sarda",
             "score": "3-9"
+          },
+          {
+            "player1": "Manel Rodriguez",
+            "player2": "Marc Guillén",
+            "score": "4-9"
           }
-
         ]
       },
       {
@@ -1388,6 +1427,11 @@
             "player1": "Alberto Puyada",
             "player2": "Raúl Zafrilla",
             "score": "9-7"
+          },
+          {
+            "player1": "Nico Gallegos",
+            "player2": "Raúl Zafrilla",
+            "score": "9-8"
           }
         ]
       },
@@ -1424,6 +1468,11 @@
             "player1": "Edu Diaz",
             "player2": "Luis Collantes",
             "score": "9-8"
+          },
+          {
+            "player1": "David Amorós",
+            "player2": "Luis Collantes",
+            "score": "1-9"
           }
 
         ]
