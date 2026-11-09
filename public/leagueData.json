@@ -1478,5 +1478,124 @@
         ]
       }
     ]
+  },
+  {
+    "month": "Noviembre",
+    "monthData": [
+      {
+        "division": "1",
+        "players": [
+          "Javier Salinas",
+          "Alfonso Pazos",
+          "Mateu Rodriguez",
+          "Alejandro Rodriguez",
+          "Joan Real"
+        ],
+        "matches": [],
+
+      },
+      {
+        "division": "2",
+        "players": [
+          "Narcis Chaparro",
+          "Cristian Galimany",
+          "Nacho Colom",
+          "Jean-Marc Pinson"
+        ],
+        "matches": []
+      },
+      {
+        "division": "3",
+        "players": [
+          "Miquel Liso",
+          "Feliu Planchat",
+          "Daniel Meroño",
+          "Juli Carrere"
+        ],
+        "matches": []
+      },
+      {
+        "division": "4",
+        "players": [
+          "Javi Campos",
+
+          "Santi Martin",
+          "Juanca Dellisola",
+          "Jorge Herrero"
+        ],
+        "matches": []
+      },
+      {
+        "division": "5",
+        "players": [
+          "Alberto Forcada",
+          "Toni Pereiras",
+          "Sergi Escalera",
+          "Jordi Tomás"
+        ],
+        "matches": []
+      },
+      {
+        "division": "6",
+        "players": [
+          "Daniel Chismol",
+          "Gonzalo Roca",
+          "Derek Joseph",
+          "Marc Ramon"
+        ],
+        "matches": []
+      },
+      {
+        "division": "7",
+        "players": [
+          "Jordi Roque",
+          "Rafael Guerrero",
+          "Carlos Larrosa",
+          "Sergi Broto"
+        ],
+        "matches": []
+      },
+      {
+        "division": "8",
+        "players": [
+          "Jordi Martinez",
+          "Hugo Juanals",
+          "Eduard Sarda",
+          "Marc Guillén"
+        ],
+        "matches": []
+      },
+      {
+        "division": "9",
+        "players": [
+          "Manel Rodriguez",
+          "Gustavo Twose",
+          "David Ferrus",
+          "Josep Pons",
+          "Alberto Puyada"
+        ],
+        "matches": []
+      },
+      {
+        "division": "10",
+        "players": [
+          "Miguel Angel Ocaña",
+          "Raúl Zafrilla",
+          "Elias Hadad",
+          "Edu Diaz"
+        ],
+        "matches": []
+      },
+      {
+        "division": "11",
+        "players": [
+          "David Amorós",
+          "Alberto Cuadros",
+          "Nico Gallegos",
+          "Luis Collantes"
+        ],
+        "matches": []
+      }
+    ]
   }
 ]
