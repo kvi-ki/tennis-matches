@@ -1593,7 +1593,13 @@
           "Nico Gallegos",
           "Elias Hadad"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Nico Gallegos",
+            "player2": "Elias Hadad",
+            "score": "3-9"
+          }
+        ]
       }
     ]
   }
