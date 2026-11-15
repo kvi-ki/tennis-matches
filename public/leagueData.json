@@ -1491,7 +1491,13 @@
           "Alejandro Rodriguez",
           "Joan Real"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Javier Salinas",
+            "player2": "Mateu Rodriguez",
+            "score": "9-6"
+          }
+        ]
       },
       {
         "division": "2",
@@ -1573,7 +1579,13 @@
           "Josep Pons",
           "Alberto Puyada"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "David Ferrus",
+            "player2": "Josep Pons",
+            "score": "9-8"
+          }
+        ]
       },
       {
         "division": "10",
