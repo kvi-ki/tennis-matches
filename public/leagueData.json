@@ -1507,7 +1507,13 @@
           "Nacho Colom",
           "Jean-Marc Pinson"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Cristian Galimany",
+            "player2": "Jean-Marc Pinson",
+            "score": "8-9"
+          }
+        ]
       },
       {
         "division": "3",
