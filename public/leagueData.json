@@ -1574,7 +1574,13 @@
           "Eduard Sarda",
           "Rafael Guerrero"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Jordi Martinez",
+            "player2": "Rafael Guerrero",
+            "score": "9-7"
+          }
+        ]
       },
       {
         "division": "9",
