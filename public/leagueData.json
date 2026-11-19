@@ -1579,7 +1579,13 @@
           "Carlos Larrosa",
           "Sergi Broto"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Sergi Broto",
+            "player2": "Jordi Roque",
+            "score": "9-2"
+          }
+        ]
       },
       {
         "division": "8",
