@@ -1496,6 +1496,11 @@
             "player1": "Javier Salinas",
             "player2": "Mateu Rodriguez",
             "score": "9-6"
+          },
+          {
+            "player1": "Alejandro Rodriguez",
+            "player2": "Joan Real",
+            "score": "9-6"
           }
         ]
       },
@@ -1526,6 +1531,11 @@
           {
             "player1": "Narcis Chaparro",
             "player2": "Cristian Galimany",
+            "score": "9-4"
+          },
+          {
+            "player1": "Narcis Chaparro",
+            "player2": "Nacho Colom",
             "score": "9-4"
           }
         ]
@@ -1559,7 +1569,13 @@
           "Sergi Escalera",
           "Jordi Tomás"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Sergi Escalera",
+            "player2": "Jordi Tomás",
+            "score": "9-2"
+          }
+        ]
       },
       {
         "division": "6",
@@ -1569,7 +1585,13 @@
           "Derek Joseph",
           "Marc Ramon"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Derek Joseph",
+            "player2": "Marc Ramon",
+            "score": "9-5"
+          }
+        ]
       },
       {
         "division": "7",
