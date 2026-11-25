@@ -1563,6 +1563,11 @@
             "player1": "Daniel Meroño",
             "player2": "Miquel Liso",
             "score": "9-1"
+          },
+          {
+            "player1": "Juli Carrere",
+            "player2": "Miquel Liso",
+            "score": "9-1"
           }
         ]
       },
@@ -1631,6 +1636,11 @@
             "player1": "Carlos Larrosa",
             "player2": "Marc Guillén",
             "score": "9-3"
+          },
+          {
+            "player1": "Sergi Broto",
+            "player2": "Marc Guillén",
+            "score": "9-7"
           }
         ]
       },
@@ -1680,7 +1690,13 @@
           "Luis Collantes",
           "Edu Diaz"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Miguel Angel Ocaña",
+            "player2": "Edu Diaz",
+            "score": "7-9"
+          }
+        ]
       },
       {
         "division": "11",
