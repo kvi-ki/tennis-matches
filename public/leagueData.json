@@ -1579,7 +1579,13 @@
           "Juanca Dellisola",
           "Jorge Herrero"
         ],
-        "matches": []
+        "matches": [
+          {
+            "player1": "Jorge Herrero",
+            "player2": "Javi Campos",
+            "score": "9-8"
+          }
+        ]
       },
       {
         "division": "5",
